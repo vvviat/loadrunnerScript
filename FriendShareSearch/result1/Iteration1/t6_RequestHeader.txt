@@ -1,0 +1,10 @@
+GET /service/album/get_album_themes_list.jsp?act=single_item&shop_id=A201807191705440080001796&goods_id=I201812121429380840001932&token=NjQ3RDAzNDE5ODQwMDE2RDhFRjM1QjYyRTM0RkM3QUIwNkVGNzQwQkJEMEY4NzcxN0Q5RjJFQzcyMkM1QTNCMzcwM0E5MTAyMDU0MDBCNEQ1QzNGMDU4QzAxMUU4MDIw HTTP/1.1
+Cookie: JSESSIONID=C64F8FB8EC0129C882E72972D0927197; test_token=NjQ3RDAzNDE5ODQwMDE2RDhFRjM1QjYyRTM0RkM3QUIwNkVGNzQwQkJEMEY4NzcxN0Q5RjJFQzcyMkM1QTNCMzcwM0E5MTAyMDU0MDBCNEQ1QzNGMDU4QzAxMUU4MDIw
+Referer: https://www.wegoab.com/service/get_qiuniu_token.jsp
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)
+Accept-Encoding: gzip, deflate
+Accept: */*
+Host: www.wegoab.com
+Connection: Keep-Alive
+Cache-Control: no-cache
+

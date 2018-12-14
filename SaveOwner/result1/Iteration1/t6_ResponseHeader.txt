@@ -1,0 +1,13 @@
+HTTP/1.1 200 
+Server: nginx/1.10.2
+Date: Wed, 12 Dec 2018 08:04:20 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: close
+Set-Cookie: test_run_to_dev_tomcat=; Max-Age=1; Expires=Wed, 12-Dec-2018 08:04:21 GMT; Path=/
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Cache-Control: no-cache
+Pragma: No-cache
+Content-Encoding: gzip
+Vary: Accept-Encoding
+

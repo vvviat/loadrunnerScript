@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\PerformanceData\SavePhotoVedio
+-ID:\Program Files (x86)\HP\LoadRunner\include
+-ed:\performancedata\savephotovedio\\logfile.log
+d:\performancedata\savephotovedio\\combined_SavePhotoVedio.c
+d:\performancedata\savephotovedio\\pre_cci.c

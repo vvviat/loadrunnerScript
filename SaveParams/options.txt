@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\PerformanceData\SaveParams
+-ID:\Program Files (x86)\HP\LoadRunner\include
+-ed:\performancedata\saveparams\\logfile.log
+d:\performancedata\saveparams\\combined_SaveParams.c
+d:\performancedata\saveparams\\pre_cci.c

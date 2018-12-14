@@ -1,0 +1,35 @@
+Virtual User Script started at : 2018-12-12 16:11:58
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 11.0.0 for Windows 7; build 8859 (Aug 18 2010 20:14:31)  	[MsgId: MMSG-27143]
+Run Mode: HTML  	[MsgId: MMSG-26000]
+Run-Time Settings file: "D:\PerformanceData\SavePhotoVedio\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(4): Rendezvous concurrentSave
+Action.c(6): Notify: Transaction "分享商品" started.
+Action.c(8): web_custom_request("save_theme") was successful, 543 body bytes, 861 header bytes  	[MsgId: MMSG-26386]
+Action.c(14): Notify: Transaction "分享商品" ended with "Pass" status (Duration: 0.6461 Wasted Time: 0.3253).
+Ending action Action.
+Ending iteration 1.
+Starting iteration 2.
+Starting action Action.
+Action.c(4): Rendezvous concurrentSave
+Action.c(6): Notify: Transaction "分享商品" started.
+Action.c(8): web_custom_request("save_theme") was successful, 592 body bytes, 949 header bytes  	[MsgId: MMSG-26386]
+Action.c(14): Notify: Transaction "分享商品" ended with "Pass" status (Duration: 0.1104 Wasted Time: 0.0009).
+Ending action Action.
+Ending iteration 2.
+Starting iteration 3.
+Starting action Action.
+Action.c(4): Rendezvous concurrentSave
+Action.c(6): Notify: Transaction "分享商品" started.
+Action.c(8): web_custom_request("save_theme") was successful, 543 body bytes, 861 header bytes  	[MsgId: MMSG-26386]
+Action.c(14): Notify: Transaction "分享商品" ended with "Pass" status (Duration: 0.1082 Wasted Time: 0.0008).
+Ending action Action.
+Ending iteration 3.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

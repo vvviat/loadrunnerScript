@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Cache-Control: no-cache
+Connection: Keep-Alive
+Content-Length: 227
+Content-Type: text/html
+Date: Thu, 13 Dec 2018 03:27:23 GMT
+Etag: "5c08cf08-e3"
+Last-Modified: Thu, 06 Dec 2018 07:26:00 GMT
+P3p: CP=" OTI DSP COR IVA OUR IND COM "
+Pragma: no-cache
+Server: BWS/1.1
+Set-Cookie: BD_NOT_HTTPS=1; path=/; Max-Age=300
+Strict-Transport-Security: max-age=0
+X-Ua-Compatible: IE=Edge,chrome=1
+

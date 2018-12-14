@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\PerformanceData\FriendShareSearch
+-ID:\Program Files (x86)\HP\LoadRunner\include
+-ed:\performancedata\friendsharesearch\\logfile.log
+d:\performancedata\friendsharesearch\\combined_FriendShareSearch.c
+d:\performancedata\friendsharesearch\\pre_cci.c

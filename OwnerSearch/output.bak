@@ -1,0 +1,215 @@
+Virtual User Script started at : 2018-12-12 17:58:00
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 11.0.0 for Windows 7; build 8859 (Aug 18 2010 20:14:31)  	[MsgId: MMSG-27143]
+Run Mode: HTML  	[MsgId: MMSG-26000]
+Run-Time Settings file: "D:\PerformanceData\OwnerSearch\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action OwnerSearch.
+OwnerSearch.c(4): Rendezvous testPerformance
+OwnerSearch.c(6): Notify: Transaction "À—À˜txt" started.
+OwnerSearch.c(8): t=791ms: 950-byte response headers for "https://www.wegoab.com/service/album/get_album_themes_list.jsp?act=owner&search_value=%E6%9C%8D%E8%A3%85&search_img=&page_index=1&token=RTA5NDI2RDk1NkIwNTU2OUY4NTNCMURBRDdEMDE2Rjk3OEI3QURFQUM1REVCQkMyNzRCODc3M0RBQjM2NzExMUI5NDA0MzQ1NEI4ODgzNEVDQzk5QjlEMThBOTg4MDRDRDc2QUZENzM2REE1NTk2RDdGMTgxRTg0REQzNzA1RTU=" (RelFrameId=1, Internal ID=1)
+OwnerSearch.c(8):     HTTP/1.1 200 \r\n
+OwnerSearch.c(8):     Server: nginx/1.10.2\r\n
+OwnerSearch.c(8):     Date: Wed, 12 Dec 2018 09:57:54 GMT\r\n
+OwnerSearch.c(8):     Content-Type: application/json;charset=UTF-8\r\n
+OwnerSearch.c(8):     Content-Length: 1020\r\n
+OwnerSearch.c(8):     Connection: close\r\n
+OwnerSearch.c(8):     Set-Cookie: test_run_to_dev_tomcat=; Max-Age=1; Expires=Wed, 12-Dec-2018 09:57:55 GMT; Pat
+OwnerSearch.c(8):     h=/\r\n
+OwnerSearch.c(8):     Expires: Thu, 01 Jan 1970 00:00:00 GMT\r\n
+OwnerSearch.c(8):     Set-Cookie: JSESSIONID=DADCE19689666932D4C9798E0D64BC4C; Path=/; Secure; HttpOnly\r\n
+OwnerSearch.c(8):     Set-Cookie: test_token=RTA5NDI2RDk1NkIwNTU2OUY4NTNCMURBRDdEMDE2Rjk3OEI3QURFQUM1REVCQkMyNzR
+OwnerSearch.c(8):     CODc3M0RBQjM2NzExMUI5NDA0MzQ1NEI4ODgzNEVDQzk5QjlEMThBOTg4MDRDRDc2QUZENzM2REE1NTk2RDdGMTgxR
+OwnerSearch.c(8):     Tg0REQzNzA1RTU=; Max-Age=315360000; Expires=Sat, 09-Dec-2028 09:57:54 GMT; Path=/\r\n
+OwnerSearch.c(8):     Set-Cookie: test_token=RTA5NDI2RDk1NkIwNTU2OUY4NTNCMURBRDdEMDE2Rjk3OEI3QURFQUM1REVCQkMyNzR
+OwnerSearch.c(8):     CODc3M0RBQjM2NzExMUI5NDA0MzQ1NEI4ODgzNEVDQzk5QjlEMThBOTg4MDRDRDc2QUZENzM2REE1NTk2RDdGMTgxR
+OwnerSearch.c(8):     Tg0REQzNzA1RTU=; Max-Age=315360000; Expires=Sat, 09-Dec-2028 09:57:54 GMT; Path=/\r\n
+OwnerSearch.c(8):     Cache-Control: no-cache\r\n
+OwnerSearch.c(8):     Pragma: No-cache\r\n
+OwnerSearch.c(8):     \r\n
+OwnerSearch.c(8): t=837ms: 1020-byte response body for "https://www.wegoab.com/service/album/get_album_themes_list.jsp?act=owner&search_value=%E6%9C%8D%E8%A3%85&search_img=&page_index=1&token=RTA5NDI2RDk1NkIwNTU2OUY4NTNCMURBRDdEMDE2Rjk3OEI3QURFQUM1REVCQkMyNzRCODc3M0RBQjM2NzExMUI5NDA0MzQ1NEI4ODgzNEVDQzk5QjlEMThBOTg4MDRDRDc2QUZENzM2REE1NTk2RDdGMTgxRTg0REQzNzA1RTU=" (RelFrameId=1, Internal ID=1)
+OwnerSearch.c(8):     {"errcode":0,"result":{"photo_search_check":false,"goods_list":[],"share_title":"ÓêòÂø´Êù•Ê
+OwnerSearch.c(8):     àëÁöÑÂæÆÂïÜÁõ∏ÂÜåÁúãÊñ∞ÂìÅ\\nÁúãÊ¨æÊêúÊ¨æ„ÄÅÂàÜ‰∫\xAB9ÂõæÂíåÂ∞èËßÜÈ¢\x91","left_day":1252,
+OwnerSearch.c(8):     "is_vip":true,"show_tips":true,"online":true,"album_qrcode":"https://xcimg.szwego.com/code
+OwnerSearch.c(8):     _C201807191705440100001213_20181114204130.png","banner":"https://xcimg.szwego.com/FlSKaKU3
+OwnerSearch.c(8):     sLdHxzakCA0L-g49IKbI","default_watermark":[{"wm_id":"WM201807271354283710001341","watermar
+OwnerSearch.c(8):     k":[{"position":2,"type":2,"content":"https://xcimg.szwego.com/1542696747_1951977233_0.png
+OwnerSearch.c(8):     "}]}],"user":{"wechat_id":"110120119","shop_id":"A201807191705440080001796","watermark":tr
+OwnerSearch.c(8):     ue,"high_definition":true,"user_icon":"https://xcimg.szwego.com/o_1cs5emj8a1qve1o41h64ofr5
+OwnerSearch.c(8):     9jh.jpg","phone_number":"110120119","shop_name":"(*^œâ^*)"}},"total_page":1,"errmsg":"ÊàêÂ
+OwnerSearch.c(8):     äü","cur_page":1,"status":0,"token":"RTA5NDI2RDk1NkIwNTU2OUY4NTNCMURBRDdEMDE2Rjk3OEI3QURFQ
+OwnerSearch.c(8):     UM1REVCQkMyNzRCODc3M0RBQjM2NzExMUI5NDA0MzQ1NEI4ODgzNEVDQzk5QjlEMThBOTg4MDRDRDc2QUZENzM2REE
+OwnerSearch.c(8):     1NTk2RDdGMTgxRTg0REQzNzA1RTU\\u003d"}
+OwnerSearch.c(8): web_custom_request("owner") was successful, 1020 body bytes, 950 header bytes  	[MsgId: MMSG-26386]
+OwnerSearch.c(14): Notify: Transaction "À—À˜txt" ended with "Pass" status (Duration: 0.8867 Wasted Time: 0.3394).
+Ending action OwnerSearch.
+Ending iteration 1.
+Starting iteration 2.
+Starting action OwnerSearch.
+OwnerSearch.c(4): Rendezvous testPerformance
+OwnerSearch.c(6): Notify: Transaction "À—À˜txt" started.
+OwnerSearch.c(8): t=1558ms: 861-byte response headers for "https://www.wegoab.com/service/album/get_album_themes_list.jsp?act=owner&search_value=%E6%9C%8D%E8%A3%85&search_img=&page_index=1&token=NjQ3RDAzNDE5ODQwMDE2RDhFRjM1QjYyRTM0RkM3QUIwNkVGNzQwQkJEMEY4NzcxN0Q5RjJFQzcyMkM1QTNCMzcwM0E5MTAyMDU0MDBCNEQ1QzNGMDU4QzAxMUU4MDIw" (RelFrameId=1, Internal ID=2)
+OwnerSearch.c(8):     HTTP/1.1 200 \r\n
+OwnerSearch.c(8):     Server: nginx/1.10.2\r\n
+OwnerSearch.c(8):     Date: Wed, 12 Dec 2018 09:57:55 GMT\r\n
+OwnerSearch.c(8):     Content-Type: application/json;charset=UTF-8\r\n
+OwnerSearch.c(8):     Content-Length: 971\r\n
+OwnerSearch.c(8):     Connection: close\r\n
+OwnerSearch.c(8):     Set-Cookie: test_run_to_dev_tomcat=; Max-Age=1; Expires=Wed, 12-Dec-2018 09:57:56 GMT; Pat
+OwnerSearch.c(8):     h=/\r\n
+OwnerSearch.c(8):     Expires: Thu, 01 Jan 1970 00:00:00 GMT\r\n
+OwnerSearch.c(8):     Set-Cookie: JSESSIONID=A53536B46BB261304CDC613873119D96; Path=/; Secure; HttpOnly\r\n
+OwnerSearch.c(8):     Set-Cookie: test_token=NjQ3RDAzNDE5ODQwMDE2RDhFRjM1QjYyRTM0RkM3QUIwNkVGNzQwQkJEMEY4NzcxN0Q
+OwnerSearch.c(8):     5RjJFQzcyMkM1QTNCMzcwM0E5MTAyMDU0MDBCNEQ1QzNGMDU4QzAxMUU4MDIw; Max-Age=315360000; Expires=
+OwnerSearch.c(8):     Sat, 09-Dec-2028 09:57:55 GMT; Path=/\r\n
+OwnerSearch.c(8):     Set-Cookie: test_token=NjQ3RDAzNDE5ODQwMDE2RDhFRjM1QjYyRTM0RkM3QUIwNkVGNzQwQkJEMEY4NzcxN0Q
+OwnerSearch.c(8):     5RjJFQzcyMkM1QTNCMzcwM0E5MTAyMDU0MDBCNEQ1QzNGMDU4QzAxMUU4MDIw; Max-Age=315360000; Expires=
+OwnerSearch.c(8):     Sat, 09-Dec-2028 09:57:55 GMT; Path=/\r\n
+OwnerSearch.c(8):     Cache-Control: no-cache\r\n
+OwnerSearch.c(8):     Pragma: No-cache\r\n
+OwnerSearch.c(8):     \r\n
+OwnerSearch.c(8): t=1673ms: 971-byte response body for "https://www.wegoab.com/service/album/get_album_themes_list.jsp?act=owner&search_value=%E6%9C%8D%E8%A3%85&search_img=&page_index=1&token=NjQ3RDAzNDE5ODQwMDE2RDhFRjM1QjYyRTM0RkM3QUIwNkVGNzQwQkJEMEY4NzcxN0Q5RjJFQzcyMkM1QTNCMzcwM0E5MTAyMDU0MDBCNEQ1QzNGMDU4QzAxMUU4MDIw" (RelFrameId=1, Internal ID=2)
+OwnerSearch.c(8):     {"errcode":0,"result":{"photo_search_check":false,"goods_list":[],"share_title":"ÓêòÂø´Êù•Ê
+OwnerSearch.c(8):     àëÁöÑÂæÆÂïÜÁõ∏ÂÜåÁúãÊñ∞ÂìÅ\\nÁúãÊ¨æÊêúÊ¨æ„ÄÅÂàÜ‰∫\xAB9ÂõæÂíåÂ∞èËßÜÈ¢\x91","left_day":1252,
+OwnerSearch.c(8):     "is_vip":true,"show_tips":true,"online":true,"album_qrcode":"https://xcimg.szwego.com/code
+OwnerSearch.c(8):     _C201807191705440100001213_20181114204130.png","banner":"https://xcimg.szwego.com/FlSKaKU3
+OwnerSearch.c(8):     sLdHxzakCA0L-g49IKbI","default_watermark":[{"wm_id":"WM201807271354283710001341","watermar
+OwnerSearch.c(8):     k":[{"position":2,"type":2,"content":"https://xcimg.szwego.com/1542696747_1951977233_0.png
+OwnerSearch.c(8):     "}]}],"user":{"wechat_id":"110120119","shop_id":"A201807191705440080001796","watermark":tr
+OwnerSearch.c(8):     ue,"high_definition":true,"user_icon":"https://xcimg.szwego.com/o_1cs5emj8a1qve1o41h64ofr5
+OwnerSearch.c(8):     9jh.jpg","phone_number":"110120119","shop_name":"(*^œâ^*)"}},"total_page":1,"errmsg":"ÊàêÂ
+OwnerSearch.c(8):     äü","cur_page":1,"status":0,"token":"NjQ3RDAzNDE5ODQwMDE2RDhFRjM1QjYyRTM0RkM3QUIwNkVGNzQwQ
+OwnerSearch.c(8):     kJEMEY4NzcxN0Q5RjJFQzcyMkM1QTNCMzcwM0E5MTAyMDU0MDBCNEQ1QzNGMDU4QzAxMUU4MDIw"}
+OwnerSearch.c(8): web_custom_request("owner") was successful, 971 body bytes, 861 header bytes  	[MsgId: MMSG-26386]
+OwnerSearch.c(14): Notify: Transaction "À—À˜txt" ended with "Pass" status (Duration: 0.3774 Wasted Time: 0.0010).
+Ending action OwnerSearch.
+Ending iteration 2.
+Starting iteration 3.
+Starting action OwnerSearch.
+OwnerSearch.c(4): Rendezvous testPerformance
+OwnerSearch.c(6): Notify: Transaction "À—À˜txt" started.
+OwnerSearch.c(8): t=2135ms: 950-byte response headers for "https://www.wegoab.com/service/album/get_album_themes_list.jsp?act=owner&search_value=%E6%9C%8D%E8%A3%85&search_img=&page_index=1&token=NzBBRjhENEYzRUMwQjNEMkIxQURGMEY4QTVBRkFENjk5REJBMzQ2QkM1NjIyRTMxRDUxQzVBRDgxQTYwRTA0NERGQTNEOTc1RkY0NzYyMTU3MzExQjE1MTcwQkVBM0NBODRFMjVFQzA1Nzc5N0M4MjUyQzFEMUQ4M0MzMUUwQkE=" (RelFrameId=1, Internal ID=3)
+OwnerSearch.c(8):     HTTP/1.1 200 \r\n
+OwnerSearch.c(8):     Server: nginx/1.10.2\r\n
+OwnerSearch.c(8):     Date: Wed, 12 Dec 2018 09:57:56 GMT\r\n
+OwnerSearch.c(8):     Content-Type: application/json;charset=UTF-8\r\n
+OwnerSearch.c(8):     Content-Length: 1020\r\n
+OwnerSearch.c(8):     Connection: close\r\n
+OwnerSearch.c(8):     Set-Cookie: test_run_to_dev_tomcat=; Max-Age=1; Expires=Wed, 12-Dec-2018 09:57:56 GMT; Pat
+OwnerSearch.c(8):     h=/\r\n
+OwnerSearch.c(8):     Expires: Thu, 01 Jan 1970 00:00:00 GMT\r\n
+OwnerSearch.c(8):     Set-Cookie: JSESSIONID=F35A3ECCE81A7B1B474950652CB5F009; Path=/; Secure; HttpOnly\r\n
+OwnerSearch.c(8):     Set-Cookie: test_token=NzBBRjhENEYzRUMwQjNEMkIxQURGMEY4QTVBRkFENjk5REJBMzQ2QkM1NjIyRTMxRDU
+OwnerSearch.c(8):     xQzVBRDgxQTYwRTA0NERGQTNEOTc1RkY0NzYyMTU3MzExQjE1MTcwQkVBM0NBODRFMjVFQzA1Nzc5N0M4MjUyQzFEM
+OwnerSearch.c(8):     UQ4M0MzMUUwQkE=; Max-Age=315360000; Expires=Sat, 09-Dec-2028 09:57:55 GMT; Path=/\r\n
+OwnerSearch.c(8):     Set-Cookie: test_token=NzBBRjhENEYzRUMwQjNEMkIxQURGMEY4QTVBRkFENjk5REJBMzQ2QkM1NjIyRTMxRDU
+OwnerSearch.c(8):     xQzVBRDgxQTYwRTA0NERGQTNEOTc1RkY0NzYyMTU3MzExQjE1MTcwQkVBM0NBODRFMjVFQzA1Nzc5N0M4MjUyQzFEM
+OwnerSearch.c(8):     UQ4M0MzMUUwQkE=; Max-Age=315360000; Expires=Sat, 09-Dec-2028 09:57:56 GMT; Path=/\r\n
+OwnerSearch.c(8):     Cache-Control: no-cache\r\n
+OwnerSearch.c(8):     Pragma: No-cache\r\n
+OwnerSearch.c(8):     \r\n
+OwnerSearch.c(8): t=2265ms: 1020-byte response body for "https://www.wegoab.com/service/album/get_album_themes_list.jsp?act=owner&search_value=%E6%9C%8D%E8%A3%85&search_img=&page_index=1&token=NzBBRjhENEYzRUMwQjNEMkIxQURGMEY4QTVBRkFENjk5REJBMzQ2QkM1NjIyRTMxRDUxQzVBRDgxQTYwRTA0NERGQTNEOTc1RkY0NzYyMTU3MzExQjE1MTcwQkVBM0NBODRFMjVFQzA1Nzc5N0M4MjUyQzFEMUQ4M0MzMUUwQkE=" (RelFrameId=1, Internal ID=3)
+OwnerSearch.c(8):     {"errcode":0,"result":{"photo_search_check":false,"goods_list":[],"share_title":"ÓêòÂø´Êù•Ê
+OwnerSearch.c(8):     àëÁöÑÂæÆÂïÜÁõ∏ÂÜåÁúãÊñ∞ÂìÅ\\nÁúãÊ¨æÊêúÊ¨æ„ÄÅÂàÜ‰∫\xAB9ÂõæÂíåÂ∞èËßÜÈ¢\x91","left_day":1252,
+OwnerSearch.c(8):     "is_vip":true,"show_tips":true,"online":true,"album_qrcode":"https://xcimg.szwego.com/code
+OwnerSearch.c(8):     _C201807191705440100001213_20181114204130.png","banner":"https://xcimg.szwego.com/FlSKaKU3
+OwnerSearch.c(8):     sLdHxzakCA0L-g49IKbI","default_watermark":[{"wm_id":"WM201807271354283710001341","watermar
+OwnerSearch.c(8):     k":[{"position":2,"type":2,"content":"https://xcimg.szwego.com/1542696747_1951977233_0.png
+OwnerSearch.c(8):     "}]}],"user":{"wechat_id":"110120119","shop_id":"A201807191705440080001796","watermark":tr
+OwnerSearch.c(8):     ue,"high_definition":true,"user_icon":"https://xcimg.szwego.com/o_1cs5emj8a1qve1o41h64ofr5
+OwnerSearch.c(8):     9jh.jpg","phone_number":"110120119","shop_name":"(*^œâ^*)"}},"total_page":1,"errmsg":"ÊàêÂ
+OwnerSearch.c(8):     äü","cur_page":1,"status":0,"token":"NzBBRjhENEYzRUMwQjNEMkIxQURGMEY4QTVBRkFENjk5REJBMzQ2Q
+OwnerSearch.c(8):     kM1NjIyRTMxRDUxQzVBRDgxQTYwRTA0NERGQTNEOTc1RkY0NzYyMTU3MzExQjE1MTcwQkVBM0NBODRFMjVFQzA1Nzc
+OwnerSearch.c(8):     5N0M4MjUyQzFEMUQ4M0MzMUUwQkE\\u003d"}
+OwnerSearch.c(8): web_custom_request("owner") was successful, 1020 body bytes, 950 header bytes  	[MsgId: MMSG-26386]
+OwnerSearch.c(14): Notify: Transaction "À—À˜txt" ended with "Pass" status (Duration: 0.3963 Wasted Time: 0.0009).
+Ending action OwnerSearch.
+Ending iteration 3.
+Starting iteration 4.
+Starting action OwnerSearch.
+OwnerSearch.c(4): Rendezvous testPerformance
+OwnerSearch.c(6): Notify: Transaction "À—À˜txt" started.
+OwnerSearch.c(8): t=2654ms: 861-byte response headers for "https://www.wegoab.com/service/album/get_album_themes_list.jsp?act=owner&search_value=%E6%9C%8D%E8%A3%85&search_img=&page_index=1&token=NDJBNkI4RDM3NDUyQjY3NUJCNThBMjZFQjIwNjRFNjM5NkFFMjBFRTAyODZBNzA3QkY5OEQwQjUwNTYyRUQwNzEzNDJGNTk5RDFBRTU3NEQyMUQ1OTcxMkZDOTFFMzNC" (RelFrameId=1, Internal ID=4)
+OwnerSearch.c(8):     HTTP/1.1 200 \r\n
+OwnerSearch.c(8):     Server: nginx/1.10.2\r\n
+OwnerSearch.c(8):     Date: Wed, 12 Dec 2018 09:57:56 GMT\r\n
+OwnerSearch.c(8):     Content-Type: application/json;charset=UTF-8\r\n
+OwnerSearch.c(8):     Content-Length: 971\r\n
+OwnerSearch.c(8):     Connection: close\r\n
+OwnerSearch.c(8):     Set-Cookie: test_run_to_dev_tomcat=; Max-Age=1; Expires=Wed, 12-Dec-2018 09:57:57 GMT; Pat
+OwnerSearch.c(8):     h=/\r\n
+OwnerSearch.c(8):     Expires: Thu, 01 Jan 1970 00:00:00 GMT\r\n
+OwnerSearch.c(8):     Set-Cookie: JSESSIONID=C8D751A4511749F09AAB57B9587B953A; Path=/; Secure; HttpOnly\r\n
+OwnerSearch.c(8):     Set-Cookie: test_token=NDJBNkI4RDM3NDUyQjY3NUJCNThBMjZFQjIwNjRFNjM5NkFFMjBFRTAyODZBNzA3QkY
+OwnerSearch.c(8):     5OEQwQjUwNTYyRUQwNzEzNDJGNTk5RDFBRTU3NEQyMUQ1OTcxMkZDOTFFMzNC; Max-Age=315360000; Expires=
+OwnerSearch.c(8):     Sat, 09-Dec-2028 09:57:56 GMT; Path=/\r\n
+OwnerSearch.c(8):     Set-Cookie: test_token=NDJBNkI4RDM3NDUyQjY3NUJCNThBMjZFQjIwNjRFNjM5NkFFMjBFRTAyODZBNzA3QkY
+OwnerSearch.c(8):     5OEQwQjUwNTYyRUQwNzEzNDJGNTk5RDFBRTU3NEQyMUQ1OTcxMkZDOTFFMzNC; Max-Age=315360000; Expires=
+OwnerSearch.c(8):     Sat, 09-Dec-2028 09:57:56 GMT; Path=/\r\n
+OwnerSearch.c(8):     Cache-Control: no-cache\r\n
+OwnerSearch.c(8):     Pragma: No-cache\r\n
+OwnerSearch.c(8):     \r\n
+OwnerSearch.c(8): t=2709ms: 971-byte response body for "https://www.wegoab.com/service/album/get_album_themes_list.jsp?act=owner&search_value=%E6%9C%8D%E8%A3%85&search_img=&page_index=1&token=NDJBNkI4RDM3NDUyQjY3NUJCNThBMjZFQjIwNjRFNjM5NkFFMjBFRTAyODZBNzA3QkY5OEQwQjUwNTYyRUQwNzEzNDJGNTk5RDFBRTU3NEQyMUQ1OTcxMkZDOTFFMzNC" (RelFrameId=1, Internal ID=4)
+OwnerSearch.c(8):     {"errcode":0,"result":{"photo_search_check":false,"goods_list":[],"share_title":"ÓêòÂø´Êù•Ê
+OwnerSearch.c(8):     àëÁöÑÂæÆÂïÜÁõ∏ÂÜåÁúãÊñ∞ÂìÅ\\nÁúãÊ¨æÊêúÊ¨æ„ÄÅÂàÜ‰∫\xAB9ÂõæÂíåÂ∞èËßÜÈ¢\x91","left_day":1252,
+OwnerSearch.c(8):     "is_vip":true,"show_tips":true,"online":true,"album_qrcode":"https://xcimg.szwego.com/code
+OwnerSearch.c(8):     _C201807191705440100001213_20181114204130.png","banner":"https://xcimg.szwego.com/FlSKaKU3
+OwnerSearch.c(8):     sLdHxzakCA0L-g49IKbI","default_watermark":[{"wm_id":"WM201807271354283710001341","watermar
+OwnerSearch.c(8):     k":[{"position":2,"type":2,"content":"https://xcimg.szwego.com/1542696747_1951977233_0.png
+OwnerSearch.c(8):     "}]}],"user":{"wechat_id":"110120119","shop_id":"A201807191705440080001796","watermark":tr
+OwnerSearch.c(8):     ue,"high_definition":true,"user_icon":"https://xcimg.szwego.com/o_1cs5emj8a1qve1o41h64ofr5
+OwnerSearch.c(8):     9jh.jpg","phone_number":"110120119","shop_name":"(*^œâ^*)"}},"total_page":1,"errmsg":"ÊàêÂ
+OwnerSearch.c(8):     äü","cur_page":1,"status":0,"token":"NDJBNkI4RDM3NDUyQjY3NUJCNThBMjZFQjIwNjRFNjM5NkFFMjBFR
+OwnerSearch.c(8):     TAyODZBNzA3QkY5OEQwQjUwNTYyRUQwNzEzNDJGNTk5RDFBRTU3NEQyMUQ1OTcxMkZDOTFFMzNC"}
+OwnerSearch.c(8): web_custom_request("owner") was successful, 971 body bytes, 861 header bytes  	[MsgId: MMSG-26386]
+OwnerSearch.c(14): Notify: Transaction "À—À˜txt" ended with "Pass" status (Duration: 0.3133 Wasted Time: 0.0008).
+Ending action OwnerSearch.
+Ending iteration 4.
+Starting iteration 5.
+Starting action OwnerSearch.
+OwnerSearch.c(4): Rendezvous testPerformance
+OwnerSearch.c(6): Notify: Transaction "À—À˜txt" started.
+OwnerSearch.c(8): t=3139ms: 950-byte response headers for "https://www.wegoab.com/service/album/get_album_themes_list.jsp?act=owner&search_value=%E6%9C%8D%E8%A3%85&search_img=&page_index=1&token=OUNENDAzNkU1Mjg1MUI0Qjk5NUUzMzBBNTc2NkQyMThCMDdEOTYzRUI4MEVGMTg3RjNGQ0FBMjUyNjgyODQ1RUQzRDM5MzIxRjM0OEU0REU2QUIyMzREQTE5MzQ0MzgwREZDQjYwN0ZDMDEwOTNGMDlFQTY3NEFERTM5RjQyRDE=" (RelFrameId=1, Internal ID=5)
+OwnerSearch.c(8):     HTTP/1.1 200 \r\n
+OwnerSearch.c(8):     Server: nginx/1.10.2\r\n
+OwnerSearch.c(8):     Date: Wed, 12 Dec 2018 09:57:57 GMT\r\n
+OwnerSearch.c(8):     Content-Type: application/json;charset=UTF-8\r\n
+OwnerSearch.c(8):     Content-Length: 1107\r\n
+OwnerSearch.c(8):     Connection: close\r\n
+OwnerSearch.c(8):     Set-Cookie: test_run_to_dev_tomcat=; Max-Age=1; Expires=Wed, 12-Dec-2018 09:57:57 GMT; Pat
+OwnerSearch.c(8):     h=/\r\n
+OwnerSearch.c(8):     Expires: Thu, 01 Jan 1970 00:00:00 GMT\r\n
+OwnerSearch.c(8):     Set-Cookie: JSESSIONID=352684F1486E0C82BDC9BD9B092B216C; Path=/; Secure; HttpOnly\r\n
+OwnerSearch.c(8):     Set-Cookie: test_token=OUNENDAzNkU1Mjg1MUI0Qjk5NUUzMzBBNTc2NkQyMThCMDdEOTYzRUI4MEVGMTg3RjN
+OwnerSearch.c(8):     GQ0FBMjUyNjgyODQ1RUQzRDM5MzIxRjM0OEU0REU2QUIyMzREQTE5MzQ0MzgwREZDQjYwN0ZDMDEwOTNGMDlFQTY3N
+OwnerSearch.c(8):     EFERTM5RjQyRDE=; Max-Age=315360000; Expires=Sat, 09-Dec-2028 09:57:56 GMT; Path=/\r\n
+OwnerSearch.c(8):     Set-Cookie: test_token=OUNENDAzNkU1Mjg1MUI0Qjk5NUUzMzBBNTc2NkQyMThCMDdEOTYzRUI4MEVGMTg3RjN
+OwnerSearch.c(8):     GQ0FBMjUyNjgyODQ1RUQzRDM5MzIxRjM0OEU0REU2QUIyMzREQTE5MzQ0MzgwREZDQjYwN0ZDMDEwOTNGMDlFQTY3N
+OwnerSearch.c(8):     EFERTM5RjQyRDE=; Max-Age=315360000; Expires=Sat, 09-Dec-2028 09:57:57 GMT; Path=/\r\n
+OwnerSearch.c(8):     Cache-Control: no-cache\r\n
+OwnerSearch.c(8):     Pragma: No-cache\r\n
+OwnerSearch.c(8):     \r\n
+OwnerSearch.c(8): t=3232ms: 1107-byte response body for "https://www.wegoab.com/service/album/get_album_themes_list.jsp?act=owner&search_value=%E6%9C%8D%E8%A3%85&search_img=&page_index=1&token=OUNENDAzNkU1Mjg1MUI0Qjk5NUUzMzBBNTc2NkQyMThCMDdEOTYzRUI4MEVGMTg3RjNGQ0FBMjUyNjgyODQ1RUQzRDM5MzIxRjM0OEU0REU2QUIyMzREQTE5MzQ0MzgwREZDQjYwN0ZDMDEwOTNGMDlFQTY3NEFERTM5RjQyRDE=" (RelFrameId=1, Internal ID=5)
+OwnerSearch.c(8):     {"errcode":0,"result":{"photo_search_check":true,"goods_list":[],"share_title":"ÓêòÂø´Êù•Ê
+OwnerSearch.c(8):     àëÁöÑÂæÆÂïÜÁõ∏ÂÜåÁúãÊñ∞ÂìÅ\\nÁúãÊ¨æÊêúÊ¨æ„ÄÅÂàÜ‰∫\xAB9ÂõæÂíåÂ∞èËßÜÈ¢\x91","left_day":88,"i
+OwnerSearch.c(8):     s_vip":true,"show_tips":true,"online":true,"album_qrcode":"https://xcimg.szwego.com/code_C
+OwnerSearch.c(8):     201807191706098760001117_20181205152657.png","banner":"https://xcimg.szwego.com/FtIkqzs7vX
+OwnerSearch.c(8):     EZqStJdhp-jvEOiNmO","default_watermark":[{"wm_id":"WM201807271401508810001007","watermark"
+OwnerSearch.c(8):     :[{"position":5,"type":1,"color":"#ffffff","content":"‰Ω†ËøòÂ•ΩÂêó"},{"position":3,"type":
+OwnerSearch.c(8):     2,"content":"https://xcimg.szwego.com/1537004061_2326389291_0.png"}]}],"user":{"wechat_id"
+OwnerSearch.c(8):     :"wangshushu527","shop_id":"A201807191706098740001153","watermark":true,"high_definition":
+OwnerSearch.c(8):     true,"user_icon":"https://xcimg.szwego.com/o_1ctuk6dg2qn1lke1kss18hq1ri5h.jpg","phone_numb
+OwnerSearch.c(8):     er":"13578080520","shop_name":"Áä¨Â§úÂ∞èÂèâÂèâÂ§ß‰∫∫Âïä"}},"total_page":1,"errmsg":"ÊàêÂäü
+OwnerSearch.c(8):     ","cur_page":1,"status":0,"token":"OUNENDAzNkU1Mjg1MUI0Qjk5NUUzMzBBNTc2NkQyMThCMDdEOTYzRUI
+OwnerSearch.c(8):     4MEVGMTg3RjNGQ0FBMjUyNjgyODQ1RUQzRDM5MzIxRjM0OEU0REU2QUIyMzREQTE5MzQ0MzgwREZDQjYwN0ZDMDEwO
+OwnerSearch.c(8):     TNGMDlFQTY3NEFERTM5RjQyRDE\\u003d"}
+OwnerSearch.c(8): web_custom_request("owner") was successful, 1107 body bytes, 950 header bytes  	[MsgId: MMSG-26386]
+OwnerSearch.c(14): Notify: Transaction "À—À˜txt" ended with "Pass" status (Duration: 0.3591 Wasted Time: 0.0009).
+Ending action OwnerSearch.
+Ending iteration 5.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

@@ -1,0 +1,14 @@
+HTTP/1.1 200 
+Server: nginx/1.10.2
+Date: Wed, 12 Dec 2018 11:36:40 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 592
+Connection: close
+Set-Cookie: test_run_to_dev_tomcat=; Max-Age=1; Expires=Wed, 12-Dec-2018 11:36:41 GMT; Path=/
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: JSESSIONID=95539723E00B7EE1CC0DD28E4CC8C963; Path=/; Secure; HttpOnly
+Set-Cookie: test_token=OUNENDAzNkU1Mjg1MUI0Qjk5NUUzMzBBNTc2NkQyMThCMDdEOTYzRUI4MEVGMTg3RjNGQ0FBMjUyNjgyODQ1RUQzRDM5MzIxRjM0OEU0REU2QUIyMzREQTE5MzQ0MzgwREZDQjYwN0ZDMDEwOTNGMDlFQTY3NEFERTM5RjQyRDE=; Max-Age=315360000; Expires=Sat, 09-Dec-2028 11:36:40 GMT; Path=/
+Set-Cookie: test_token=OUNENDAzNkU1Mjg1MUI0Qjk5NUUzMzBBNTc2NkQyMThCMDdEOTYzRUI4MEVGMTg3RjNGQ0FBMjUyNjgyODQ1RUQzRDM5MzIxRjM0OEU0REU2QUIyMzREQTE5MzQ0MzgwREZDQjYwN0ZDMDEwOTNGMDlFQTY3NEFERTM5RjQyRDE=; Max-Age=315360000; Expires=Sat, 09-Dec-2028 11:36:40 GMT; Path=/
+Cache-Control: no-cache
+Pragma: No-cache
+

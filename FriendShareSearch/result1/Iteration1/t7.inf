@@ -1,0 +1,12 @@
+[t7]
+SnapshotXmlFile=snapshot_7.xml
+ContentType=text/plain
+StepName=Custom Request: get_qiuniu_token
+Total=1
+FileName1=t7.UNK
+RequestHeaderFile=t7_RequestHeader.txt
+ResponseHeaderFile=t7_ResponseHeader.txt
+RequestBodyFile=t7_RequestBody.txt
+URL1=https://www.wegoab.com/service/get_qiuniu_token.jsp
+[AdditionalInfo]
+IsIgnorable=1

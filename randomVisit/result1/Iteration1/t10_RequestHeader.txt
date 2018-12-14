@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+Cookie: ft=1; v_pg=s_10%2Cs_103; hz=0; BAIDUID=706BA354C2AEE02A79B9BE614B3C42E6:FG=1; __bsi=10703916843856911507_00_42_R_N_116_0303_c013_Y; org=1
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)
+Accept-Encoding: gzip, deflate
+Accept: */*
+Host: www.hao123.com
+Connection: Keep-Alive
+Cache-Control: no-cache
+

@@ -1,0 +1,12 @@
+[t4]
+SnapshotXmlFile=snapshot_4.xml
+ContentType=text/plain
+StepName=Custom Request: get_config
+Total=1
+FileName1=t4.UNK
+RequestHeaderFile=t4_RequestHeader.txt
+ResponseHeaderFile=t4_ResponseHeader.txt
+RequestBodyFile=t4_RequestBody.txt
+URL1=https://www.wegoab.com/service/jsapi_service.jsp?act=get_config&shop_id=&url=https://www.szwego.com/static/index.html?t=1544596758444&token=NjQ3RDAzNDE5ODQwMDE2RDhFRjM1QjYyRTM0RkM3QUIwNkVGNzQwQkJEMEY4NzcxN0Q5RjJFQzcyMkM1QTNCMzcwM0E5MTAyMDU0MDBCNEQ1QzNGMDU4QzAxMUU4MDIw
+[AdditionalInfo]
+IsIgnorable=1

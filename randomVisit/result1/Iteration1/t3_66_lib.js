@@ -1,0 +1,1 @@
+define("indexher:static/js/lib.js",["global","module","exports","require"],function(){});

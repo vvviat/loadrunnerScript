@@ -1,0 +1,12 @@
+[t1]
+SnapshotXmlFile=snapshot_1.xml
+ContentType=text/plain
+StepName=Custom Request: owner
+Total=1
+FileName1=t1.UNK
+RequestHeaderFile=t1_RequestHeader.txt
+ResponseHeaderFile=t1_ResponseHeader.txt
+RequestBodyFile=t1_RequestBody.txt
+URL1=https://www.wegoab.com/service/album/get_album_themes_list.jsp?act=owner&search_value=服装&search_img=&page_index=1&token=NDJBNkI4RDM3NDUyQjY3NUJCNThBMjZFQjIwNjRFNjM5NkFFMjBFRTAyODZBNzA3QkY5OEQwQjUwNTYyRUQwNzEzNDJGNTk5RDFBRTU3NEQyMUQ1OTcxMkZDOTFFMzNC
+[AdditionalInfo]
+IsIgnorable=1

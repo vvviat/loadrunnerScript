@@ -1,0 +1,10 @@
+GET /service/album/share_operation.jsp?act=share_plat&search_value=&albumId=A2017030218010685588&itemId=I201812100958321760168587&token=N0E5QzIyNEQ2ODYyRjc1RjI0OTdDNDBCNUYxNDM4Q0RFODBDNTAxNUQ3QTZFRDQyQzUzQzk1QUY3NTU1OTE2RUUzN0Q3N0MyNzcwNkVDODVCNDM5RTkzMTNCRUIxMDgy HTTP/1.1
+Cookie: producte_run_to_dev_tomcat=; JSESSIONID=3DADC5D67918BC7FF42F0D0042126036; token=N0E5QzIyNEQ2ODYyRjc1RjI0OTdDNDBCNUYxNDM4Q0RFODBDNTAxNUQ3QTZFRDQyQzUzQzk1QUY3NTU1OTE2RUUzN0Q3N0MyNzcwNkVDODVCNDM5RTkzMTNCRUIxMDgy
+Referer: https://www.szwego.com/service/album/get_album_themes_list.jsp?act=owner&search_value=&search_img=&start_date=&end_date=&page_index=1&token=N0E5QzIyNEQ2ODYyRjc1RjI0OTdDNDBCNUYxNDM4Q0RFODBDNTAxNUQ3QTZFRDQyQzUzQzk1QUY3NTU1OTE2RUUzN0Q3N0MyNzcwNkVDODVCNDM5RTkzMTNCRUIxMDgy
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)
+Accept-Encoding: gzip, deflate
+Accept: */*
+Host: www.szwego.com
+Connection: Keep-Alive
+Cache-Control: no-cache
+

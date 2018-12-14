@@ -1,0 +1,12 @@
+[t2]
+SnapshotXmlFile=snapshot_2.xml
+ContentType=text/plain
+StepName=Custom Request: share_plat
+Total=1
+FileName1=t2.UNK
+RequestHeaderFile=t2_RequestHeader.txt
+ResponseHeaderFile=t2_ResponseHeader.txt
+RequestBodyFile=t2_RequestBody.txt
+URL1=https://www.szwego.com/service/album/share_operation.jsp?act=share_plat&search_value=&albumId=A2017030218010685588&itemId=I201812100958321760168587&token=N0E5QzIyNEQ2ODYyRjc1RjI0OTdDNDBCNUYxNDM4Q0RFODBDNTAxNUQ3QTZFRDQyQzUzQzk1QUY3NTU1OTE2RUUzN0Q3N0MyNzcwNkVDODVCNDM5RTkzMTNCRUIxMDgy
+[AdditionalInfo]
+IsIgnorable=1

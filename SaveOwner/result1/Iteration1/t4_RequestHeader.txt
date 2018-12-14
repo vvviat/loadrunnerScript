@@ -1,0 +1,10 @@
+GET /service/get_qiuniu_token.jsp HTTP/1.1
+Cookie: JSESSIONID=D878DD12895082FD4DE6DB9666EC2FEE; test_token=NjQ3RDAzNDE5ODQwMDE2RDhFRjM1QjYyRTM0RkM3QUIwNkVGNzQwQkJEMEY4NzcxN0Q5RjJFQzcyMkM1QTNCMzcwM0E5MTAyMDU0MDBCNEQ1QzNGMDU4QzAxMUU4MDIw
+Referer: https://www.wegoab.com/service/album/album_theme_format_operation.jsp?act=get_formats&token=NjQ3RDAzNDE5ODQwMDE2RDhFRjM1QjYyRTM0RkM3QUIwNkVGNzQwQkJEMEY4NzcxN0Q5RjJFQzcyMkM1QTNCMzcwM0E5MTAyMDU0MDBCNEQ1QzNGMDU4QzAxMUU4MDIw
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)
+Accept-Encoding: gzip, deflate
+Accept: */*
+Host: www.wegoab.com
+Connection: Keep-Alive
+Cache-Control: no-cache
+

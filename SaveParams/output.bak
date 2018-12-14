@@ -1,0 +1,280 @@
+Virtual User Script started at : 2018-12-14 11:43:09
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 11.0.0 for Windows 7; build 8859 (Aug 18 2010 20:14:31)  	[MsgId: MMSG-27143]
+Run Mode: HTML  	[MsgId: MMSG-26000]
+Run-Time Settings file: "D:\PerformanceData\SaveParams\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(8): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(17): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(27): Notify: Transaction "加载app首页" started.
+Action.c(29): Notify: Parameter Substitution: parameter "requestUrl" =  "www.wegoab.com"
+Action.c(29): Notify: Parameter Substitution: parameter "userToken" =  "NTNBODI4MTUxOTJENkQ3ODJBRUFFNDk1OTEyOUJBMUE4MUI1NTE2RkM4QUZDODM0MUE3RkVEQzQ3NDI4MjQ0OEIzODQxOTlGMjMzQzY3RDI3OTFGRUZCMTExQ0Y5REI0RkQxMjNGQzExNDdGQ0M5QkZCN0M5MENDM0M2MjExNDA="
+Action.c(29): Notify: Saving Parameter "goods_id_list_1 = I201812141122317820001729".
+Action.c(29): Notify: Saving Parameter "shop_id_list_1 = A201807191717509920001845".
+Action.c(29): Notify: Saving Parameter "goods_id_list_2 = I201812132133407830001676".
+Action.c(29): Notify: Saving Parameter "shop_id_list_2 = A201807191717509920001845".
+Action.c(29): Notify: Saving Parameter "goods_id_list_3 = I201812132058140150001293".
+Action.c(29): Notify: Saving Parameter "shop_id_list_3 = A201807191717509920001845".
+Action.c(29): Notify: Saving Parameter "goods_id_list_4 = I201812131745470890001438".
+Action.c(29): Notify: Saving Parameter "shop_id_list_4 = A201807191706098740001153".
+Action.c(29): Notify: Saving Parameter "goods_id_list_5 = I201812131558316400001287".
+Action.c(29): Notify: Saving Parameter "shop_id_list_5 = A201807191705440080001796".
+Action.c(29): Notify: Saving Parameter "goods_id_list_6 = I201812101523422690001216".
+Action.c(29): Notify: Saving Parameter "shop_id_list_6 = A201807191706098740001153".
+Action.c(29): Notify: Saving Parameter "goods_id_list_7 = I201812131200304310001554".
+Action.c(29): Notify: Saving Parameter "shop_id_list_7 = A201807191705440080001796".
+Action.c(29): Notify: Saving Parameter "goods_id_list_8 = I201812131311338670000890".
+Action.c(29): Notify: Saving Parameter "shop_id_list_8 = A201807191706372300001919".
+Action.c(29): Notify: Saving Parameter "goods_id_list_9 = I201812131238188790001043".
+Action.c(29): Notify: Saving Parameter "shop_id_list_9 = A201807191705440080001796".
+Action.c(29): Notify: Saving Parameter "goods_id_list_10 = I201812111508567660001145".
+Action.c(29): Notify: Saving Parameter "shop_id_list_10 = A201807191705440080001796".
+Action.c(29): Notify: Saving Parameter "goods_id_list_11 = I201812121803521320001596".
+Action.c(29): Notify: Saving Parameter "shop_id_list_11 = A201807191705440080001796".
+Action.c(29): Notify: Saving Parameter "goods_id_list_12 = I201812131150367420000217".
+Action.c(29): Notify: Saving Parameter "shop_id_list_12 = A201807191706372300001919".
+Action.c(29): Notify: Saving Parameter "goods_id_list_13 = I201812121803521150001595".
+Action.c(29): Notify: Saving Parameter "shop_id_list_13 = A201807191705440080001796".
+Action.c(29): Notify: Saving Parameter "goods_id_list_14 = I201812111508567300001144".
+Action.c(29): Notify: Saving Parameter "shop_id_list_14 = A201807191705440080001796".
+Action.c(29): Notify: Saving Parameter "goods_id_list_15 = I201812111508566960001143".
+Action.c(29): Notify: Saving Parameter "shop_id_list_15 = A201807191705440080001796".
+Action.c(29): Notify: Saving Parameter "goods_id_list_16 = I201812111508566790001142".
+Action.c(29): Notify: Saving Parameter "shop_id_list_16 = A201807191705440080001796".
+Action.c(29): Notify: Saving Parameter "goods_id_list_17 = I201812111508566640001141".
+Action.c(29): Notify: Saving Parameter "shop_id_list_17 = A201807191705440080001796".
+Action.c(29): Notify: Saving Parameter "goods_id_list_18 = I201812111508566430001140".
+Action.c(29): Notify: Saving Parameter "shop_id_list_18 = A201807191705440080001796".
+Action.c(29): Notify: Saving Parameter "goods_id_list_19 = I201812111508565940001137".
+Action.c(29): Notify: Saving Parameter "shop_id_list_19 = A201807191705440080001796".
+Action.c(29): Notify: Saving Parameter "goods_id_list_20 = I201812111508565580001136".
+Action.c(29): Notify: Saving Parameter "shop_id_list_20 = A201807191705440080001796".
+Action.c(29): Notify: Saving Parameter "goods_id_list_21 = I201812111508564790001134".
+Action.c(29): Notify: Saving Parameter "shop_id_list_21 = A201807191705440080001796".
+Action.c(29): Notify: Saving Parameter "goods_id_list_22 = I201812111508564730001133".
+Action.c(29): Notify: Saving Parameter "shop_id_list_22 = A201807191705440080001796".
+Action.c(29): Notify: Saving Parameter "goods_id_list_23 = I201812111508564140001131".
+Action.c(29): Notify: Saving Parameter "shop_id_list_23 = A201807191705440080001796".
+Action.c(29): Notify: Saving Parameter "goods_id_list_24 = I201812111508563880001129".
+Action.c(29): Notify: Saving Parameter "shop_id_list_24 = A201807191705440080001796".
+Action.c(29): Notify: Saving Parameter "goods_id_list_25 = I201812111508563630001127".
+Action.c(29): Notify: Saving Parameter "shop_id_list_25 = A201807191705440080001796".
+Action.c(29): Notify: Saving Parameter "goods_id_list_26 = I201812111508563020001124".
+Action.c(29): Notify: Saving Parameter "shop_id_list_26 = A201807191705440080001796".
+Action.c(29): Notify: Saving Parameter "goods_id_list_27 = I201812111508562690001123".
+Action.c(29): Notify: Saving Parameter "shop_id_list_27 = A201807191705440080001796".
+Action.c(29): Notify: Saving Parameter "goods_id_list_28 = I201812111508562440001121".
+Action.c(29): Notify: Saving Parameter "shop_id_list_28 = A201807191705440080001796".
+Action.c(29): Notify: Saving Parameter "goods_id_list_29 = I201811301619530760001114".
+Action.c(29): Notify: Saving Parameter "shop_id_list_29 = A201807191705440080001796".
+Action.c(29): Notify: Saving Parameter "goods_id_list_30 = I201812111508561530001118".
+Action.c(29): Notify: Saving Parameter "shop_id_list_30 = A201807191705440080001796".
+Action.c(29): Notify: Saving Parameter "goods_id_list_31 = I201812111508561270001117".
+Action.c(29): Notify: Saving Parameter "shop_id_list_31 = A201807191705440080001796".
+Action.c(29): Notify: Saving Parameter "goods_id_list_32 = I201811301611145310001651".
+Action.c(29): Notify: Saving Parameter "shop_id_list_32 = A201807191705440080001796".
+Action.c(29): Notify: Saving Parameter "goods_id_list_count = 32".
+Action.c(29): Notify: Saving Parameter "shop_id_list_count = 32".
+Action.c(29): web_custom_request("owner") was successful, 6024 body bytes, 1008 header bytes  	[MsgId: MMSG-26386]
+Action.c(38): Warning: The string 'shop_id__list_1' with parameter delimiters is not a parameter.
+shop_id 1:{shop_id__list_1}
+Action.c(41): Notify: Parameter Substitution: parameter "goods_id_list_1" =  "I201812141122317820001729"
+goods_id 1:I201812141122317820001729
+Action.c(43): Warning: The string 'shop_id__list_1' with parameter delimiters is not a parameter.
+Action.c(43): Notify: Parameter Substitution: parameter "goods_id_list_1" =  "I201812141122317820001729"
+Action.c(38): Warning: The string 'shop_id__list_2' with parameter delimiters is not a parameter.
+shop_id 2:{shop_id__list_2}
+Action.c(41): Notify: Parameter Substitution: parameter "goods_id_list_2" =  "I201812132133407830001676"
+goods_id 2:I201812132133407830001676
+Action.c(43): Warning: The string 'shop_id__list_2' with parameter delimiters is not a parameter.
+Action.c(43): Notify: Parameter Substitution: parameter "goods_id_list_2" =  "I201812132133407830001676"
+Action.c(38): Warning: The string 'shop_id__list_3' with parameter delimiters is not a parameter.
+shop_id 3:{shop_id__list_3}
+Action.c(41): Notify: Parameter Substitution: parameter "goods_id_list_3" =  "I201812132058140150001293"
+goods_id 3:I201812132058140150001293
+Action.c(43): Warning: The string 'shop_id__list_3' with parameter delimiters is not a parameter.
+Action.c(43): Notify: Parameter Substitution: parameter "goods_id_list_3" =  "I201812132058140150001293"
+Action.c(38): Warning: The string 'shop_id__list_4' with parameter delimiters is not a parameter.
+shop_id 4:{shop_id__list_4}
+Action.c(41): Notify: Parameter Substitution: parameter "goods_id_list_4" =  "I201812131745470890001438"
+goods_id 4:I201812131745470890001438
+Action.c(43): Warning: The string 'shop_id__list_4' with parameter delimiters is not a parameter.
+Action.c(43): Notify: Parameter Substitution: parameter "goods_id_list_4" =  "I201812131745470890001438"
+Action.c(38): Warning: The string 'shop_id__list_5' with parameter delimiters is not a parameter.
+shop_id 5:{shop_id__list_5}
+Action.c(41): Notify: Parameter Substitution: parameter "goods_id_list_5" =  "I201812131558316400001287"
+goods_id 5:I201812131558316400001287
+Action.c(43): Warning: The string 'shop_id__list_5' with parameter delimiters is not a parameter.
+Action.c(43): Notify: Parameter Substitution: parameter "goods_id_list_5" =  "I201812131558316400001287"
+Action.c(38): Warning: The string 'shop_id__list_6' with parameter delimiters is not a parameter.
+shop_id 6:{shop_id__list_6}
+Action.c(41): Notify: Parameter Substitution: parameter "goods_id_list_6" =  "I201812101523422690001216"
+goods_id 6:I201812101523422690001216
+Action.c(43): Warning: The string 'shop_id__list_6' with parameter delimiters is not a parameter.
+Action.c(43): Notify: Parameter Substitution: parameter "goods_id_list_6" =  "I201812101523422690001216"
+Action.c(38): Warning: The string 'shop_id__list_7' with parameter delimiters is not a parameter.
+shop_id 7:{shop_id__list_7}
+Action.c(41): Notify: Parameter Substitution: parameter "goods_id_list_7" =  "I201812131200304310001554"
+goods_id 7:I201812131200304310001554
+Action.c(43): Warning: The string 'shop_id__list_7' with parameter delimiters is not a parameter.
+Action.c(43): Notify: Parameter Substitution: parameter "goods_id_list_7" =  "I201812131200304310001554"
+Action.c(38): Warning: The string 'shop_id__list_8' with parameter delimiters is not a parameter.
+shop_id 8:{shop_id__list_8}
+Action.c(41): Notify: Parameter Substitution: parameter "goods_id_list_8" =  "I201812131311338670000890"
+goods_id 8:I201812131311338670000890
+Action.c(43): Warning: The string 'shop_id__list_8' with parameter delimiters is not a parameter.
+Action.c(43): Notify: Parameter Substitution: parameter "goods_id_list_8" =  "I201812131311338670000890"
+Action.c(38): Warning: The string 'shop_id__list_9' with parameter delimiters is not a parameter.
+shop_id 9:{shop_id__list_9}
+Action.c(41): Notify: Parameter Substitution: parameter "goods_id_list_9" =  "I201812131238188790001043"
+goods_id 9:I201812131238188790001043
+Action.c(43): Warning: The string 'shop_id__list_9' with parameter delimiters is not a parameter.
+Action.c(43): Notify: Parameter Substitution: parameter "goods_id_list_9" =  "I201812131238188790001043"
+Action.c(38): Warning: The string 'shop_id__list_10' with parameter delimiters is not a parameter.
+shop_id 10:{shop_id__list_10}
+Action.c(41): Notify: Parameter Substitution: parameter "goods_id_list_10" =  "I201812111508567660001145"
+goods_id 10:I201812111508567660001145
+Action.c(43): Warning: The string 'shop_id__list_10' with parameter delimiters is not a parameter.
+Action.c(43): Notify: Parameter Substitution: parameter "goods_id_list_10" =  "I201812111508567660001145"
+Action.c(38): Warning: The string 'shop_id__list_11' with parameter delimiters is not a parameter.
+shop_id 11:{shop_id__list_11}
+Action.c(41): Notify: Parameter Substitution: parameter "goods_id_list_11" =  "I201812121803521320001596"
+goods_id 11:I201812121803521320001596
+Action.c(43): Warning: The string 'shop_id__list_11' with parameter delimiters is not a parameter.
+Action.c(43): Notify: Parameter Substitution: parameter "goods_id_list_11" =  "I201812121803521320001596"
+Action.c(38): Warning: The string 'shop_id__list_12' with parameter delimiters is not a parameter.
+shop_id 12:{shop_id__list_12}
+Action.c(41): Notify: Parameter Substitution: parameter "goods_id_list_12" =  "I201812131150367420000217"
+goods_id 12:I201812131150367420000217
+Action.c(43): Warning: The string 'shop_id__list_12' with parameter delimiters is not a parameter.
+Action.c(43): Notify: Parameter Substitution: parameter "goods_id_list_12" =  "I201812131150367420000217"
+Action.c(38): Warning: The string 'shop_id__list_13' with parameter delimiters is not a parameter.
+shop_id 13:{shop_id__list_13}
+Action.c(41): Notify: Parameter Substitution: parameter "goods_id_list_13" =  "I201812121803521150001595"
+goods_id 13:I201812121803521150001595
+Action.c(43): Warning: The string 'shop_id__list_13' with parameter delimiters is not a parameter.
+Action.c(43): Notify: Parameter Substitution: parameter "goods_id_list_13" =  "I201812121803521150001595"
+Action.c(38): Warning: The string 'shop_id__list_14' with parameter delimiters is not a parameter.
+shop_id 14:{shop_id__list_14}
+Action.c(41): Notify: Parameter Substitution: parameter "goods_id_list_14" =  "I201812111508567300001144"
+goods_id 14:I201812111508567300001144
+Action.c(43): Warning: The string 'shop_id__list_14' with parameter delimiters is not a parameter.
+Action.c(43): Notify: Parameter Substitution: parameter "goods_id_list_14" =  "I201812111508567300001144"
+Action.c(38): Warning: The string 'shop_id__list_15' with parameter delimiters is not a parameter.
+shop_id 15:{shop_id__list_15}
+Action.c(41): Notify: Parameter Substitution: parameter "goods_id_list_15" =  "I201812111508566960001143"
+goods_id 15:I201812111508566960001143
+Action.c(43): Warning: The string 'shop_id__list_15' with parameter delimiters is not a parameter.
+Action.c(43): Notify: Parameter Substitution: parameter "goods_id_list_15" =  "I201812111508566960001143"
+Action.c(38): Warning: The string 'shop_id__list_16' with parameter delimiters is not a parameter.
+shop_id 16:{shop_id__list_16}
+Action.c(41): Notify: Parameter Substitution: parameter "goods_id_list_16" =  "I201812111508566790001142"
+goods_id 16:I201812111508566790001142
+Action.c(43): Warning: The string 'shop_id__list_16' with parameter delimiters is not a parameter.
+Action.c(43): Notify: Parameter Substitution: parameter "goods_id_list_16" =  "I201812111508566790001142"
+Action.c(38): Warning: The string 'shop_id__list_17' with parameter delimiters is not a parameter.
+shop_id 17:{shop_id__list_17}
+Action.c(41): Notify: Parameter Substitution: parameter "goods_id_list_17" =  "I201812111508566640001141"
+goods_id 17:I201812111508566640001141
+Action.c(43): Warning: The string 'shop_id__list_17' with parameter delimiters is not a parameter.
+Action.c(43): Notify: Parameter Substitution: parameter "goods_id_list_17" =  "I201812111508566640001141"
+Action.c(38): Warning: The string 'shop_id__list_18' with parameter delimiters is not a parameter.
+shop_id 18:{shop_id__list_18}
+Action.c(41): Notify: Parameter Substitution: parameter "goods_id_list_18" =  "I201812111508566430001140"
+goods_id 18:I201812111508566430001140
+Action.c(43): Warning: The string 'shop_id__list_18' with parameter delimiters is not a parameter.
+Action.c(43): Notify: Parameter Substitution: parameter "goods_id_list_18" =  "I201812111508566430001140"
+Action.c(38): Warning: The string 'shop_id__list_19' with parameter delimiters is not a parameter.
+shop_id 19:{shop_id__list_19}
+Action.c(41): Notify: Parameter Substitution: parameter "goods_id_list_19" =  "I201812111508565940001137"
+goods_id 19:I201812111508565940001137
+Action.c(43): Warning: The string 'shop_id__list_19' with parameter delimiters is not a parameter.
+Action.c(43): Notify: Parameter Substitution: parameter "goods_id_list_19" =  "I201812111508565940001137"
+Action.c(38): Warning: The string 'shop_id__list_20' with parameter delimiters is not a parameter.
+shop_id 20:{shop_id__list_20}
+Action.c(41): Notify: Parameter Substitution: parameter "goods_id_list_20" =  "I201812111508565580001136"
+goods_id 20:I201812111508565580001136
+Action.c(43): Warning: The string 'shop_id__list_20' with parameter delimiters is not a parameter.
+Action.c(43): Notify: Parameter Substitution: parameter "goods_id_list_20" =  "I201812111508565580001136"
+Action.c(38): Warning: The string 'shop_id__list_21' with parameter delimiters is not a parameter.
+shop_id 21:{shop_id__list_21}
+Action.c(41): Notify: Parameter Substitution: parameter "goods_id_list_21" =  "I201812111508564790001134"
+goods_id 21:I201812111508564790001134
+Action.c(43): Warning: The string 'shop_id__list_21' with parameter delimiters is not a parameter.
+Action.c(43): Notify: Parameter Substitution: parameter "goods_id_list_21" =  "I201812111508564790001134"
+Action.c(38): Warning: The string 'shop_id__list_22' with parameter delimiters is not a parameter.
+shop_id 22:{shop_id__list_22}
+Action.c(41): Notify: Parameter Substitution: parameter "goods_id_list_22" =  "I201812111508564730001133"
+goods_id 22:I201812111508564730001133
+Action.c(43): Warning: The string 'shop_id__list_22' with parameter delimiters is not a parameter.
+Action.c(43): Notify: Parameter Substitution: parameter "goods_id_list_22" =  "I201812111508564730001133"
+Action.c(38): Warning: The string 'shop_id__list_23' with parameter delimiters is not a parameter.
+shop_id 23:{shop_id__list_23}
+Action.c(41): Notify: Parameter Substitution: parameter "goods_id_list_23" =  "I201812111508564140001131"
+goods_id 23:I201812111508564140001131
+Action.c(43): Warning: The string 'shop_id__list_23' with parameter delimiters is not a parameter.
+Action.c(43): Notify: Parameter Substitution: parameter "goods_id_list_23" =  "I201812111508564140001131"
+Action.c(38): Warning: The string 'shop_id__list_24' with parameter delimiters is not a parameter.
+shop_id 24:{shop_id__list_24}
+Action.c(41): Notify: Parameter Substitution: parameter "goods_id_list_24" =  "I201812111508563880001129"
+goods_id 24:I201812111508563880001129
+Action.c(43): Warning: The string 'shop_id__list_24' with parameter delimiters is not a parameter.
+Action.c(43): Notify: Parameter Substitution: parameter "goods_id_list_24" =  "I201812111508563880001129"
+Action.c(38): Warning: The string 'shop_id__list_25' with parameter delimiters is not a parameter.
+shop_id 25:{shop_id__list_25}
+Action.c(41): Notify: Parameter Substitution: parameter "goods_id_list_25" =  "I201812111508563630001127"
+goods_id 25:I201812111508563630001127
+Action.c(43): Warning: The string 'shop_id__list_25' with parameter delimiters is not a parameter.
+Action.c(43): Notify: Parameter Substitution: parameter "goods_id_list_25" =  "I201812111508563630001127"
+Action.c(38): Warning: The string 'shop_id__list_26' with parameter delimiters is not a parameter.
+shop_id 26:{shop_id__list_26}
+Action.c(41): Notify: Parameter Substitution: parameter "goods_id_list_26" =  "I201812111508563020001124"
+goods_id 26:I201812111508563020001124
+Action.c(43): Warning: The string 'shop_id__list_26' with parameter delimiters is not a parameter.
+Action.c(43): Notify: Parameter Substitution: parameter "goods_id_list_26" =  "I201812111508563020001124"
+Action.c(38): Warning: The string 'shop_id__list_27' with parameter delimiters is not a parameter.
+shop_id 27:{shop_id__list_27}
+Action.c(41): Notify: Parameter Substitution: parameter "goods_id_list_27" =  "I201812111508562690001123"
+goods_id 27:I201812111508562690001123
+Action.c(43): Warning: The string 'shop_id__list_27' with parameter delimiters is not a parameter.
+Action.c(43): Notify: Parameter Substitution: parameter "goods_id_list_27" =  "I201812111508562690001123"
+Action.c(38): Warning: The string 'shop_id__list_28' with parameter delimiters is not a parameter.
+shop_id 28:{shop_id__list_28}
+Action.c(41): Notify: Parameter Substitution: parameter "goods_id_list_28" =  "I201812111508562440001121"
+goods_id 28:I201812111508562440001121
+Action.c(43): Warning: The string 'shop_id__list_28' with parameter delimiters is not a parameter.
+Action.c(43): Notify: Parameter Substitution: parameter "goods_id_list_28" =  "I201812111508562440001121"
+Action.c(38): Warning: The string 'shop_id__list_29' with parameter delimiters is not a parameter.
+shop_id 29:{shop_id__list_29}
+Action.c(41): Notify: Parameter Substitution: parameter "goods_id_list_29" =  "I201811301619530760001114"
+goods_id 29:I201811301619530760001114
+Action.c(43): Warning: The string 'shop_id__list_29' with parameter delimiters is not a parameter.
+Action.c(43): Notify: Parameter Substitution: parameter "goods_id_list_29" =  "I201811301619530760001114"
+Action.c(38): Warning: The string 'shop_id__list_30' with parameter delimiters is not a parameter.
+shop_id 30:{shop_id__list_30}
+Action.c(41): Notify: Parameter Substitution: parameter "goods_id_list_30" =  "I201812111508561530001118"
+goods_id 30:I201812111508561530001118
+Action.c(43): Warning: The string 'shop_id__list_30' with parameter delimiters is not a parameter.
+Action.c(43): Notify: Parameter Substitution: parameter "goods_id_list_30" =  "I201812111508561530001118"
+Action.c(38): Warning: The string 'shop_id__list_31' with parameter delimiters is not a parameter.
+shop_id 31:{shop_id__list_31}
+Action.c(41): Notify: Parameter Substitution: parameter "goods_id_list_31" =  "I201812111508561270001117"
+goods_id 31:I201812111508561270001117
+Action.c(43): Warning: The string 'shop_id__list_31' with parameter delimiters is not a parameter.
+Action.c(43): Notify: Parameter Substitution: parameter "goods_id_list_31" =  "I201812111508561270001117"
+Action.c(38): Warning: The string 'shop_id__list_32' with parameter delimiters is not a parameter.
+shop_id 32:{shop_id__list_32}
+Action.c(41): Notify: Parameter Substitution: parameter "goods_id_list_32" =  "I201811301611145310001651"
+goods_id 32:I201811301611145310001651
+Action.c(43): Warning: The string 'shop_id__list_32' with parameter delimiters is not a parameter.
+Action.c(43): Notify: Parameter Substitution: parameter "goods_id_list_32" =  "I201811301611145310001651"
+Action.c(50): Notify: Transaction "加载app首页" ended with "Pass" status (Duration: 2.0914 Wasted Time: 0.5123).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

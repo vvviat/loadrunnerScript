@@ -1,0 +1,12 @@
+[t1]
+SnapshotXmlFile=snapshot_1.xml
+ContentType=text/plain
+StepName=Custom Request: owner
+Total=1
+FileName1=t1.UNK
+RequestHeaderFile=t1_RequestHeader.txt
+ResponseHeaderFile=t1_ResponseHeader.txt
+RequestBodyFile=t1_RequestBody.txt
+URL1=https://www.wegoab.com/service/album/get_album_themes_list.jsp?act=owner&search_value=&search_img=&start_date=&end_date=&page_index=1&token=NTNBODI4MTUxOTJENkQ3ODJBRUFFNDk1OTEyOUJBMUE4MUI1NTE2RkM4QUZDODM0MUE3RkVEQzQ3NDI4MjQ0OEIzODQxOTlGMjMzQzY3RDI3OTFGRUZCMTExQ0Y5REI0RkQxMjNGQzExNDdGQ0M5QkZCN0M5MENDM0M2MjExNDA=
+[AdditionalInfo]
+IsIgnorable=1

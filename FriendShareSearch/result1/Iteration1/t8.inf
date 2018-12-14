@@ -1,0 +1,12 @@
+[t8]
+SnapshotXmlFile=snapshot_8.xml
+ContentType=text/plain
+StepName=Custom Request: save_theme
+Total=1
+FileName1=t8.UNK
+RequestHeaderFile=t8_RequestHeader.txt
+ResponseHeaderFile=t8_ResponseHeader.txt
+RequestBodyFile=t8_RequestBody.txt
+URL1=https://www.wegoab.com/service/album/album_theme_operation.jsp?act=save_theme&id=&title=060货号AOJAF326RDB+🇫🇷法国高级内衣品牌Amour，可插胸垫，U型美背设计，中等厚度，穿上版型相当好，聚拢效果佳，进口面料，不含荧光剂和甲醛，欧盟标准，尺寸B70，C70，A75，B75，C75，A80，B80，C80，特价59元&main_imgs=["https://xcimg.szwego.com/1544253871_3221608248_0?imageView2/2/format/jpg","https://xcimg.szwego.com/1544253871_1902793939_1?imageView2/2/format/jpg","https://xcimg.szwego.com/1544253871_150756200_2?imageView2/2/format/jpg","https://xcimg.szwego.com/1544253872_3166587506_3?imageView2/2/format/jpg","https://xcimg.szwego.com/1544253872_4245676544_5?imageView2/2/format/jpg","https://xcimg.szwego.com/1544582786_3721387049_0?imageView2/2/format/jpg","https://xcimg.szwego.com/1544582786_266755118_1?imageView2/2/format/jpg"]&tags=[]&personal=0&personalTagIds=[]&sources=[]&source_type=100&album_id=A201807191705440080001796&item_id=I201812121429380840001932&goodsNum=&formats=[]&priceArr=[]&noteArr=[]&batch_share=&token=NjQ3RDAzNDE5ODQwMDE2RDhFRjM1QjYyRTM0RkM3QUIwNkVGNzQwQkJEMEY4NzcxN0Q5RjJFQzcyMkM1QTNCMzcwM0E5MTAyMDU0MDBCNEQ1QzNGMDU4QzAxMUU4MDIw
+[AdditionalInfo]
+IsIgnorable=1
