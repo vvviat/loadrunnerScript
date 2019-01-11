@@ -1,0 +1,12 @@
+[t9]
+SnapshotXmlFile=snapshot_8.xml
+ContentType=text/plain
+StepName=Custom Request: save_theme
+Total=1
+FileName1=t9.UNK
+RequestHeaderFile=t9_RequestHeader.txt
+ResponseHeaderFile=t9_ResponseHeader.txt
+RequestBodyFile=t9_RequestBody.txt
+URL1=https://www.szwego.com/service/album/album_theme_operation.jsp?act=save_theme&album_id=A2018011820342926504&client_type=ios&item_id=I201901102202019810171829&main_imgs=["https://xcimg.szwego.com/1546613155_1270495641_0","https://xcimg.szwego.com/1546613155_1665459575_1","https://xcimg.szwego.com/1546613155_695362146_2","https://xcimg.szwego.com/1546613156_3152744189_3","https://xcimg.szwego.com/1546613156_2923572706_4","https://xcimg.szwego.com/1546613156_4174862964_5","https://xcimg.szwego.com/1546613156_2567822413_6","https://xcimg.szwego.com/1546613156_3786725461_7","https://xcimg.szwego.com/1546613156_3320521131_8"]&mark_code=100200&personal=0&platform=app&share_type=-1&source_type=100&source_url=&sub_imgs=&title=Testing_45428&token=N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4&version=2302
+[AdditionalInfo]
+IsIgnorable=1

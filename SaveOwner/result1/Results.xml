@@ -94,7 +94,7 @@
 <Res><![CDATA[result1]]></Res>
 <Action rID="T2">
 <AName><![CDATA[vuser_init]]></AName>
-<Summary sTime="2018/12/12 星期三 - 16:04:24" eTime="2018/12/12 星期三 - 16:04:24" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="2019-01-11 - 20:51:16" eTime="2019-01-11 - 20:51:16" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="5" >
 <Disp><![CDATA[vuser_init Summary]]></Disp>
 </NodeArgs>
@@ -103,80 +103,88 @@
 <Action rID="T4">
 <AName><![CDATA[Action]]></AName>
 <Step rID="T5">
-<Obj plainTxt="False" ><![CDATA[Custom Request: get_tags1]]></Obj>
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>shop_id</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=123456","shop_id":"</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=","watermark</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=1</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019-01-11 - 20:51:16]]></Time>
+<NodeArgs eType="General" icon="4" nRep="9" >
+<Disp><![CDATA[Service: Reg Save Param]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T6">
+<Obj plainTxt="False" ><![CDATA[Custom Request: owner]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/12 星期三 - 16:04:25]]></Time>
-<NodeArgs eType="General" icon="4" nRep="9" status="Passed" >
-<Disp><![CDATA[Custom Request: get_tags1]]></Disp>
+<Time><![CDATA[2019-01-11 - 20:51:17]]></Time>
+<NodeArgs eType="General" icon="5" nRep="10" status="Passed" >
+<Disp><![CDATA[Custom Request: owner]]></Disp>
 <BtmPane vType="HTMLSNSH">
 <Path><![CDATA[\Iteration1\t1.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T6">
-<Obj plainTxt="False" ><![CDATA[Custom Request: get_tags2]]></Obj>
+<Step rID="T7">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>mark_code</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=mark_code":"</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB="},"errmsg</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=1</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019-01-11 - 20:51:17]]></Time>
+<NodeArgs eType="General" icon="4" nRep="11" >
+<Disp><![CDATA[Service: Reg Save Param]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T8">
+<Obj plainTxt="False" ><![CDATA[Custom Request: get_markcode]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/12 星期三 - 16:04:25]]></Time>
-<NodeArgs eType="General" icon="4" nRep="10" status="Passed" >
-<Disp><![CDATA[Custom Request: get_tags2]]></Disp>
+<Time><![CDATA[2019-01-11 - 20:51:17]]></Time>
+<NodeArgs eType="General" icon="5" nRep="12" status="Passed" >
+<Disp><![CDATA[Custom Request: get_markcode]]></Disp>
 <BtmPane vType="HTMLSNSH">
 <Path><![CDATA[\Iteration1\t2.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T7">
-<Obj plainTxt="False" ><![CDATA[Custom Request: get_formats]]></Obj>
+<Step rID="T9">
+<Obj plainTxt="False" ><![CDATA[Custom Request: save_theme]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/12 星期三 - 16:04:25]]></Time>
-<NodeArgs eType="General" icon="4" nRep="11" status="Passed" >
-<Disp><![CDATA[Custom Request: get_formats]]></Disp>
+<Time><![CDATA[2019-01-11 - 20:51:17]]></Time>
+<NodeArgs eType="General" icon="5" nRep="13" status="Passed" >
+<Disp><![CDATA[Custom Request: save_theme]]></Disp>
 <BtmPane vType="HTMLSNSH">
 <Path><![CDATA[\Iteration1\t3.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T8">
-<Obj plainTxt="False" ><![CDATA[Custom Request: get_qiuniu_token]]></Obj>
+<Step rID="T10">
+<Obj plainTxt="False" ><![CDATA[Custom Request: owner_1]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/12 星期三 - 16:04:25]]></Time>
-<NodeArgs eType="General" icon="4" nRep="12" status="Passed" >
-<Disp><![CDATA[Custom Request: get_qiuniu_token]]></Disp>
+<Time><![CDATA[2019-01-11 - 20:51:18]]></Time>
+<NodeArgs eType="General" icon="5" nRep="14" status="Passed" >
+<Disp><![CDATA[Custom Request: owner_1]]></Disp>
 <BtmPane vType="HTMLSNSH">
 <Path><![CDATA[\Iteration1\t4.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T9">
-<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>save_theme</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB="album_id":"</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=","id</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=1</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/12 星期三 - 16:04:25]]></Time>
-<NodeArgs eType="General" icon="5" nRep="13" >
-<Disp><![CDATA[Service: Reg Save Param]]></Disp>
-</NodeArgs>
-</Step>
-<Step rID="T10">
+<Step rID="T11">
 <Obj plainTxt="False" ><![CDATA[Custom Request: save_theme]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/12 星期三 - 16:04:26]]></Time>
-<NodeArgs eType="General" icon="4" nRep="14" status="Passed" >
+<Time><![CDATA[2019-01-11 - 20:51:18]]></Time>
+<NodeArgs eType="General" icon="5" nRep="15" status="Passed" >
 <Disp><![CDATA[Custom Request: save_theme]]></Disp>
 <BtmPane vType="HTMLSNSH">
 <Path><![CDATA[\Iteration1\t5.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T11">
-<Obj plainTxt="False" ><![CDATA[Custom Request: owner]]></Obj>
+<Step rID="T12">
+<Obj plainTxt="False" ><![CDATA[Custom Request: single_album]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/12 星期三 - 16:04:26]]></Time>
-<NodeArgs eType="General" icon="4" nRep="15" status="Passed" >
-<Disp><![CDATA[Custom Request: owner]]></Disp>
+<Time><![CDATA[2019-01-11 - 20:51:19]]></Time>
+<NodeArgs eType="General" icon="5" nRep="16" status="Passed" >
+<Disp><![CDATA[Custom Request: single_album]]></Disp>
 <BtmPane vType="HTMLSNSH">
 <Path><![CDATA[\Iteration1\t6.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Summary sTime="2018/12/12 星期三 - 16:04:24" eTime="2018/12/12 星期三 - 16:04:26" passed="6" failed="0" warnings="0" ></Summary>
+<Summary sTime="2019-01-11 - 20:51:16" eTime="2019-01-11 - 20:51:19" passed="6" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="8" status="Passed" >
 <Disp><![CDATA[Action Summary]]></Disp>
 </NodeArgs>
@@ -185,14 +193,14 @@
 <Disp><![CDATA[SaveOwner Iteration 1 (Row 1)]]></Disp>
 </NodeArgs>
 </DIter>
-<Action rID="T12">
+<Action rID="T13">
 <AName><![CDATA[vuser_end]]></AName>
-<Summary sTime="2018/12/12 星期三 - 16:04:26" eTime="2018/12/12 星期三 - 16:04:26" passed="0" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="2" nRep="18" >
+<Summary sTime="2019-01-11 - 20:51:19" eTime="2019-01-11 - 20:51:19" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="19" >
 <Disp><![CDATA[vuser_end Summary]]></Disp>
 </NodeArgs>
 </Action>
-<Summary sTime="2018/12/12 星期三 - 16:04:24" eTime="2018/12/12 星期三 - 16:04:26" passed="6" failed="0" warnings="0" ></Summary>
+<Summary sTime="2019-01-11 - 20:51:16" eTime="2019-01-11 - 20:51:19" passed="6" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartTest" icon="1" nRep="4" status="Passed" >
 <Disp><![CDATA[Test SaveOwner Summary]]></Disp>
 </NodeArgs>

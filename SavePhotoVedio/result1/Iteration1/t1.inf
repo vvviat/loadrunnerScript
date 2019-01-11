@@ -1,12 +1,12 @@
 [t1]
 SnapshotXmlFile=snapshot_1.xml
 ContentType=text/plain
-StepName=Custom Request: save_theme
+StepName=Custom Request: attention
 Total=1
 FileName1=t1.UNK
 RequestHeaderFile=t1_RequestHeader.txt
 ResponseHeaderFile=t1_ResponseHeader.txt
 RequestBodyFile=t1_RequestBody.txt
-URL1=https://www.wegoab.com/service/album/album_theme_operation.jsp?act=save_theme&id=&title=this's+a+testing28794&main_imgs=["https://xcimg.szwego.com/o_1cue7aedn1s7u1v7beq91h9315umv.jpg","https://xcimg.szwego.com/o_1cue7alfi1dv71mus1npo45r1hel15.png"]&tags=[]&personal=0&personalTagIds=[]&sources=[]&goodsNum=&formats=[]&priceArr=[]&noteArr=[]&token=OUNENDAzNkU1Mjg1MUI0Qjk5NUUzMzBBNTc2NkQyMThCMDdEOTYzRUI4MEVGMTg3RjNGQ0FBMjUyNjgyODQ1RUQzRDM5MzIxRjM0OEU0REU2QUIyMzREQTE5MzQ0MzgwREZDQjYwN0ZDMDEwOTNGMDlFQTY3NEFERTM5RjQyRDE=
+URL1=https://www.szwego.com/service/album/get_album_list.jsp?act=attention&search_value=&page_index=1&client_type=ios&token=N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4&version=2109
 [AdditionalInfo]
 IsIgnorable=1

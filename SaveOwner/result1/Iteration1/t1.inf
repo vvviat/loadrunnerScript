@@ -1,12 +1,12 @@
 [t1]
 SnapshotXmlFile=snapshot_1.xml
 ContentType=text/plain
-StepName=Custom Request: get_tags1
+StepName=Custom Request: owner
 Total=1
 FileName1=t1.UNK
 RequestHeaderFile=t1_RequestHeader.txt
 ResponseHeaderFile=t1_ResponseHeader.txt
 RequestBodyFile=t1_RequestBody.txt
-URL1=https://www.wegoab.com/service/album/album_theme_tag_operation.jsp?act=get_tags&type=2&goods_id=&token=NjQ3RDAzNDE5ODQwMDE2RDhFRjM1QjYyRTM0RkM3QUIwNkVGNzQwQkJEMEY4NzcxN0Q5RjJFQzcyMkM1QTNCMzcwM0E5MTAyMDU0MDBCNEQ1QzNGMDU4QzAxMUU4MDIw
+URL1=https://www.szwego.com/service/album/get_album_themes_list.jsp?act=owner&shop_id=&search_value=&search_img=&start_date=&end_date=&page_index=1&client_type=ios&token=N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4&version=2302
 [AdditionalInfo]
 IsIgnorable=1

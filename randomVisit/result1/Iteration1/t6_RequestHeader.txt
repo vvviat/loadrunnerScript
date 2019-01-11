@@ -1,9 +1,8 @@
 GET / HTTP/1.1
-Cookie: BD_NOT_HTTPS=1; BIDUPSID=CE9F85743B4EB15C9B9E41BF2B72C5A4; PSTM=1544671628
 User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)
 Accept-Encoding: gzip, deflate
 Accept: */*
-Host: www.baidu.com
+Host: www.sina.com.cn
 Connection: Keep-Alive
 Cache-Control: no-cache
 

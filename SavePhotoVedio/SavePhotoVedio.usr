@@ -22,7 +22,7 @@ GlobalParameterFile=
 RunType=cci
 LastModifyVer=11.0.0.0
 [TransactionsOrder]
-Order="分享商品"
+Order="上家相册分享商品"
 [Actions]
 vuser_init=vuser_init.c
 Action=Action.c
@@ -48,9 +48,12 @@ CurrentState=1
 VuserStateHistory= 0 65536 65552
 LastReplayStatus=1
 [Transactions]
-分享商品=
-[Rendezvous]
-concurrentSave=
+上家相册分享商品=
+[SubTransactions]
+进入好友列表=
+进入上家相册=
+长按分享=
+保存上家商品=
 [ExtraFiles]
 globals.h=
 [Recorded Actions]

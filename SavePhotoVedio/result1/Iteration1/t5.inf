@@ -1,0 +1,12 @@
+[t5]
+SnapshotXmlFile=snapshot_5.xml
+ContentType=text/plain
+StepName=Custom Request: get_watermark
+Total=1
+FileName1=t5.UNK
+RequestHeaderFile=t5_RequestHeader.txt
+ResponseHeaderFile=t5_ResponseHeader.txt
+RequestBodyFile=t5_RequestBody.txt
+URL1=https://www.szwego.com/service/album/album_mark_operation.jsp?act=get_watermark&client_type=ios&token=N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4&version=2302
+[AdditionalInfo]
+IsIgnorable=1

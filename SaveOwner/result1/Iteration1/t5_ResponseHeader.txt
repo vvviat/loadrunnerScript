@@ -1,11 +1,14 @@
 HTTP/1.1 200 
-Server: nginx/1.10.2
-Date: Wed, 12 Dec 2018 08:04:20 GMT
+Server: nginx/1.9.5
+Date: Fri, 11 Jan 2019 12:51:45 GMT
 Content-Type: application/json;charset=UTF-8
 Content-Length: 543
 Connection: close
-Set-Cookie: test_run_to_dev_tomcat=; Max-Age=1; Expires=Wed, 12-Dec-2018 08:04:20 GMT; Path=/
+Set-Cookie: producte_run_to_dev_tomcat=; Max-Age=1; Expires=Fri, 11-Jan-2019 12:51:24 GMT; Path=/
 Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: JSESSIONID=54581C92773D339DB120ECCC171EC774; Path=/; Secure; HttpOnly
+Set-Cookie: client_type=ios; Max-Age=315360000; Expires=Mon, 08-Jan-2029 12:51:23 GMT; Path=/
+Set-Cookie: client_type=ios; Max-Age=315360000; Expires=Mon, 08-Jan-2029 12:51:23 GMT; Path=/
 Cache-Control: no-cache
 Pragma: No-cache
 

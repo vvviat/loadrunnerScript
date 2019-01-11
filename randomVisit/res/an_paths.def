@@ -1,0 +1,14 @@
+[Graph definition]
+GraphTitle=Path delay
+XAxisTitle=Elapsed Scenario Time (seconds)
+YAxisTitle=Delay (mili-seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=CONNECT
+GranularityMode=INCLUDEZERO
+GraphGroupMenuTitle=Network Delay
+CommonDirectory=anpt_paths
+NoDataBehavior=RemoveGraph
+NumberInMenu=1

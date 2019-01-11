@@ -22,7 +22,7 @@ GlobalParameterFile=
 RunType=cci
 LastModifyVer=11.0.0.0
 [TransactionsOrder]
-Order="编辑商品信息窗口__*delimiter*__分享商品__*delimiter*__回到首页"
+Order="个人相册保存商品"
 [ExtraFiles]
 globals.h=
 [Actions]
@@ -62,8 +62,8 @@ CurrentState=1
 VuserStateHistory= 0 65536 65552
 LastReplayStatus=1
 [Transactions]
-编辑商品信息窗口=
-分享商品=
-回到首页=
-[Rendezvous]
-concurrentSave=
+个人相册保存商品=
+[SubTransactions]
+进入相册动态=
+发布商品返回动态=
+发布商品返回个人相册=

@@ -94,7 +94,7 @@
 <Res><![CDATA[result1]]></Res>
 <Action rID="T2">
 <AName><![CDATA[vuser_init]]></AName>
-<Summary sTime="2018/12/13 星期四 - 11:26:54" eTime="2018/12/13 星期四 - 11:26:54" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="2018/12/21 星期五 - 18:08:08" eTime="2018/12/21 星期五 - 18:08:08" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="5" >
 <Disp><![CDATA[vuser_init Summary]]></Disp>
 </NodeArgs>
@@ -105,7 +105,7 @@
 <Step rID="T5">
 <Obj plainTxt="False" ><![CDATA[Url: web_url]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/13 星期四 - 11:26:59]]></Time>
+<Time><![CDATA[2018/12/21 星期五 - 18:08:09]]></Time>
 <NodeArgs eType="General" icon="4" nRep="9" status="Passed" >
 <Disp><![CDATA[Url: web_url]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -116,7 +116,7 @@
 <Step rID="T6">
 <Obj plainTxt="False" ><![CDATA[Url: web_url]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/13 星期四 - 11:27:00]]></Time>
+<Time><![CDATA[2018/12/21 星期五 - 18:08:10]]></Time>
 <NodeArgs eType="General" icon="4" nRep="10" status="Passed" >
 <Disp><![CDATA[Url: web_url]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -127,7 +127,7 @@
 <Step rID="T7">
 <Obj plainTxt="False" ><![CDATA[Url: web_url]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/13 星期四 - 11:27:01]]></Time>
+<Time><![CDATA[2018/12/21 星期五 - 18:08:11]]></Time>
 <NodeArgs eType="General" icon="4" nRep="11" status="Passed" >
 <Disp><![CDATA[Url: web_url]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -138,7 +138,7 @@
 <Step rID="T8">
 <Obj plainTxt="False" ><![CDATA[Url: web_url]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/13 星期四 - 11:27:02]]></Time>
+<Time><![CDATA[2018/12/21 星期五 - 18:08:11]]></Time>
 <NodeArgs eType="General" icon="4" nRep="12" status="Passed" >
 <Disp><![CDATA[Url: web_url]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -149,7 +149,7 @@
 <Step rID="T9">
 <Obj plainTxt="False" ><![CDATA[Url: web_url]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/13 星期四 - 11:27:02]]></Time>
+<Time><![CDATA[2018/12/21 星期五 - 18:08:12]]></Time>
 <NodeArgs eType="General" icon="4" nRep="13" status="Passed" >
 <Disp><![CDATA[Url: web_url]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -160,7 +160,7 @@
 <Step rID="T10">
 <Obj plainTxt="False" ><![CDATA[Url: web_url]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/13 星期四 - 11:27:02]]></Time>
+<Time><![CDATA[2018/12/21 星期五 - 18:08:14]]></Time>
 <NodeArgs eType="General" icon="4" nRep="14" status="Passed" >
 <Disp><![CDATA[Url: web_url]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -171,7 +171,7 @@
 <Step rID="T11">
 <Obj plainTxt="False" ><![CDATA[Url: web_url]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/13 星期四 - 11:27:05]]></Time>
+<Time><![CDATA[2018/12/21 星期五 - 18:08:14]]></Time>
 <NodeArgs eType="General" icon="4" nRep="15" status="Passed" >
 <Disp><![CDATA[Url: web_url]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -182,7 +182,7 @@
 <Step rID="T12">
 <Obj plainTxt="False" ><![CDATA[Url: web_url]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/13 星期四 - 11:27:06]]></Time>
+<Time><![CDATA[2018/12/21 星期五 - 18:08:15]]></Time>
 <NodeArgs eType="General" icon="4" nRep="16" status="Passed" >
 <Disp><![CDATA[Url: web_url]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -193,7 +193,7 @@
 <Step rID="T13">
 <Obj plainTxt="False" ><![CDATA[Url: web_url]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/13 星期四 - 11:27:06]]></Time>
+<Time><![CDATA[2018/12/21 星期五 - 18:08:15]]></Time>
 <NodeArgs eType="General" icon="4" nRep="17" status="Passed" >
 <Disp><![CDATA[Url: web_url]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -204,7 +204,7 @@
 <Step rID="T14">
 <Obj plainTxt="False" ><![CDATA[Url: web_url]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/13 星期四 - 11:27:07]]></Time>
+<Time><![CDATA[2018/12/21 星期五 - 18:08:15]]></Time>
 <NodeArgs eType="General" icon="4" nRep="18" status="Passed" >
 <Disp><![CDATA[Url: web_url]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -215,7 +215,7 @@
 <Step rID="T15">
 <Obj plainTxt="False" ><![CDATA[Url: web_url]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/13 星期四 - 11:27:07]]></Time>
+<Time><![CDATA[2018/12/21 星期五 - 18:08:15]]></Time>
 <NodeArgs eType="General" icon="4" nRep="19" status="Passed" >
 <Disp><![CDATA[Url: web_url]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -226,7 +226,7 @@
 <Step rID="T16">
 <Obj plainTxt="False" ><![CDATA[Url: web_url]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/13 星期四 - 11:27:08]]></Time>
+<Time><![CDATA[2018/12/21 星期五 - 18:08:16]]></Time>
 <NodeArgs eType="General" icon="4" nRep="20" status="Passed" >
 <Disp><![CDATA[Url: web_url]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -237,7 +237,7 @@
 <Step rID="T17">
 <Obj plainTxt="False" ><![CDATA[Url: web_url]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/13 星期四 - 11:27:10]]></Time>
+<Time><![CDATA[2018/12/21 星期五 - 18:08:16]]></Time>
 <NodeArgs eType="General" icon="4" nRep="21" status="Passed" >
 <Disp><![CDATA[Url: web_url]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -248,7 +248,7 @@
 <Step rID="T18">
 <Obj plainTxt="False" ><![CDATA[Url: web_url]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/13 星期四 - 11:27:10]]></Time>
+<Time><![CDATA[2018/12/21 星期五 - 18:08:16]]></Time>
 <NodeArgs eType="General" icon="4" nRep="22" status="Passed" >
 <Disp><![CDATA[Url: web_url]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -259,7 +259,7 @@
 <Step rID="T19">
 <Obj plainTxt="False" ><![CDATA[Url: web_url]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/13 星期四 - 11:27:10]]></Time>
+<Time><![CDATA[2018/12/21 星期五 - 18:08:16]]></Time>
 <NodeArgs eType="General" icon="4" nRep="23" status="Passed" >
 <Disp><![CDATA[Url: web_url]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -270,7 +270,7 @@
 <Step rID="T20">
 <Obj plainTxt="False" ><![CDATA[Url: web_url]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/13 星期四 - 11:27:11]]></Time>
+<Time><![CDATA[2018/12/21 星期五 - 18:08:17]]></Time>
 <NodeArgs eType="General" icon="4" nRep="24" status="Passed" >
 <Disp><![CDATA[Url: web_url]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -281,7 +281,7 @@
 <Step rID="T21">
 <Obj plainTxt="False" ><![CDATA[Url: web_url]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/13 星期四 - 11:27:11]]></Time>
+<Time><![CDATA[2018/12/21 星期五 - 18:08:17]]></Time>
 <NodeArgs eType="General" icon="4" nRep="25" status="Passed" >
 <Disp><![CDATA[Url: web_url]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -292,7 +292,7 @@
 <Step rID="T22">
 <Obj plainTxt="False" ><![CDATA[Url: web_url]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/13 星期四 - 11:27:11]]></Time>
+<Time><![CDATA[2018/12/21 星期五 - 18:08:17]]></Time>
 <NodeArgs eType="General" icon="4" nRep="26" status="Passed" >
 <Disp><![CDATA[Url: web_url]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -303,7 +303,7 @@
 <Step rID="T23">
 <Obj plainTxt="False" ><![CDATA[Url: web_url]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/13 星期四 - 11:27:12]]></Time>
+<Time><![CDATA[2018/12/21 星期五 - 18:08:18]]></Time>
 <NodeArgs eType="General" icon="4" nRep="27" status="Passed" >
 <Disp><![CDATA[Url: web_url]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -314,7 +314,7 @@
 <Step rID="T24">
 <Obj plainTxt="False" ><![CDATA[Url: web_url]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/13 星期四 - 11:27:12]]></Time>
+<Time><![CDATA[2018/12/21 星期五 - 18:08:18]]></Time>
 <NodeArgs eType="General" icon="4" nRep="28" status="Passed" >
 <Disp><![CDATA[Url: web_url]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -325,7 +325,7 @@
 <Step rID="T25">
 <Obj plainTxt="False" ><![CDATA[Url: web_url]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/13 星期四 - 11:27:12]]></Time>
+<Time><![CDATA[2018/12/21 星期五 - 18:08:18]]></Time>
 <NodeArgs eType="General" icon="4" nRep="29" status="Passed" >
 <Disp><![CDATA[Url: web_url]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -336,7 +336,7 @@
 <Step rID="T26">
 <Obj plainTxt="False" ><![CDATA[Url: web_url]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/13 星期四 - 11:27:13]]></Time>
+<Time><![CDATA[2018/12/21 星期五 - 18:08:18]]></Time>
 <NodeArgs eType="General" icon="4" nRep="30" status="Passed" >
 <Disp><![CDATA[Url: web_url]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -347,7 +347,7 @@
 <Step rID="T27">
 <Obj plainTxt="False" ><![CDATA[Url: web_url]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/13 星期四 - 11:27:14]]></Time>
+<Time><![CDATA[2018/12/21 星期五 - 18:08:18]]></Time>
 <NodeArgs eType="General" icon="4" nRep="31" status="Passed" >
 <Disp><![CDATA[Url: web_url]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -358,7 +358,7 @@
 <Step rID="T28">
 <Obj plainTxt="False" ><![CDATA[Url: web_url]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/13 星期四 - 11:27:14]]></Time>
+<Time><![CDATA[2018/12/21 星期五 - 18:08:18]]></Time>
 <NodeArgs eType="General" icon="4" nRep="32" status="Passed" >
 <Disp><![CDATA[Url: web_url]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -369,7 +369,7 @@
 <Step rID="T29">
 <Obj plainTxt="False" ><![CDATA[Url: web_url]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/13 星期四 - 11:27:15]]></Time>
+<Time><![CDATA[2018/12/21 星期五 - 18:08:19]]></Time>
 <NodeArgs eType="General" icon="4" nRep="33" status="Passed" >
 <Disp><![CDATA[Url: web_url]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -380,7 +380,7 @@
 <Step rID="T30">
 <Obj plainTxt="False" ><![CDATA[Url: web_url]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/13 星期四 - 11:27:15]]></Time>
+<Time><![CDATA[2018/12/21 星期五 - 18:08:19]]></Time>
 <NodeArgs eType="General" icon="4" nRep="34" status="Passed" >
 <Disp><![CDATA[Url: web_url]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -391,7 +391,7 @@
 <Step rID="T31">
 <Obj plainTxt="False" ><![CDATA[Url: web_url]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/13 星期四 - 11:27:16]]></Time>
+<Time><![CDATA[2018/12/21 星期五 - 18:08:19]]></Time>
 <NodeArgs eType="General" icon="4" nRep="35" status="Passed" >
 <Disp><![CDATA[Url: web_url]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -399,128 +399,62 @@
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T32">
+<Summary sTime="2018/12/21 星期五 - 18:08:08" eTime="2018/12/21 星期五 - 18:08:19" passed="27" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="8" status="Passed" >
+<Disp><![CDATA[Action Summary]]></Disp>
+</NodeArgs>
+</Action>
+<Action rID="T32">
+<AName><![CDATA[Action2]]></AName>
+<Step rID="T33">
 <Obj plainTxt="False" ><![CDATA[Url: web_url]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/13 星期四 - 11:27:16]]></Time>
-<NodeArgs eType="General" icon="4" nRep="36" status="Passed" >
+<Time><![CDATA[2018/12/21 星期五 - 18:08:19]]></Time>
+<NodeArgs eType="General" icon="4" nRep="38" status="Passed" >
 <Disp><![CDATA[Url: web_url]]></Disp>
 <BtmPane vType="HTMLSNSH">
 <Path><![CDATA[\Iteration1\t28.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T33">
+<Summary sTime="2018/12/21 星期五 - 18:08:19" eTime="2018/12/21 星期五 - 18:08:19" passed="1" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="37" status="Passed" >
+<Disp><![CDATA[Action2 Summary]]></Disp>
+</NodeArgs>
+</Action>
+<Action rID="T34">
+<AName><![CDATA[Action3]]></AName>
+<Step rID="T35">
 <Obj plainTxt="False" ><![CDATA[Url: web_url]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/13 星期四 - 11:27:17]]></Time>
-<NodeArgs eType="General" icon="4" nRep="37" status="Passed" >
+<Time><![CDATA[2018/12/21 星期五 - 18:08:19]]></Time>
+<NodeArgs eType="General" icon="4" nRep="41" status="Passed" >
 <Disp><![CDATA[Url: web_url]]></Disp>
 <BtmPane vType="HTMLSNSH">
 <Path><![CDATA[\Iteration1\t29.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T34">
+<Summary sTime="2018/12/21 星期五 - 18:08:19" eTime="2018/12/21 星期五 - 18:08:19" passed="1" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="40" status="Passed" >
+<Disp><![CDATA[Action3 Summary]]></Disp>
+</NodeArgs>
+</Action>
+<Action rID="T36">
+<AName><![CDATA[Action1]]></AName>
+<Step rID="T37">
 <Obj plainTxt="False" ><![CDATA[Url: web_url]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/13 星期四 - 11:27:18]]></Time>
-<NodeArgs eType="General" icon="4" nRep="38" status="Passed" >
+<Time><![CDATA[2018/12/21 星期五 - 18:08:20]]></Time>
+<NodeArgs eType="General" icon="4" nRep="44" status="Passed" >
 <Disp><![CDATA[Url: web_url]]></Disp>
 <BtmPane vType="HTMLSNSH">
 <Path><![CDATA[\Iteration1\t30.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T35">
-<Obj plainTxt="False" ><![CDATA[Url: web_url]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/13 星期四 - 11:27:18]]></Time>
-<NodeArgs eType="General" icon="4" nRep="39" status="Passed" >
-<Disp><![CDATA[Url: web_url]]></Disp>
-<BtmPane vType="HTMLSNSH">
-<Path><![CDATA[\Iteration1\t31.inf]]></Path>
-</BtmPane>
-</NodeArgs>
-</Step>
-<Step rID="T36">
-<Obj plainTxt="False" ><![CDATA[Url: web_url]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/13 星期四 - 11:27:19]]></Time>
-<NodeArgs eType="General" icon="4" nRep="40" status="Passed" >
-<Disp><![CDATA[Url: web_url]]></Disp>
-<BtmPane vType="HTMLSNSH">
-<Path><![CDATA[\Iteration1\t32.inf]]></Path>
-</BtmPane>
-</NodeArgs>
-</Step>
-<Step rID="T37">
-<Obj plainTxt="False" ><![CDATA[Url: web_url]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/13 星期四 - 11:27:20]]></Time>
-<NodeArgs eType="General" icon="4" nRep="41" status="Passed" >
-<Disp><![CDATA[Url: web_url]]></Disp>
-<BtmPane vType="HTMLSNSH">
-<Path><![CDATA[\Iteration1\t33.inf]]></Path>
-</BtmPane>
-</NodeArgs>
-</Step>
-<Summary sTime="2018/12/13 星期四 - 11:26:54" eTime="2018/12/13 星期四 - 11:27:20" passed="33" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="2" nRep="8" status="Passed" >
-<Disp><![CDATA[Action Summary]]></Disp>
-</NodeArgs>
-</Action>
-<Action rID="T38">
-<AName><![CDATA[Action2]]></AName>
-<Step rID="T39">
-<Obj plainTxt="False" ><![CDATA[Url: web_url]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/13 星期四 - 11:27:20]]></Time>
-<NodeArgs eType="General" icon="4" nRep="44" status="Passed" >
-<Disp><![CDATA[Url: web_url]]></Disp>
-<BtmPane vType="HTMLSNSH">
-<Path><![CDATA[\Iteration1\t34.inf]]></Path>
-</BtmPane>
-</NodeArgs>
-</Step>
-<Summary sTime="2018/12/13 星期四 - 11:27:20" eTime="2018/12/13 星期四 - 11:27:20" passed="1" failed="0" warnings="0" ></Summary>
+<Summary sTime="2018/12/21 星期五 - 18:08:19" eTime="2018/12/21 星期五 - 18:08:20" passed="1" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="43" status="Passed" >
-<Disp><![CDATA[Action2 Summary]]></Disp>
-</NodeArgs>
-</Action>
-<Action rID="T40">
-<AName><![CDATA[Action3]]></AName>
-<Step rID="T41">
-<Obj plainTxt="False" ><![CDATA[Url: web_url]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/13 星期四 - 11:27:20]]></Time>
-<NodeArgs eType="General" icon="4" nRep="47" status="Passed" >
-<Disp><![CDATA[Url: web_url]]></Disp>
-<BtmPane vType="HTMLSNSH">
-<Path><![CDATA[\Iteration1\t35.inf]]></Path>
-</BtmPane>
-</NodeArgs>
-</Step>
-<Summary sTime="2018/12/13 星期四 - 11:27:20" eTime="2018/12/13 星期四 - 11:27:20" passed="1" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="2" nRep="46" status="Passed" >
-<Disp><![CDATA[Action3 Summary]]></Disp>
-</NodeArgs>
-</Action>
-<Action rID="T42">
-<AName><![CDATA[Action1]]></AName>
-<Step rID="T43">
-<Obj plainTxt="False" ><![CDATA[Url: web_url]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/13 星期四 - 11:27:21]]></Time>
-<NodeArgs eType="General" icon="4" nRep="50" status="Passed" >
-<Disp><![CDATA[Url: web_url]]></Disp>
-<BtmPane vType="HTMLSNSH">
-<Path><![CDATA[\Iteration1\t36.inf]]></Path>
-</BtmPane>
-</NodeArgs>
-</Step>
-<Summary sTime="2018/12/13 星期四 - 11:27:20" eTime="2018/12/13 星期四 - 11:27:21" passed="1" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="2" nRep="49" status="Passed" >
 <Disp><![CDATA[Action1 Summary]]></Disp>
 </NodeArgs>
 </Action>
@@ -528,14 +462,14 @@
 <Disp><![CDATA[randomVisit Iteration 1 (Row 1)]]></Disp>
 </NodeArgs>
 </DIter>
-<Action rID="T44">
+<Action rID="T38">
 <AName><![CDATA[vuser_end]]></AName>
-<Summary sTime="2018/12/13 星期四 - 11:27:21" eTime="2018/12/13 星期四 - 11:27:21" passed="0" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="2" nRep="53" >
+<Summary sTime="2018/12/21 星期五 - 18:08:20" eTime="2018/12/21 星期五 - 18:08:20" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="47" >
 <Disp><![CDATA[vuser_end Summary]]></Disp>
 </NodeArgs>
 </Action>
-<Summary sTime="2018/12/13 星期四 - 11:26:54" eTime="2018/12/13 星期四 - 11:27:21" passed="36" failed="0" warnings="0" ></Summary>
+<Summary sTime="2018/12/21 星期五 - 18:08:08" eTime="2018/12/21 星期五 - 18:08:20" passed="30" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartTest" icon="1" nRep="4" status="Passed" >
 <Disp><![CDATA[Test randomVisit Summary]]></Disp>
 </NodeArgs>

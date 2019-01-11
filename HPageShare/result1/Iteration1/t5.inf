@@ -1,0 +1,12 @@
+[t5]
+SnapshotXmlFile=snapshot_4.xml
+ContentType=text/plain
+StepName=Custom Request: get_markcode
+Total=1
+FileName1=t5.UNK
+RequestHeaderFile=t5_RequestHeader.txt
+ResponseHeaderFile=t5_ResponseHeader.txt
+RequestBodyFile=t5_RequestBody.txt
+URL1=https://www.szwego.com/service/album/album_theme_operation.jsp?act=get_markcode&client_type=ios&goods_id=I201812191947475380101700&platform=app&shop_id=A2017123008200225153&token=N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4&version=2302
+[AdditionalInfo]
+IsIgnorable=1

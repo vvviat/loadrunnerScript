@@ -88,13 +88,13 @@
 
 ]
 > <Report ver="2.0" tmZone="中国标准时间">
-<General productName="Vugen" productVer="11" os="" host="Y4C9DEK9U2HSHWY"><DocLocation><![CDATA[C:\Users\Administrator\AppData\Local\Temp\noname1]]></DocLocation></General>
+<General productName="Vugen" productVer="11" os="" host="Y4C9DEK9U2HSHWY"><DocLocation><![CDATA[D:\PerformanceData\HPageSearch]]></DocLocation></General>
 <Doc rID="T1"   productName= "Vugen"  >
-<DName><![CDATA[noname1]]></DName>
+<DName><![CDATA[HPageSearch]]></DName>
 <Res><![CDATA[result1]]></Res>
 <Action rID="T2">
 <AName><![CDATA[vuser_init]]></AName>
-<Summary sTime="2018/12/12 星期三 - 19:08:22" eTime="2018/12/12 星期三 - 19:08:22" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="2019-01-11 - 17:09:53" eTime="2019-01-11 - 17:09:53" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="5" >
 <Disp><![CDATA[vuser_init Summary]]></Disp>
 </NodeArgs>
@@ -104,9 +104,8 @@
 <AName><![CDATA[Action]]></AName>
 <Step rID="T5">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>owner</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=
-{</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=1</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/12 星期三 - 19:08:22]]></Time>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>status</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB="status":</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=,"token"</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=1</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019-01-11 - 17:09:53]]></Time>
 <NodeArgs eType="General" icon="4" nRep="9" >
 <Disp><![CDATA[Service: Reg Save Param]]></Disp>
 </NodeArgs>
@@ -114,7 +113,7 @@
 <Step rID="T6">
 <Obj plainTxt="False" ><![CDATA[Custom Request: owner]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2018/12/12 星期三 - 19:08:26]]></Time>
+<Time><![CDATA[2019-01-11 - 17:09:54]]></Time>
 <NodeArgs eType="General" icon="5" nRep="10" status="Passed" >
 <Disp><![CDATA[Custom Request: owner]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -122,25 +121,25 @@
 </BtmPane>
 </NodeArgs>
 </Step>
-<Summary sTime="2018/12/12 星期三 - 19:08:22" eTime="2018/12/12 星期三 - 19:08:26" passed="1" failed="0" warnings="0" ></Summary>
+<Summary sTime="2019-01-11 - 17:09:53" eTime="2019-01-11 - 17:09:54" passed="1" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="8" status="Passed" >
 <Disp><![CDATA[Action Summary]]></Disp>
 </NodeArgs>
 </Action>
 <NodeArgs eType="StartIteration" icon="3" nRep="7" status="Passed" >
-<Disp><![CDATA[noname1 Iteration 1 (Row 1)]]></Disp>
+<Disp><![CDATA[HPageSearch Iteration 1 (Row 1)]]></Disp>
 </NodeArgs>
 </DIter>
 <Action rID="T7">
 <AName><![CDATA[vuser_end]]></AName>
-<Summary sTime="2018/12/12 星期三 - 19:08:26" eTime="2018/12/12 星期三 - 19:08:26" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="2019-01-11 - 17:09:54" eTime="2019-01-11 - 17:09:54" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="13" >
 <Disp><![CDATA[vuser_end Summary]]></Disp>
 </NodeArgs>
 </Action>
-<Summary sTime="2018/12/12 星期三 - 19:08:22" eTime="2018/12/12 星期三 - 19:08:26" passed="1" failed="0" warnings="0" ></Summary>
+<Summary sTime="2019-01-11 - 17:09:53" eTime="2019-01-11 - 17:09:54" passed="1" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartTest" icon="1" nRep="4" status="Passed" >
-<Disp><![CDATA[Test noname1 Summary]]></Disp>
+<Disp><![CDATA[Test HPageSearch Summary]]></Disp>
 </NodeArgs>
 </Doc>
 </Report>

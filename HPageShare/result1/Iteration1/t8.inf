@@ -1,0 +1,12 @@
+[t8]
+SnapshotXmlFile=snapshot_7.xml
+ContentType=text/plain
+StepName=Custom Request: save_theme
+Total=1
+FileName1=t8.UNK
+RequestHeaderFile=t8_RequestHeader.txt
+ResponseHeaderFile=t8_ResponseHeader.txt
+RequestBodyFile=t8_RequestBody.txt
+URL1=https://www.szwego.com/service/album/album_theme_operation.jsp
+[AdditionalInfo]
+IsIgnorable=1

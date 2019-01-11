@@ -7,6 +7,15 @@ FileName1=t5.UNK
 RequestHeaderFile=t5_RequestHeader.txt
 ResponseHeaderFile=t5_ResponseHeader.txt
 RequestBodyFile=t5_RequestBody.txt
-URL1=https://www.wegoab.com/service/album/album_theme_operation.jsp?act=save_theme&id=&title=this+is+a+testing&main_imgs=["https://xcimg.szwego.com/o_1cugmnv8m1ksr1m6v4j41e0t1n7jp.jpg","https://xcimg.szwego.com/o_1cugmo6o2129b1up11rsk176qelgv.png"]&tags=[]&personal=0&personalTagIds=[]&sources=[]&goodsNum=&formats=[]&priceArr=[]&noteArr=[]&token=NjQ3RDAzNDE5ODQwMDE2RDhFRjM1QjYyRTM0RkM3QUIwNkVGNzQwQkJEMEY4NzcxN0Q5RjJFQzcyMkM1QTNCMzcwM0E5MTAyMDU0MDBCNEQ1QzNGMDU4QzAxMUU4MDIw
+URL1=https://www.szwego.com/service/album/album_theme_operation.jsp?act=save_theme&album_id=A201812080953300270014587&client_type=ios&goodsNum=ABC_834107730&main_imgs=[
+  "https:\/\/xcimg.szwego.com\/1547209778_910270265_0",
+  "https:\/\/xcimg.szwego.com\/1547209778_257527751_1",
+  "https:\/\/xcimg.szwego.com\/1547209778_1237727370_2",
+  "https:\/\/xcimg.szwego.com\/1547209778_1374390121_3",
+  "https:\/\/xcimg.szwego.com\/1547209778_3772973971_4",
+  "https:\/\/xcimg.szwego.com\/1547209778_3229263933_5",
+  "https:\/\/xcimg.szwego.com\/1547209778_3646982984_6",
+  "https:\/\/xcimg.szwego.com\/1547209778_76362054_7"
+]&title=Testing_379117988&token=N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4&version=2302
 [AdditionalInfo]
 IsIgnorable=1

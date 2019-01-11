@@ -1,0 +1,12 @@
+[t3]
+SnapshotXmlFile=snapshot_3.xml
+ContentType=text/plain
+StepName=Custom Request: get_tags_except
+Total=1
+FileName1=t3.UNK
+RequestHeaderFile=t3_RequestHeader.txt
+ResponseHeaderFile=t3_ResponseHeader.txt
+RequestBodyFile=t3_RequestBody.txt
+URL1=https://www.szwego.com/service/album/album_theme_tag_operation.jsp?act=get_tags_except&has_video=0&shop_id=A2018011820342926504&client_type=ios&token=N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4&version=2302
+[AdditionalInfo]
+IsIgnorable=1

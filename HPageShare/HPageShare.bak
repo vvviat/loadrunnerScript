@@ -64,3 +64,8 @@ LastReplayStatus=1
 [Transactions]
 加载app首页=
 分享商品=
+[SubTransactions]
+一键分享=
+获取商品属性=
+获取用户是否vip=
+保存商品=

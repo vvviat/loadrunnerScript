@@ -1,12 +1,12 @@
 [t6]
 SnapshotXmlFile=snapshot_6.xml
 ContentType=text/plain
-StepName=Custom Request: owner
+StepName=Custom Request: single_album
 Total=1
 FileName1=t6.UNK
 RequestHeaderFile=t6_RequestHeader.txt
 ResponseHeaderFile=t6_ResponseHeader.txt
 RequestBodyFile=t6_RequestBody.txt
-URL1=https://www.wegoab.com/service/album/get_album_themes_list.jsp?act=owner&shop_id=A201807191705440080001796&search_value=&search_img=&start_date=&end_date=&page_index=1&slip_type=0&time_stamp=1544600608765&token=NjQ3RDAzNDE5ODQwMDE2RDhFRjM1QjYyRTM0RkM3QUIwNkVGNzQwQkJEMEY4NzcxN0Q5RjJFQzcyMkM1QTNCMzcwM0E5MTAyMDU0MDBCNEQ1QzNGMDU4QzAxMUU4MDIw
+URL1=https://www.szwego.com/service/album/get_album_themes_list.jsp?act=single_album&shop_id=A201812080953300270014587&search_value=&search_img=&start_date=&end_date=&tag=[]&page_index=1&from_id=&client_type=ios&token=N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4&version=2302
 [AdditionalInfo]
 IsIgnorable=1

@@ -1,71 +1,21 @@
-Virtual User Script started at : 2018-12-13 10:21:50
-Starting action vuser_init.
-Web Turbo Replay of LoadRunner 11.0.0 for Windows 7; build 8859 (Aug 18 2010 20:14:31)  	[MsgId: MMSG-27143]
-Run Mode: HTML  	[MsgId: MMSG-26000]
-Run-Time Settings file: "D:\PerformanceData\HPageShare\\default.cfg"  	[MsgId: MMSG-27141]
-Ending action vuser_init.
-Running Vuser...
-Starting iteration 1.
-Starting action Action.
-Action.c(4): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
-Action.c(13): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
-Action.c(22): Notify: Transaction "加载app首页" started.
-Action.c(24): Notify: Parameter Substitution: parameter "requestUrl" =  "www.szwego.com"
-Action.c(24): Notify: Parameter Substitution: parameter "userToken" =  "N0E5QzIyNEQ2ODYyRjc1RjI0OTdDNDBCNUYxNDM4Q0RFODBDNTAxNUQ3QTZFRDQyQzUzQzk1QUY3NTU1OTE2RUUzN0Q3N0MyNzcwNkVDODVCNDM5RTkzMTNCRUIxMDgy"
-Action.c(24): Notify: Saving Parameter "goods_id_list_1 = I201812122050523110129690".
-Action.c(24): Notify: Saving Parameter "shop_id_list_1 = A201812080953300270014587".
-Action.c(24): Notify: Saving Parameter "goods_id_list_2 = I201812122052000940172115".
-Action.c(24): Notify: Saving Parameter "shop_id_list_2 = A201812080953300270014587".
-Action.c(24): Notify: Saving Parameter "goods_id_list_3 = I201812122047112810122067".
-Action.c(24): Notify: Saving Parameter "shop_id_list_3 = A201812080953300270014587".
-Action.c(24): Notify: Saving Parameter "goods_id_list_4 = I201812112342234460160804".
-Action.c(24): Notify: Saving Parameter "shop_id_list_4 = A201812080953300270014587".
-Action.c(24): Notify: Saving Parameter "goods_id_list_5 = I201812121558140770143559".
-Action.c(24): Notify: Saving Parameter "shop_id_list_5 = A201812080953300270014587".
-Action.c(24): Notify: Saving Parameter "goods_id_list_6 = I201812130939257760195560".
-Action.c(24): Notify: Saving Parameter "shop_id_list_6 = A201812080953300270014587".
-Action.c(24): Notify: Saving Parameter "goods_id_list_7 = I201812122350302050145607".
-Action.c(24): Notify: Saving Parameter "shop_id_list_7 = A2017030218010685588".
-Action.c(24): Notify: Saving Parameter "goods_id_list_8 = I201812122323332890167149".
-Action.c(24): Notify: Saving Parameter "shop_id_list_8 = A201812080953300270014587".
-Action.c(24): Notify: Saving Parameter "goods_id_list_9 = I201812121506496220114421".
-Action.c(24): Notify: Saving Parameter "shop_id_list_9 = A201812080953300270014587".
-Action.c(24): Notify: Saving Parameter "goods_id_list_10 = I201812121046596360006278".
-Action.c(24): Notify: Saving Parameter "shop_id_list_10 = A2017030218010685588".
-Action.c(24): Notify: Saving Parameter "goods_id_list_11 = I201812112345494030118937".
-Action.c(24): Notify: Saving Parameter "shop_id_list_11 = A201812080953300270014587".
-Action.c(24): Notify: Saving Parameter "goods_id_list_12 = I201812082204440760123652".
-Action.c(24): Notify: Saving Parameter "shop_id_list_12 = A201812080953300270014587".
-Action.c(24): Notify: Saving Parameter "goods_id_list_13 = I201812100958321760168587".
-Action.c(24): Notify: Saving Parameter "shop_id_list_13 = A2017030218010685588".
-Action.c(24): Notify: Saving Parameter "goods_id_list_14 = I201812100957191360143695".
-Action.c(24): Notify: Saving Parameter "shop_id_list_14 = A2017030218010685588".
-Action.c(24): Notify: Saving Parameter "goods_id_list_15 = I201812091305385310151258".
-Action.c(24): Notify: Saving Parameter "shop_id_list_15 = A2017030218010685588".
-Action.c(24): Notify: Saving Parameter "goods_id_list_16 = I201810191844114840158693".
-Action.c(24): Notify: Saving Parameter "shop_id_list_16 = A2017030218010685588".
-Action.c(24): Notify: Saving Parameter "goods_id_list_17 = I201812091300091120133651".
-Action.c(24): Notify: Saving Parameter "shop_id_list_17 = A2017030218010685588".
-Action.c(24): Notify: Saving Parameter "goods_id_list_count = 17".
-Action.c(24): Notify: Saving Parameter "shop_id_list_count = 17".
-Action.c(24): web_custom_request("owner") was successful, 7246 body bytes, 913 header bytes  	[MsgId: MMSG-26386]
-Action.c(30): Notify: Transaction "加载app首页" ended with "Pass" status (Duration: 0.9748 Wasted Time: 0.5031).
-Action.c(32): Notify: Parameter Substitution: parameter "goods_id_list_count" =  "17"
-Action.c(32): Notify: Parameter Substitution: parameter "goods_id_list_8" =  "I201812122323332890167149"
-Action.c(32): Notify: Saving Parameter "goods_id_random = I201812122323332890167149".
-Action.c(33): Notify: Parameter Substitution: parameter "shop_id_list_count" =  "17"
-Action.c(33): Notify: Parameter Substitution: parameter "shop_id_list_3" =  "A201812080953300270014587"
-Action.c(33): Notify: Saving Parameter "shop_id_random = A201812080953300270014587".
-Action.c(35): Notify: Transaction "分享商品" started.
-Action.c(37): Notify: Parameter Substitution: parameter "requestUrl" =  "www.szwego.com"
-Action.c(37): Notify: Parameter Substitution: parameter "shop_id_random" =  "A201812080953300270014587"
-Action.c(37): Notify: Parameter Substitution: parameter "goods_id_random" =  "I201812122323332890167149"
-Action.c(37): Notify: Parameter Substitution: parameter "userToken" =  "N0E5QzIyNEQ2ODYyRjc1RjI0OTdDNDBCNUYxNDM4Q0RFODBDNTAxNUQ3QTZFRDQyQzUzQzk1QUY3NTU1OTE2RUUzN0Q3N0MyNzcwNkVDODVCNDM5RTkzMTNCRUIxMDgy"
-Action.c(37): web_custom_request("share_plat") was successful, 298 body bytes, 431 header bytes  	[MsgId: MMSG-26386]
-Action.c(43): Notify: Transaction "分享商品" ended with "Pass" status (Duration: 0.0909 Wasted Time: 0.0028).
-Ending action Action.
-Ending iteration 1.
-Ending Vuser...
-Starting action vuser_end.
-Ending action vuser_end.
-Vuser Terminated.
+Action.c (76): undeclared identifier `status'
+Action.c (78): illegal character `\0243'
+Action.c (78): illegal character `\0250'
+Action.c (78): syntax error; found `status' expecting `('
+Action.c (78): illegal character `\0243'
+Action.c (78): illegal character `\0251'
+Action.c (79): syntax error; found `lr_end_sub_transaction' expecting `)'
+Action.c (79): illegal character `\0243'
+Action.c (79): illegal character `\0250'
+Action.c (79): illegal character `\0241'
+Action.c (79): illegal character `\0260'
+Action.c (79): syntax error; found `electrical_purchases' expecting `;'
+Action.c (79): illegal character `\0241'
+Action.c (79): illegal character `\0261'
+Action.c (79): illegal character `\0243'
+Action.c (79): illegal character `\0254'
+Action.c (79): undeclared identifier `electrical_purchases'
+Action.c (79): syntax error; found `2' expecting `;'
+Action.c (79): illegal character `\0243'
+Action.c (79): illegal character `\0251'
+Action.c (80): too many errors

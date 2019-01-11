@@ -3,7 +3,7 @@
 -D_IDA_XL
 -DWINNT
 -ID:\PerformanceData\HPageShare
--ID:\Program Files (x86)\HP\LoadRunner\include
+-ID:\LoadRunner11\include
 -ed:\performancedata\hpageshare\\logfile.log
 d:\performancedata\hpageshare\\combined_HPageShare.c
 d:\performancedata\hpageshare\\pre_cci.c

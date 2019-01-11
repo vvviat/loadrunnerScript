@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\PerformanceData\HPageSearch
+-ID:\LoadRunner11\include
+-ed:\performancedata\hpagesearch\\logfile.log
+d:\performancedata\hpagesearch\\combined_HPageSearch.c
+d:\performancedata\hpagesearch\\pre_cci.c

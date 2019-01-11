@@ -1,18 +1,20 @@
 HTTP/1.1 200 OK
-Server: edge-esnssl-1.12.1-13
-Date: Thu, 13 Dec 2018 03:27:01 GMT
-Content-Type: text/html
-Content-Length: 129396
 Connection: keep-alive
-Last-Modified: Thu, 13 Dec 2018 03:24:03 GMT
-Vary: Accept-Encoding
-X-Powered-By: shci_v1.03
-Expires: Thu, 13 Dec 2018 03:28:00 GMT
-Cache-Control: max-age=60
+Container: 2080868.hz_hao123_online_3754
 Content-Encoding: gzip
-Age: 1
-Via: https/1.1 ctc.ningbo.ha2ts4.74 (ApacheTrafficServer/6.2.1 [cHs f ]), https/1.1 ctc.xiamen.ha2ts4.41 (ApacheTrafficServer/6.2.1 [cHs f ])
-X-Via-Edge: 154467162123274b557713cd64cde2317bdd7
-X-Cache: MISS.MERGE.41
-X-Via-CDN: f=edge,s=ctc.xiamen.edssl.22.nb.sinaedge.com,c=113.87.181.116;f=edge,s=ctc.xiamen.ha2ts4.36.nb.sinaedge.com,c=222.76.214.22;f=Edge,s=ctc.xiamen.ha2ts4.41,c=222.76.214.36
+Content-Type: text/html;charset=UTF-8
+Cxy_all: +0236e14dd17da4638d701c73908c76a0
+Date: Fri, 21 Dec 2018 10:08:07 GMT
+Lfy: hz01.47844
+P3p: CP=" OTI DSP COR IVA OUR IND COM "
+Server: Apache
+Set-Cookie: ft=1; expires=Fri, 21-Dec-2018 15:59:59 GMT
+Set-Cookie: v_pg=normal
+Set-Cookie: hz=0; path=/; domain=www.hao123.com
+Set-Cookie: BAIDUID=1B13F5D6265F1C17AE158CBB190D16A7:FG=1; expires=Sat, 21-Dec-19 10:08:07 GMT; max-age=31536000; path=/; domain=.hao123.com; version=1
+Set-Cookie: __bsi=10871791661713612859_00_49_N_N_189_0303_c013_Y; max-age=3600; domain=www.hao123.com; path=/
+Tracecode: 04875419180439275786122118
+Tracecode: 04875397340499569418122118
+Vary: Accept-Encoding
+Transfer-Encoding: chunked
 

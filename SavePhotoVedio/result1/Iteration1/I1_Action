@@ -1,3 +1,12 @@
 [t-1]
-PassCount=1
 Pass1=t1
+Pass2=t2
+Pass3=t3
+Pass4=t4
+Pass5=t5
+Pass6=t6
+Pass7=t8
+Pass8=t9
+Pass9=t10
+Pass10=t11
+PassCount=10

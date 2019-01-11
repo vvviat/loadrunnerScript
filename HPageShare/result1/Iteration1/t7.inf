@@ -1,0 +1,12 @@
+[t7]
+SnapshotXmlFile=snapshot_6.xml
+ContentType=text/plain
+StepName=Custom Request: get_vip_object
+Total=1
+FileName1=t7.UNK
+RequestHeaderFile=t7_RequestHeader.txt
+ResponseHeaderFile=t7_ResponseHeader.txt
+RequestBodyFile=t7_RequestBody.txt
+URL1=https://www.szwego.com/service/account/user_info_operation.jsp?act=get_vip_object&client_type=ios&platform=app&token=N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4&version=2302
+[AdditionalInfo]
+IsIgnorable=1

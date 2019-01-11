@@ -1,14 +1,18 @@
 HTTP/1.1 200 
-Server: nginx/1.10.2
-Date: Wed, 12 Dec 2018 11:36:40 GMT
+Server: nginx/1.9.5
+Date: Fri, 11 Jan 2019 12:18:33 GMT
 Content-Type: application/json;charset=UTF-8
-Content-Length: 592
+Transfer-Encoding: chunked
 Connection: close
-Set-Cookie: test_run_to_dev_tomcat=; Max-Age=1; Expires=Wed, 12-Dec-2018 11:36:41 GMT; Path=/
+Set-Cookie: producte_run_to_dev_tomcat=; Max-Age=1; Expires=Fri, 11-Jan-2019 12:18:11 GMT; Path=/
 Expires: Thu, 01 Jan 1970 00:00:00 GMT
-Set-Cookie: JSESSIONID=95539723E00B7EE1CC0DD28E4CC8C963; Path=/; Secure; HttpOnly
-Set-Cookie: test_token=OUNENDAzNkU1Mjg1MUI0Qjk5NUUzMzBBNTc2NkQyMThCMDdEOTYzRUI4MEVGMTg3RjNGQ0FBMjUyNjgyODQ1RUQzRDM5MzIxRjM0OEU0REU2QUIyMzREQTE5MzQ0MzgwREZDQjYwN0ZDMDEwOTNGMDlFQTY3NEFERTM5RjQyRDE=; Max-Age=315360000; Expires=Sat, 09-Dec-2028 11:36:40 GMT; Path=/
-Set-Cookie: test_token=OUNENDAzNkU1Mjg1MUI0Qjk5NUUzMzBBNTc2NkQyMThCMDdEOTYzRUI4MEVGMTg3RjNGQ0FBMjUyNjgyODQ1RUQzRDM5MzIxRjM0OEU0REU2QUIyMzREQTE5MzQ0MzgwREZDQjYwN0ZDMDEwOTNGMDlFQTY3NEFERTM5RjQyRDE=; Max-Age=315360000; Expires=Sat, 09-Dec-2028 11:36:40 GMT; Path=/
+Set-Cookie: JSESSIONID=2DB0ADDC1A9366BA63ABA7074A4023CF; Path=/; Secure; HttpOnly
+Set-Cookie: client_type=ios; Max-Age=315360000; Expires=Mon, 08-Jan-2029 12:18:10 GMT; Path=/
+Set-Cookie: token=N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4; Max-Age=315360000; Expires=Mon, 08-Jan-2029 12:18:10 GMT; Path=/
+Set-Cookie: client_type=ios; Max-Age=315360000; Expires=Mon, 08-Jan-2029 12:18:10 GMT; Path=/
+Set-Cookie: token=N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4; Max-Age=315360000; Expires=Mon, 08-Jan-2029 12:18:10 GMT; Path=/
 Cache-Control: no-cache
 Pragma: No-cache
+Content-Encoding: gzip
+Vary: Accept-Encoding
 

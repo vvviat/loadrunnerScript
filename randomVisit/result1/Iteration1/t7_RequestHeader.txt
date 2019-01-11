@@ -1,5 +1,5 @@
 GET / HTTP/1.1
-Cookie: ft=1; v_pg=normal; hz=0; BAIDUID=2EA2B8CF27E498710F40F309C9D96CD9:FG=1; __bsi=10875709260571724826_00_52_N_N_131_0303_c013_Y
+Cookie: ft=1; v_pg=s_10%2Cs_109; hz=0; BAIDUID=980FA391C8DFD6F31F675A1768E2B827:FG=1; __bsi=11210714764086686771_00_36_R_N_174_0303_c013_Y; org=1
 User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)
 Accept-Encoding: gzip, deflate
 Accept: */*

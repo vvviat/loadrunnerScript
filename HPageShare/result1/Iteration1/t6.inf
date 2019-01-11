@@ -1,0 +1,12 @@
+[t6]
+SnapshotXmlFile=snapshot_5.xml
+ContentType=text/plain
+StepName=Custom Request: get_all_tag
+Total=1
+FileName1=t6.UNK
+RequestHeaderFile=t6_RequestHeader.txt
+ResponseHeaderFile=t6_ResponseHeader.txt
+RequestBodyFile=t6_RequestBody.txt
+URL1=https://www.szwego.com/service/album/album_group.jsp?act=get_all_tag&client_type=ios&platform=app&token=N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4&version=2302
+[AdditionalInfo]
+IsIgnorable=1

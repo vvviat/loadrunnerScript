@@ -1,5 +1,5 @@
 # 1 "d:\\performancedata\\hpageshare\\\\combined_HPageShare.c"
-# 1 "D:\\Program Files (x86)\\HP\\LoadRunner\\include/lrun.h" 1
+# 1 "D:\\LoadRunner11\\include/lrun.h" 1
  
  
 
@@ -26,7 +26,7 @@
 
 
 
-# 103 "D:\\Program Files (x86)\\HP\\LoadRunner\\include/lrun.h"
+# 103 "D:\\LoadRunner11\\include/lrun.h"
 
 
 
@@ -178,7 +178,7 @@ int lr_generate_uuid_free(lr_uuid_t uuid);
 int lr_generate_uuid_on_buf(lr_uuid_t buf);
 
    
-# 263 "D:\\Program Files (x86)\\HP\\LoadRunner\\include/lrun.h"
+# 263 "D:\\LoadRunner11\\include/lrun.h"
 int lr_start_distributed_transaction  (char * transaction_name, lr_uuid_t correlator, long timeout  );
 
    
@@ -418,11 +418,11 @@ int   lr_msg (char * fmt, ...);
 int   lr_debug_message (unsigned int msg_class,
 									    char * format,
 										...);
-# 502 "D:\\Program Files (x86)\\HP\\LoadRunner\\include/lrun.h"
+# 502 "D:\\LoadRunner11\\include/lrun.h"
 void   lr_new_prefix (int type,
                                  char * filename,
                                  int line);
-# 505 "D:\\Program Files (x86)\\HP\\LoadRunner\\include/lrun.h"
+# 505 "D:\\LoadRunner11\\include/lrun.h"
 int   lr_log_message (char * fmt, ...);
 int   lr_message (char * fmt, ...);
 int   lr_error_message (char * fmt, ...);
@@ -436,7 +436,7 @@ int   lr_fail_trans_with_error (char * fmt, ...);
  
  
  
-# 528 "D:\\Program Files (x86)\\HP\\LoadRunner\\include/lrun.h"
+# 528 "D:\\LoadRunner11\\include/lrun.h"
 
  
  
@@ -471,7 +471,7 @@ int   lr_eval_string_ext (const char *in_str,
                                      unsigned long const options,
                                      const char *file,
 								     long const line);
-# 562 "D:\\Program Files (x86)\\HP\\LoadRunner\\include/lrun.h"
+# 562 "D:\\LoadRunner11\\include/lrun.h"
 void   lr_eval_string_ext_free (char * * pstr);
 
  
@@ -495,7 +495,7 @@ void   lr_eval_string_ext_free (char * * pstr);
  
 int lr_param_increment (char * dst_name,
                               char * src_name);
-# 585 "D:\\Program Files (x86)\\HP\\LoadRunner\\include/lrun.h"
+# 585 "D:\\LoadRunner11\\include/lrun.h"
 
 
 
@@ -520,7 +520,7 @@ int	  lr_save_var (char *              param_val,
 							  unsigned long const param_val_len,
 							  unsigned long const options,
 							  char *			  param_name);
-# 609 "D:\\Program Files (x86)\\HP\\LoadRunner\\include/lrun.h"
+# 609 "D:\\LoadRunner11\\include/lrun.h"
 int   lr_save_string (const char * param_val, const char * param_name);
 int   lr_free_parameter (const char * param_name);
 int   lr_save_int (const int param_val, const char * param_name);
@@ -532,7 +532,7 @@ int   lr_save_int (const int param_val, const char * param_name);
  
  
  
-# 676 "D:\\Program Files (x86)\\HP\\LoadRunner\\include/lrun.h"
+# 676 "D:\\LoadRunner11\\include/lrun.h"
 void   lr_save_datetime (const char *format, int offset, const char *name);
 
 
@@ -594,7 +594,7 @@ char * lr_table_get_cell_by_col_name (char * param_name, int row, const char* co
 int lr_table_get_column_name_by_index (char * param_name, int col, 
 											char * * const col_name,
 											int * col_name_len);
-# 737 "D:\\Program Files (x86)\\HP\\LoadRunner\\include/lrun.h"
+# 737 "D:\\LoadRunner11\\include/lrun.h"
 
 int lr_table_get_column_name_by_index_free (char * col_name);
 
@@ -620,12 +620,12 @@ int   lr_param_substit (char * file,
                                    int const in_len,
                                    char * * const out_str,
                                    int * const out_len);
-# 762 "D:\\Program Files (x86)\\HP\\LoadRunner\\include/lrun.h"
+# 762 "D:\\LoadRunner11\\include/lrun.h"
 void   lr_param_substit_free (char * * pstr);
 
 
  
-# 774 "D:\\Program Files (x86)\\HP\\LoadRunner\\include/lrun.h"
+# 774 "D:\\LoadRunner11\\include/lrun.h"
 
 
 
@@ -634,14 +634,14 @@ void   lr_param_substit_free (char * * pstr);
 char *   lrfnc_eval_string (char * str,
                                       char * file_name,
                                       long const line_num);
-# 782 "D:\\Program Files (x86)\\HP\\LoadRunner\\include/lrun.h"
+# 782 "D:\\LoadRunner11\\include/lrun.h"
 
 
 int   lrfnc_save_string ( const char * param_val,
                                      const char * param_name,
                                      const char * file_name,
                                      long const line_num);
-# 788 "D:\\Program Files (x86)\\HP\\LoadRunner\\include/lrun.h"
+# 788 "D:\\LoadRunner11\\include/lrun.h"
 
 int   lrfnc_free_parameter (const char * param_name );
 
@@ -653,7 +653,7 @@ int lr_save_searched_string(char *buffer, long buf_size, unsigned int occurrence
 char *   lr_string (char * str);
 
  
-# 859 "D:\\Program Files (x86)\\HP\\LoadRunner\\include/lrun.h"
+# 859 "D:\\LoadRunner11\\include/lrun.h"
 
 int   lr_save_value (char * param_val,
                                 unsigned long const param_val_len,
@@ -661,7 +661,7 @@ int   lr_save_value (char * param_val,
                                 char * param_name,
                                 char * file_name,
                                 long const line_num);
-# 866 "D:\\Program Files (x86)\\HP\\LoadRunner\\include/lrun.h"
+# 866 "D:\\LoadRunner11\\include/lrun.h"
 
 
  
@@ -684,7 +684,7 @@ int   lr_printf (char * fmt, ...);
  
 int   lr_set_debug_message (unsigned int msg_class,
                                        unsigned int swtch);
-# 888 "D:\\Program Files (x86)\\HP\\LoadRunner\\include/lrun.h"
+# 888 "D:\\LoadRunner11\\include/lrun.h"
 unsigned int   lr_get_debug_message (void);
 
 
@@ -714,7 +714,7 @@ int *   lr_localtime (long offset);
 int   lr_send_port (long port);
 
 
-# 964 "D:\\Program Files (x86)\\HP\\LoadRunner\\include/lrun.h"
+# 964 "D:\\LoadRunner11\\include/lrun.h"
 
 
 
@@ -732,10 +732,10 @@ void vuser_declaration (void);
 
 
 
-# 993 "D:\\Program Files (x86)\\HP\\LoadRunner\\include/lrun.h"
+# 993 "D:\\LoadRunner11\\include/lrun.h"
 
 
-# 1005 "D:\\Program Files (x86)\\HP\\LoadRunner\\include/lrun.h"
+# 1005 "D:\\LoadRunner11\\include/lrun.h"
 
 
 
@@ -831,7 +831,7 @@ int lr_convert_string_encoding(char *sourceString, char *fromEncoding, char *toE
  
  
 
-# 1 "D:\\Program Files (x86)\\HP\\LoadRunner\\include/web_api.h" 1
+# 1 "D:\\LoadRunner11\\include/web_api.h" 1
  
 
 
@@ -840,7 +840,7 @@ int lr_convert_string_encoding(char *sourceString, char *fromEncoding, char *toE
 
 
 
-# 1 "D:\\Program Files (x86)\\HP\\LoadRunner\\include/as_web.h" 1
+# 1 "D:\\LoadRunner11\\include/as_web.h" 1
  
 
 
@@ -1426,13 +1426,10 @@ int lr_convert_string_encoding(char *sourceString, char *fromEncoding, char *toE
 
 
 
-# 596 "D:\\Program Files (x86)\\HP\\LoadRunner\\include/as_web.h"
+# 596 "D:\\LoadRunner11\\include/as_web.h"
 
 
-# 609 "D:\\Program Files (x86)\\HP\\LoadRunner\\include/as_web.h"
-
-
-
+# 609 "D:\\LoadRunner11\\include/as_web.h"
 
 
 
@@ -1457,7 +1454,10 @@ int lr_convert_string_encoding(char *sourceString, char *fromEncoding, char *toE
 
 
 
-# 647 "D:\\Program Files (x86)\\HP\\LoadRunner\\include/as_web.h"
+
+
+
+# 647 "D:\\LoadRunner11\\include/as_web.h"
 
  
  
@@ -1504,7 +1504,7 @@ int lr_convert_string_encoding(char *sourceString, char *fromEncoding, char *toE
 
 
 
-# 715 "D:\\Program Files (x86)\\HP\\LoadRunner\\include/as_web.h"
+# 715 "D:\\LoadRunner11\\include/as_web.h"
 
 
 
@@ -1517,7 +1517,7 @@ int lr_convert_string_encoding(char *sourceString, char *fromEncoding, char *toE
 
 
 
-# 10 "D:\\Program Files (x86)\\HP\\LoadRunner\\include/web_api.h" 2
+# 10 "D:\\LoadRunner11\\include/web_api.h" 2
 
 
 
@@ -1721,7 +1721,7 @@ int lr_convert_string_encoding(char *sourceString, char *fromEncoding, char *toE
 
 # 7 "globals.h" 2
 
-# 1 "D:\\Program Files (x86)\\HP\\LoadRunner\\include/lrw_custom_body.h" 1
+# 1 "D:\\LoadRunner11\\include/lrw_custom_body.h" 1
  
 
 
@@ -1747,6 +1747,7 @@ vuser_init()
 # 1 "Action.c" 1
 Action()
 {
+	char tmp[50];
  
 	web_reg_save_param_ex(
 	"ParamName=goods_id_list",
@@ -1766,6 +1767,23 @@ Action()
 	"SEARCH_FILTERS",
 	"LAST");
 
+	web_reg_save_param_ex(
+	"ParamName=title",
+	"LB=title\":\"",
+	"RB=\",\"videoURL",
+	"NotFound=warning",
+	"SEARCH_FILTERS",
+	"LAST");
+
+	web_reg_save_param_ex(
+	"ParamName=imges",
+	"LB=\"imgs\":",
+	"RB=,\"watermark",
+	"NotFound=warning",
+	"SEARCH_FILTERS",
+	"LAST");
+
+
 	lr_start_transaction("加载app首页");
 
     web_custom_request("owner",
@@ -1775,19 +1793,86 @@ Action()
                        "LAST");
 
 	lr_end_transaction("加载app首页",0);
+ 
 
-	lr_save_string(lr_paramarr_random("goods_id_list"), "goods_id_random");
-	lr_save_string(lr_paramarr_random("shop_id_list"), "shop_id_random");
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+
+    web_convert_param("imges", "SourceEncoding=PLAIN", "TargetEncoding=URL", "LAST" ); 
 
 	lr_start_transaction("分享商品");
 
-    web_custom_request("share_plat",
-                       "Url=https://{requestUrl}/service/album/share_operation.jsp?act=share_plat&search_value=&albumId={shop_id_random}&itemId={goods_id_random}&token={userToken}",
-                       "Method=GET",
-                       "Mode=HTTP",
-                       "LAST");
+	lr_start_sub_transaction("一键分享","分享商品");
 
-	lr_end_transaction("分享商品",0);
+	web_custom_request("hold_theme",
+					   "Url=https://{requestUrl}/service/album/album_theme_operation.jsp?act=hold_theme&client_type=ios&token={userToken}&version=2302&shop_id={shop_id_list_1}&goods_id={goods_id_list_1}",
+					   "Method=GET",
+					   "Mode=HTTP",
+					   "LAST");
+	lr_end_sub_transaction("一键分享",2);
+
+
+	lr_start_sub_transaction("获取商品属性","分享商品");
+
+	web_custom_request("get_markcode",
+					   "Url=https://{requestUrl}/service/album/album_theme_operation.jsp?act=get_markcode&client_type=ios&goods_id={goods_id_list_1}&platform=app&shop_id={shop_id_list_1}&token={userToken}&version=2302",
+					   "Method=GET",
+					   "Mode=HTTP",
+					   "LAST");
+
+	web_custom_request("get_markcode",
+					   "Url=https://{requestUrl}/service/album/album_theme_operation.jsp?act=get_markcode&client_type=ios&goods_id={goods_id_list_1}&platform=app&shop_id={shop_id_list_1}&token={userToken}&version=2302",
+					   "Method=GET",
+					   "Mode=HTTP",
+					   "LAST");
+
+	web_custom_request("get_all_tag",
+					   "Url=https://{requestUrl}/service/album/album_group.jsp?act=get_all_tag&client_type=ios&platform=app&token={userToken}&version=2302",
+					   "Method=GET",
+					   "Mode=HTTP",
+					   "LAST");
+
+	lr_end_sub_transaction("获取商品属性",2);
+
+	lr_start_sub_transaction("get_vip_object","分享商品");
+
+	web_custom_request("get_vip_object",
+					   "Url=https://{requestUrl}/service/account/user_info_operation.jsp?act=get_vip_object&client_type=ios&platform=app&token={userToken}&version=2302",
+					   "Method=GET",
+					   "Mode=HTTP",
+					   "LAST");
+
+	lr_end_sub_transaction("get_vip_object",2);
+
+
+	lr_start_sub_transaction("保存商品","分享商品");
+
+	web_custom_request("save_theme",
+					   "Url=https://{requestUrl}/service/album/album_theme_operation.jsp",
+					   "Method=POST",
+					   "Mode=HTTP",
+					   "Body=act=save_theme&album_id={shop_id_list_1}&client_type=ios&item_id={goods_id_list_1}&main_imgs={imges}&mark_code=&personal=0&platform=app&share_type=2&source_type=100&source_url=&sub_imgs=&token={userToken}&version=2302&title={title}",
+					   "LAST");
+
+	lr_end_sub_transaction("保存商品",2);
+
+
+	lr_end_transaction("分享商品",2);
+ 
+
+
+
+
+
 
 	return 0;
 }

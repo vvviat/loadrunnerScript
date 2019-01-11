@@ -1,16 +1,18 @@
 HTTP/1.1 200 OK
-Accept-Ranges: bytes
-Cache-Control: no-cache
-Connection: Keep-Alive
-Content-Length: 227
+Server: edge-esnssl-1.14.1-13.1
+Date: Fri, 21 Dec 2018 10:08:11 GMT
 Content-Type: text/html
-Date: Thu, 13 Dec 2018 03:27:09 GMT
-Etag: "5c08cf08-e3"
-Last-Modified: Thu, 06 Dec 2018 07:26:00 GMT
-P3p: CP=" OTI DSP COR IVA OUR IND COM "
-Pragma: no-cache
-Server: BWS/1.1
-Set-Cookie: BD_NOT_HTTPS=1; path=/; Max-Age=300
-Strict-Transport-Security: max-age=0
-X-Ua-Compatible: IE=Edge,chrome=1
+Content-Length: 129286
+Connection: keep-alive
+Last-Modified: Fri, 21 Dec 2018 10:06:04 GMT
+Vary: Accept-Encoding
+X-Powered-By: shci_v1.03
+Expires: Fri, 21 Dec 2018 10:09:10 GMT
+Cache-Control: max-age=60
+Content-Encoding: gzip
+Age: 2
+Via: https/1.1 ctc.ningbo.ha2ts4.80 (ApacheTrafficServer/6.2.1 [cHs f ]), https/1.1 ctc.xiamen.ha2ts4.41 (ApacheTrafficServer/6.2.1 [cHs f ])
+X-Via-Edge: 15453868914609aec59713cd64cde081fd32e
+X-Cache: HIT.41
+X-Via-CDN: f=edge,s=ctc.xiamen.edssl.21.nb.sinaedge.com,c=113.89.236.154;f=edge,s=ctc.xiamen.ha2ts4.34.nb.sinaedge.com,c=222.76.214.21;f=Edge,s=ctc.xiamen.ha2ts4.41,c=222.76.214.34
 

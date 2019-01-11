@@ -15,9 +15,13 @@ while(flag==1){
 		case 1:
 		{
 			if(i<10){
-			Action1();
+				
+				Action1();
+				
 			i=i+1;
+			
 			lr_output_message("Action1()完成了第%d次",i);
+
 			break;
 		}
 		}

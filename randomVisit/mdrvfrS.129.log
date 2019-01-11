@@ -1,0 +1,2 @@
+Error: Modem emulation and IP spoofing are unavailable in WinInet mode. To use these features, disable WinInet mode, or enable "Run Vuser as a process" in the run-time settings.	[MsgId: MERR-56983]
+Error: The Vuser protocol or the current test settings do not support threads.	[MsgId: MERR-10561]

@@ -1,3 +1,11 @@
+[parameter:randomInt]
+Format="%lu"
+ParamName="randomInt"
+GenerateNewVal="EachOccurrence"
+Type="Random"
+MaxValue="50"
+OriginalValue=""
+MinValue="1"
 [parameter:randomNum]
 Format="%05lu"
 ParamName="randomNum"

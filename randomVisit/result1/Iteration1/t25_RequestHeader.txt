@@ -1,9 +1,9 @@
 GET / HTTP/1.1
-Cookie: ft=1; v_pg=s_11%2Cs_109; hz=0; BAIDUID=874B5E34293C7A1EE0866A58BA6BF631:FG=1; __bsi=10355223292343533775_00_51_R_N_123_0303_c013_Y; org=1
+Cookie: BD_NOT_HTTPS=1; BIDUPSID=1567E0D5045656CAED3245D3F1702DF8; PSTM=1545386894
 User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)
 Accept-Encoding: gzip, deflate
 Accept: */*
-Host: www.hao123.com
+Host: www.baidu.com
 Connection: Keep-Alive
 Cache-Control: no-cache
 

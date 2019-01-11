@@ -1,62 +1,72 @@
 Action()
 {
-//进入编辑商品，分享，返回首页
-	lr_start_transaction("编辑商品信息窗口");
+//相册动态-->发布商品，返回动态-->新增保存商品-->返回个人相册
 
-	web_custom_request("get_tags1",
-				   "Url=https://{requestUrl}/service/album/album_theme_tag_operation.jsp?act=get_tags&type=2&goods_id=&token={userToken}",
-				   "Method=get",
-				   "Mode=HTTP",
-				   "LAST");
-	web_custom_request("get_tags2",
-				   "Url=https://{requestUrl}/service/album/album_theme_tag_operation.jsp?act=get_tags&type=2&tagType=1&goods_id=&token={userToken}",
-				   "Method=get",
-				   "Mode=HTTP",
-				   "LAST");
-	web_custom_request("get_formats",
-				   "Url=https://{requestUrl}/service/album/album_theme_format_operation.jsp?act=get_formats&token={userToken}",
-				   "Method=get",
-				   "Mode=HTTP",
-				   "LAST");
-	web_custom_request("get_qiuniu_token",
-				   "Url=https://{requestUrl}/service/get_qiuniu_token.jsp",
-				   "Method=get",
-				   "Mode=HTTP",
-				   "LAST");
+	web_reg_save_param_ex("ParamName=shop_id",
+						"LB=123456\",\"shop_id\":\"",
+						"RB=\",\"watermark",
+						"NotFound=warning",
+						SEARCH_FILTERS,
+						LAST);
 
-	lr_end_transaction("编辑商品信息窗口",LR_PASS);
+	lr_start_transaction("个人相册保存商品");
 
-	
-	web_reg_save_param_ex(
-	"ParamName=save_theme",
-	"LB=\"album_id\":\"",
-	"RB=\",\"id",
-	"NotFound=warning",
-	SEARCH_FILTERS,
-	LAST);
-
-	lr_rendezvous("concurrentSave");
-
-	lr_start_transaction("分享商品");
-
-	web_custom_request("save_theme",
-				   "Url=https://{requestUrl}/service/album/album_theme_operation.jsp?act=save_theme&id=&title=this+is+a+testing{randomNum}&main_imgs=%5B%22https%3A%2F%2Fxcimg.szwego.com%2Fo_1cugmnv8m1ksr1m6v4j41e0t1n7jp.jpg%22%2C%22https%3A%2F%2Fxcimg.szwego.com%2Fo_1cugmo6o2129b1up11rsk176qelgv.png%22%5D&tags=%5B%5D&personal=0&personalTagIds=%5B%5D&sources=%5B%5D&goodsNum=&formats=%5B%5D&priceArr=%5B%5D&noteArr=%5B%5D&token={userToken}",
-				   "Method=POST",
-				   "Mode=HTTP",
-				   "LAST");
-
-	lr_end_transaction("分享商品",LR_PASS);
-
-
-	lr_start_transaction("回到首页");
+	lr_start_sub_transaction("进入相册动态","个人相册保存商品");
 
 	web_custom_request("owner",
-				   "Url=https://{requestUrl}/service/album/get_album_themes_list.jsp?act=owner&shop_id={save_theme}&search_value=&search_img=&start_date=&end_date=&page_index=1&slip_type=0&time_stamp=1544600608765&token={userToken}",
-				   "Method=POST",
-				   "Mode=HTTP",
-				   "LAST");
+					   "Url=https://{requestUrl}/service/album/get_album_themes_list.jsp?act=owner&shop_id=&search_value=&search_img=&start_date=&end_date=&page_index=1&client_type=ios&token={userToken}&version=2302",
+					   "Method=POST",
+					   "Mode=HTTP",
+					   LAST);
 
-	lr_end_transaction("回到首页",LR_PASS);
+	lr_end_sub_transaction("进入相册动态",LR_AUTO);
+
+	web_reg_save_param_ex("ParamName=mark_code",
+						  "LB=mark_code\":\"",
+						  "RB=\"},\"errmsg",
+						  "NotFound=warning",
+						  SEARCH_FILTERS,
+						  LAST);
+
+	lr_start_sub_transaction("发布商品返回动态","个人相册保存商品");
+
+	web_custom_request("get_markcode",
+					   "Url=https://{requestUrl}/service/album/album_theme_operation.jsp?act=get_markcode&client_type=ios&platform=app&token={userToken}&version=2302",
+					   "Method=GET",
+					   "Mode=HTTP",
+						LAST);
+
+	web_custom_request("save_theme",
+					   "Url=https://{requestUrl}/service/album/album_theme_operation.jsp?act=save_theme&mark_code={mark_code}&client_type=ios&goodsNum=ABC_{randomNum}&main_imgs=%5B%0A%20%20%22https%3A%5C/%5C/xcimg.szwego.com%5C/1547209778_910270265_0%22%2C%0A%20%20%22https%3A%5C/%5C/xcimg.szwego.com%5C/1547209778_257527751_1%22%2C%0A%20%20%22https%3A%5C/%5C/xcimg.szwego.com%5C/1547209778_1237727370_2%22%2C%0A%20%20%22https%3A%5C/%5C/xcimg.szwego.com%5C/1547209778_1374390121_3%22%2C%0A%20%20%22https%3A%5C/%5C/xcimg.szwego.com%5C/1547209778_3772973971_4%22%2C%0A%20%20%22https%3A%5C/%5C/xcimg.szwego.com%5C/1547209778_3229263933_5%22%2C%0A%20%20%22https%3A%5C/%5C/xcimg.szwego.com%5C/1547209778_3646982984_6%22%2C%0A%20%20%22https%3A%5C/%5C/xcimg.szwego.com%5C/1547209778_76362054_7%22%0A%5D&title=Testing_{randomNum}&token={userToken}&version=2302&personal=0&platform=app&share_type=-1&source_type=0&source_url=&sources=&sub_imgs=",
+					   "Method=POST",
+					   "Mode=HTTP",
+					   LAST);
+
+	lr_end_sub_transaction("发布商品返回动态",LR_AUTO);
+
+	web_custom_request("owner_1",
+					   "Url=https://{requestUrl}/service/album/get_album_themes_list.jsp?act=owner&shop_id={shop_id}&search_value=&search_img=&start_date=&end_date=&page_index=1&slip_type=0&token={userToken}",
+					   "Method=POST",
+					   "Mode=HTTP",
+					   LAST);
+	
+	lr_start_sub_transaction("发布商品返回个人相册","个人相册保存商品");
+
+	web_custom_request("save_theme",
+					   "Url=https://{requestUrl}/service/album/album_theme_operation.jsp?act=save_theme&album_id={shop_id}&client_type=ios&goodsNum=ABC_{randomNum}&main_imgs=%5B%0A%20%20%22https%3A%5C/%5C/xcimg.szwego.com%5C/1547209778_910270265_0%22%2C%0A%20%20%22https%3A%5C/%5C/xcimg.szwego.com%5C/1547209778_257527751_1%22%2C%0A%20%20%22https%3A%5C/%5C/xcimg.szwego.com%5C/1547209778_1237727370_2%22%2C%0A%20%20%22https%3A%5C/%5C/xcimg.szwego.com%5C/1547209778_1374390121_3%22%2C%0A%20%20%22https%3A%5C/%5C/xcimg.szwego.com%5C/1547209778_3772973971_4%22%2C%0A%20%20%22https%3A%5C/%5C/xcimg.szwego.com%5C/1547209778_3229263933_5%22%2C%0A%20%20%22https%3A%5C/%5C/xcimg.szwego.com%5C/1547209778_3646982984_6%22%2C%0A%20%20%22https%3A%5C/%5C/xcimg.szwego.com%5C/1547209778_76362054_7%22%0A%5D&title=Testing_{randomNum}&token={userToken}&version=2302",
+					   "Method=POST",
+					   "Mode=HTTP",
+					   LAST);
+
+	lr_end_sub_transaction("发布商品返回个人相册",LR_AUTO);
+
+	web_custom_request("single_album",
+					   "Url=https://{requestUrl}/service/album/get_album_themes_list.jsp?act=single_album&shop_id={shop_id}&search_value=&search_img=&start_date=&end_date=&tag=[]&page_index=1&from_id=&client_type=ios&token={userToken}&version=2302",
+					   "Method=POST",
+				       "Mode=HTTP",
+						LAST);
+
+	lr_end_transaction("个人相册保存商品",LR_AUTO);
 
 	return 0;
 }
