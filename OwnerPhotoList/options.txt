@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\PerformanceData\OwnerPhotoList
+-ID:\LoadRunner11\include
+-ed:\performancedata\ownerphotolist\\logfile.log
+d:\performancedata\ownerphotolist\\combined_OwnerPhotoList.c
+d:\performancedata\ownerphotolist\\pre_cci.c

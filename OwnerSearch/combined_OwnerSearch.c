@@ -1,7 +1,0 @@
-#include "lrun.h"
-#include "globals.h"
-#include "vuser_init.c"
-#include "searchimg.c"
-#include "searchTxt.c"
-#include "OwnerSearch.c"
-#include "vuser_end.c"

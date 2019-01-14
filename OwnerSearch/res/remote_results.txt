@@ -1,2 +1,0 @@
-[Hosts]
-localhost=D:\PerformanceData\OwnerSearch\res\localhost_1.eve

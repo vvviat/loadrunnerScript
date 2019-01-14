@@ -22,7 +22,7 @@ GlobalParameterFile=
 RunType=cci
 LastModifyVer=11.0.0.0
 [TransactionsOrder]
-Order="加载app首页__*delimiter*__分享商品"
+Order="分享商品"
 [ExtraFiles]
 globals.h=
 [Actions]
@@ -62,7 +62,6 @@ CurrentState=1
 VuserStateHistory= 0 65536 65552
 LastReplayStatus=1
 [Transactions]
-加载app首页=
 分享商品=
 [SubTransactions]
 一键分享=

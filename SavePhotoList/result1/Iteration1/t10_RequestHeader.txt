@@ -1,0 +1,10 @@
+GET /service/album/get_album_themes_list.jsp?act=single_album&shop_id=A201805141530398340013813&search_value=&search_img=&start_date=&end_date=&tag=[]&page_index=1&from_id=&slip_type=0&client_type=ios&token=N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4&version=2302 HTTP/1.1
+Cookie: producte_run_to_dev_tomcat=; JSESSIONID=92F6496FF912D1A68051D5652B80FEF3; client_type=ios; token=N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4
+Referer: https://www.szwego.com/service/album/album_theme_operation.jsp?act=save_theme&album_id=A201805141530398340013813&client_type=ios&item_id=I201901091635481680167610&main_imgs=%5B%22https%3A%2F%2Fxcimg.szwego.com%2Ft1547110137029_x93753%22%2C%22https%3A%2F%2Fxcimg.szwego.com%2Ft1547110138058_x54213%22%2C%22https%3A%2F%2Fxcimg.szwego.com%2Ft1547110138733_x70566%22%2C%22https%3A%2F%2Fxcimg.szwego.com%2Ft1547110140008_x6786%22%2C%22https%3A%2F%2Fxcimg.szwego.com%2Ft1547110141325_x11208%22%2C%22https%3A%2F%2Fxcimg.szwego.com%2Ft1547110142310_x40286%22%2C%22https%3A%2F%2Fxcimg.szwego.com%2Ft1547110143163_x49844%22%2C%22https%3A%2F%2Fxcimg.szwego.com%2Ft1547110144311_x35714%22%2C%22https%3A%2F%2Fxcimg.szwego.com%2Ft1547110145313_x38303%22%5D&mark_code=100216&personal=0&platform=app&share_type=-1&source_type=100&source_url=&sub_imgs=&title=Testing_50858&token=N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4&version=2302
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)
+Accept-Encoding: gzip, deflate
+Accept: */*
+Host: www.szwego.com
+Connection: Keep-Alive
+Cache-Control: no-cache
+

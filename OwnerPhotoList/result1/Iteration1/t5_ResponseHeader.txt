@@ -1,0 +1,12 @@
+HTTP/1.1 200 
+Server: nginx/1.9.5
+Date: Mon, 14 Jan 2019 03:18:18 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 971
+Connection: keep-alive
+Set-Cookie: producte_run_to_dev_tomcat=; Max-Age=1; Expires=Mon, 14-Jan-2019 03:18:19 GMT; Path=/
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: JSESSIONID=129A830FAFD1306221A95BB79D307F8A; Path=/; Secure; HttpOnly
+Cache-Control: no-cache
+Pragma: No-cache
+

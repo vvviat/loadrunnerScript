@@ -1,0 +1,62 @@
+Virtual User Script started at : 2019-01-14 11:18:12
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 11.0.0 for Windows 7; build 8859 (Aug 18 2010 20:14:31)  	[MsgId: MMSG-27143]
+Run Mode: HTML  	[MsgId: MMSG-26000]
+Run-Time Settings file: "D:\PerformanceData\OwnerPhotoList\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(5): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(12): Notify: Transaction "个人相册新增商品" started.
+Action.c(14): Notify: Transaction "进入相册动态" started.
+Action.c(16): Notify: Parameter Substitution: parameter "requestUrl" =  "www.szwego.com"
+Action.c(16): Notify: Parameter Substitution: parameter "userToken" =  "N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4"
+Action.c(16): Notify: Saving Parameter "shop_id = A201812080953300270014587".
+Action.c(16): web_custom_request("owner") was successful, 8280 body bytes, 1098 header bytes  	[MsgId: MMSG-26386]
+Action.c(22): Notify: Transaction "进入相册动态" ended with "Pass" status (Duration: 0.7385 Wasted Time: 0.2441).
+Action.c(25): Notify: Transaction "进入个人相册" started.
+Action.c(27): Notify: Parameter Substitution: parameter "requestUrl" =  "www.szwego.com"
+Action.c(27): Notify: Parameter Substitution: parameter "shop_id" =  "A201812080953300270014587"
+Action.c(27): Notify: Parameter Substitution: parameter "userToken" =  "N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4"
+Action.c(27): web_custom_request("single_album") was successful, 6209 body bytes, 670 header bytes  	[MsgId: MMSG-26386]
+Action.c(33): Notify: Parameter Substitution: parameter "requestUrl" =  "www.szwego.com"
+Action.c(33): Notify: Parameter Substitution: parameter "shop_id" =  "A201812080953300270014587"
+Action.c(33): web_custom_request("get_tags_except") was successful, 971 body bytes, 431 header bytes  	[MsgId: MMSG-26386]
+Action.c(39): Notify: Transaction "进入个人相册" ended with "Pass" status (Duration: 0.6879 Wasted Time: 0.0154).
+Action.c(41): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(48): Notify: Transaction "发布商品" started.
+Action.c(50): Notify: Parameter Substitution: parameter "requestUrl" =  "www.szwego.com"
+Action.c(50): Notify: Parameter Substitution: parameter "userToken" =  "N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4"
+Action.c(50): Warning -26377: No match found for the requested parameter "mark_code". Check whether the requested boundaries exist in the response data. Also, if the data you want to save exceeds 256 bytes, use web_set_max_html_param_len to increase the parameter size  	[MsgId: MWAR-26377]
+Action.c(50): Notify: Saving Parameter "mark_code = ".
+Action.c(50): web_custom_request("get_tags") highest severity level was "warning", 965 body bytes, 431 header bytes  	[MsgId: MMSG-26388]
+Action.c(56): Notify: Parameter Substitution: parameter "requestUrl" =  "www.szwego.com"
+Action.c(56): Notify: Parameter Substitution: parameter "shop_id" =  "A201812080953300270014587"
+Action.c(56): Notify: Parameter Substitution: parameter "userToken" =  "N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4"
+Action.c(56): web_custom_request("get_tags_except_1") was successful, 971 body bytes, 431 header bytes  	[MsgId: MMSG-26386]
+Action.c(63): Notify: Parameter Substitution: parameter "requestUrl" =  "www.szwego.com"
+Action.c(63): Notify: Parameter Substitution: parameter "mark_code" =  ""
+Action.c(63): Notify: Parameter Substitution: parameter "randomNum" =  "767396313"
+Action.c(63): Notify: Parameter Substitution: parameter "randomNum" =  "537026354"
+Action.c(63): Notify: Parameter Substitution: parameter "userToken" =  "N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4"
+Action.c(63): web_custom_request("save_theme") was successful, 543 body bytes, 616 header bytes  	[MsgId: MMSG-26386]
+Action.c(69): Notify: Transaction "发布商品" ended with "Pass" status (Duration: 0.9179 Wasted Time: 0.0074).
+Action.c(71): Notify: Transaction "返回个人相册" started.
+Action.c(73): Notify: Parameter Substitution: parameter "requestUrl" =  "www.szwego.com"
+Action.c(73): Notify: Parameter Substitution: parameter "shop_id" =  "A201812080953300270014587"
+Action.c(73): Notify: Parameter Substitution: parameter "userToken" =  "N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4"
+Action.c(73): web_custom_request("get_tags_except_2") was successful, 971 body bytes, 431 header bytes  	[MsgId: MMSG-26386]
+Action.c(79): Notify: Parameter Substitution: parameter "requestUrl" =  "www.szwego.com"
+Action.c(79): Notify: Parameter Substitution: parameter "shop_id" =  "A201812080953300270014587"
+Action.c(79): Notify: Parameter Substitution: parameter "userToken" =  "N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4"
+Action.c(79): web_custom_request("single_album_1") was successful, 5852 body bytes, 670 header bytes  	[MsgId: MMSG-26386]
+Action.c(85): Notify: Transaction "返回个人相册" ended with "Pass" status (Duration: 0.7485 Wasted Time: 0.0079).
+Action.c(87): Notify: Transaction "个人相册新增商品" ended with "Pass" status (Duration: 3.3314 Wasted Time: 0.2748).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Vuser 0 (thread 6652), ended OK."

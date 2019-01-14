@@ -1,7 +1,7 @@
 Action()
 {
 
-//首页，分享图片
+//首页-->相册动态，长按分享图片，保存商品
 	web_reg_save_param_ex(
 	"ParamName=goods_id_list",
 	"LB=goods_id\":\"",
@@ -36,16 +36,11 @@ Action()
 	SEARCH_FILTERS,
 	LAST);
 
-
-	lr_start_transaction("加载app首页");
-
     web_custom_request("owner",
                        "Url=https://{requestUrl}/service/album/get_album_themes_list.jsp?act=owner&search_value=&search_img=&start_date=&end_date=&page_index=1&token={userToken}",
                        "Method=GET",
                        "Mode=HTTP",
                        LAST);
-
-	lr_end_transaction("加载app首页",LR_PASS);
 
     lr_convert_string_encoding("{title}",LR_ENC_SYSTEM_LOCALE,LR_ENC_UTF8,"title");
     web_convert_param("imges", "SourceEncoding=PLAIN", "TargetEncoding=URL", LAST ); 
@@ -105,7 +100,6 @@ Action()
 					   LAST);
 
 	lr_end_sub_transaction("保存商品",LR_AUTO);
-
 
 	lr_end_transaction("分享商品",LR_AUTO);
 

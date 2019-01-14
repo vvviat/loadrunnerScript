@@ -1,0 +1,12 @@
+[t2]
+SnapshotXmlFile=snapshot_2.xml
+ContentType=text/plain
+StepName=Custom Request: single_album
+Total=1
+FileName1=t2.UNK
+RequestHeaderFile=t2_RequestHeader.txt
+ResponseHeaderFile=t2_ResponseHeader.txt
+RequestBodyFile=t2_RequestBody.txt
+URL1=https://www.szwego.com/service/album/get_album_themes_list.jsp?act=single_album&shop_id=A201812080953300270014587&search_value=&search_img=&start_date=&end_date=&tag=[]&page_index=1&from_id=&client_type=ios&token=N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4&version=2302
+[AdditionalInfo]
+IsIgnorable=1

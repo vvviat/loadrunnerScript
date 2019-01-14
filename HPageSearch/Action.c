@@ -1,6 +1,6 @@
 Action()
 {
-//加载首页，首页单接口查询
+	//相册动态查询涉及接口（单接口)
 
 	web_reg_save_param_ex("ParamName=status",
 						  "LB=\"status\":",
@@ -26,11 +26,6 @@ Action()
         }
 
 	lr_end_transaction("进入相册动态",LR_PASS);
-
-/*
-	lr_convert_string_encoding(lr_eval_string("{errmsg}"),"utf-8","gb2312","errormsg");
-	lr_output_message(lr_eval_string("{errormsg}"));
-	*/
 
 	return 0;
 }

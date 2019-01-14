@@ -22,7 +22,7 @@ GlobalParameterFile=
 RunType=cci
 LastModifyVer=11.0.0.0
 [TransactionsOrder]
-Order="个人相册保存商品"
+Order="相册动态新增商品"
 [ExtraFiles]
 globals.h=
 [Actions]
@@ -62,8 +62,8 @@ CurrentState=1
 VuserStateHistory= 0 65536 65552
 LastReplayStatus=1
 [Transactions]
-个人相册保存商品=
+相册动态新增商品=
 [SubTransactions]
-进入相册动态=
-发布商品返回动态=
-发布商品返回个人相册=
+加载标签属性=
+发布商品=
+返回动态=
