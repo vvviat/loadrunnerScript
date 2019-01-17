@@ -1,12 +1,12 @@
 [t2]
 SnapshotXmlFile=snapshot_2.xml
 ContentType=text/plain
-StepName=Custom Request: get_markcode
+StepName=Custom Request: get_tags
 Total=1
 FileName1=t2.UNK
 RequestHeaderFile=t2_RequestHeader.txt
 ResponseHeaderFile=t2_ResponseHeader.txt
 RequestBodyFile=t2_RequestBody.txt
-URL1=https://www.szwego.com/service/album/album_theme_operation.jsp?act=get_markcode&client_type=ios&platform=app&token=N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4&version=2302
+URL1=https://www.szwego.com/service/album/album_theme_tag_operation.jsp?act=get_tags&goods_id=&token=N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4&version=2302
 [AdditionalInfo]
 IsIgnorable=1

@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--ID:\PerformanceData\SaveOwner
+-ID:\loadrunnerScript\SaveOwner
 -ID:\LoadRunner11\include
--ed:\performancedata\saveowner\\logfile.log
-d:\performancedata\saveowner\\combined_SaveOwner.c
-d:\performancedata\saveowner\\pre_cci.c
+-ed:\loadrunnerscript\saveowner\\logfile.log
+d:\loadrunnerscript\saveowner\\combined_SaveOwner.c
+d:\loadrunnerscript\saveowner\\pre_cci.c

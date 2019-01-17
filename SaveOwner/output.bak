@@ -1,1 +1,41 @@
+Virtual User Script started at : 2019-01-16 10:44:35
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 11.0.0 for Windows 7; build 8859 (Aug 18 2010 20:14:31)  	[MsgId: MMSG-27143]
+Run Mode: HTML  	[MsgId: MMSG-26000]
+Run-Time Settings file: "D:\loadrunnerScript\SaveOwner\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(5): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(14): Notify: Parameter Substitution: parameter "requestUrl" =  "https://www.szwego.com"
+Action.c(14): Notify: Parameter Substitution: parameter "userToken" =  "N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4"
+Action.c(14): Notify: Saving Parameter "shop_id = A201812080953300270014587".
+Action.c(14): web_custom_request("owner") was successful, 15053 body bytes, 1098 header bytes  	[MsgId: MMSG-26386]
+Action.c(20): Notify: Transaction "相册动态新增商品" started.
+Action.c(22): Notify: Transaction "加载标签属性" started.
+Action.c(24): Notify: Parameter Substitution: parameter "requestUrl" =  "https://www.szwego.com"
+Action.c(24): Notify: Parameter Substitution: parameter "userToken" =  "N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4"
+Action.c(24): web_custom_request("get_tags") was successful, 965 body bytes, 431 header bytes  	[MsgId: MMSG-26386]
+Action.c(30): Notify: Parameter Substitution: parameter "requestUrl" =  "https://www.szwego.com"
+Action.c(30): Notify: Parameter Substitution: parameter "userToken" =  "N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4"
+Action.c(30): web_custom_request("get_all_tag") was successful, 342 body bytes, 431 header bytes  	[MsgId: MMSG-26386]
+Action.c(36): Notify: Transaction "加载标签属性" ended with "Pass" status (Duration: 0.5038 Wasted Time: 0.0101).
+Action.c(40): Notify: Transaction "发布商品" started.
+Action.c(42): Notify: Parameter Substitution: parameter "requestUrl" =  "https://www.szwego.com"
+Action.c(42): Notify: Parameter Substitution: parameter "randomNum" =  "257207284"
+Action.c(42): Notify: Parameter Substitution: parameter "randomNum" =  "662228221"
+Action.c(42): Notify: Parameter Substitution: parameter "randomNum" =  "185954876"
+Action.c(42): Warning: The string 'images' with parameter delimiters is not a parameter.
+Action.c(42): Notify: Parameter Substitution: parameter "randomNum" =  "363723940"
+Action.c(42): Notify: Parameter Substitution: parameter "userToken" =  "N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4"
+Action.c(42): Error -26631: HTTP Status-Code=400 (Bad Request) for "https://www.szwego.com/service/album/album_theme_operation.jsp?act=save_theme&tagId=%5B%7B%22tagId%22%3A257207284%2C%22tagName%22%3A%22662228221%22%7D%5D&client_type=ios&goodsNum=ABC_185954876&main_imgs={images}&title=Testing_363723940&token=N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4&version=2302&personal=0&platform=app&share_type=-1&source_type=0"  	[MsgId: MERR-26631]
+Action.c(42): web_custom_request("save_theme") highest severity level was "ERROR", 0 body bytes, 122 header bytes  	[MsgId: MMSG-26388]
+Action.c(42): Notify: Transaction "发布商品" ended with "Fail" status (Duration: 0.1492 Wasted Time: 0.0007).
+Action.c(42): Notify: Transaction "相册动态新增商品" ended with "Fail" status (Duration: 0.7165 Wasted Time: 0.0109).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
 Vuser Terminated.
