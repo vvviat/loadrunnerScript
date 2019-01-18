@@ -46,9 +46,7 @@ Default Profile=default.usp
 21=0
 CurrentState=1
 VuserStateHistory= 0 65536 65552
-LastReplayStatus=2
-LastReplayErrorID1=-27492
-LastReplayErrorMsg1=Action.c(52): Error -27492: "HttpSendRequest" failed, Windows error code=12029 (cannot connect) and retry limit (0) exceeded for URL="https://www.szwego.com/service/album/album_theme_tag_operation.jsp?act=get_tags_except&has_video=0&shop_id=A201805141530398340013813&client_type=ios&token=N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4&version=2302"  	[MsgId: MERR-27492]
+LastReplayStatus=1
 [Transactions]
 上家相册分享商品=
 [SubTransactions]

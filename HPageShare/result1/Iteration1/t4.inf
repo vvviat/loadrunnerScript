@@ -1,12 +1,12 @@
 [t4]
-SnapshotXmlFile=snapshot_3.xml
+SnapshotXmlFile=snapshot_2.xml
 ContentType=text/plain
-StepName=Custom Request: get_markcode
+StepName=Custom Request: hold_theme
 Total=1
 FileName1=t4.UNK
 RequestHeaderFile=t4_RequestHeader.txt
 ResponseHeaderFile=t4_ResponseHeader.txt
 RequestBodyFile=t4_RequestBody.txt
-URL1=https://www.szwego.com/service/album/album_theme_operation.jsp?act=get_markcode&client_type=ios&goods_id=I201812191947475380101700&platform=app&shop_id=A2017123008200225153&token=N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4&version=2302
+URL1=http://118.126.89.154:58080/service/album/album_theme_operation.jsp?act=hold_theme&client_type=ios&token=MzJFN0I0MTMxNkVFNjRDRTRFMkREREM5ODVBNjhEMjAzODZFMDRGM0IxMDM2QTkyQTlDMjRBRUFERTcyOUZCMkRERDU4QkM2MjI4RDZDQzlGNjNGNTc0OUEzQ0UxNzY0&version=2302&shop_id=A2018030212170424363&goods_id=I201812180909508130164707
 [AdditionalInfo]
 IsIgnorable=1

@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--ID:\PerformanceData\HPageSearch
+-ID:\loadrunnerScript\HPageSearch
 -ID:\LoadRunner11\include
--ed:\performancedata\hpagesearch\\logfile.log
-d:\performancedata\hpagesearch\\combined_HPageSearch.c
-d:\performancedata\hpagesearch\\pre_cci.c
+-ed:\loadrunnerscript\hpagesearch\\logfile.log
+d:\loadrunnerscript\hpagesearch\\combined_HPageSearch.c
+d:\loadrunnerscript\hpagesearch\\pre_cci.c

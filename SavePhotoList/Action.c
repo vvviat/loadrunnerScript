@@ -18,7 +18,7 @@ Action()
 	lr_start_sub_transaction("进入好友列表","上家相册分享商品");
 
 	web_custom_request("attention",
-					   "Url=https://{requestUrl}/service/album/get_album_list.jsp?act=attention&search_value=&page_index=1&client_type=ios&token={userToken}&version=2109",
+					   "Url={requestUrl}/service/album/get_album_list.jsp?act=attention&search_value=&page_index=1&client_type=ios&token={userToken}&version=2109",
 					   "Method=POST",
 					   "Mode=HTTP",
 					    LAST);
@@ -44,13 +44,13 @@ Action()
 							LAST);
 
 	web_custom_request("single_album",
-					   "Url=https://{requestUrl}/service/album/get_album_themes_list.jsp?act=single_album&shop_id={shop_id_2}&search_value=&search_img=&start_date=&end_date=&tag=[]&page_index=1&from_id=&client_type=ios&token={userToken}&version=2302",
+					   "Url={requestUrl}/service/album/get_album_themes_list.jsp?act=single_album&shop_id={shop_id_2}&search_value=&search_img=&start_date=&end_date=&tag=[]&page_index=1&from_id=&client_type=ios&token={userToken}&version=2302",
 					   "Method=GET",
 					   "Mode=HTTP",
                        LAST);
 
 	web_custom_request("get_tags_except",
-					   "Url=https://{requestUrl}/service/album/album_theme_tag_operation.jsp?act=get_tags_except&has_video=0&shop_id={shop_id_2}&client_type=ios&token={userToken}&version=2302",
+					   "Url={requestUrl}/service/album/album_theme_tag_operation.jsp?act=get_tags_except&has_video=0&shop_id={shop_id_2}&client_type=ios&token={userToken}&version=2302",
 					   "Method=GET",
 					   "Mode=HTTP",
                        LAST);
@@ -67,19 +67,19 @@ Action()
 	lr_start_sub_transaction("长按分享","上家相册分享商品");
 
 	web_custom_request("hold_theme",
-					   "Url=https://{requestUrl}/service/album/album_theme_operation.jsp?act=hold_theme&client_type=ios&token={userToken}&version=2302&shop_id={shop_id_2}&goods_id={goods_id_random}",
+					   "Url={requestUrl}/service/album/album_theme_operation.jsp?act=hold_theme&client_type=ios&token={userToken}&version=2302&shop_id={shop_id_2}&goods_id={goods_id_random}",
 					   "Method=GET",
 					   "Mode=HTTP",
 						LAST);
 
 	web_custom_request("get_watermark",
-					   "Url=https://{requestUrl}/service/album/album_mark_operation.jsp?act=get_watermark&client_type=ios&token={userToken}&version=2302",
+					   "Url={requestUrl}/service/album/album_mark_operation.jsp?act=get_watermark&client_type=ios&token={userToken}&version=2302",
 					   "Method=GET",
 					   "Mode=HTTP",
 						LAST);
 
 	web_custom_request("get_all_tag",
-					   "Url=https://{requestUrl}/service/album/album_group.jsp?act=get_all_tag&type=0&client_type=ios&platform=app&token={userToken}&version=2302",
+					   "Url={requestUrl}/service/album/album_group.jsp?act=get_all_tag&type=0&client_type=ios&platform=app&token={userToken}&version=2302",
 					   "Method=GET",
 					   "Mode=HTTP",
 						LAST);
@@ -97,7 +97,7 @@ Action()
     web_convert_param("imges_random", "SourceEncoding=PLAIN", "TargetEncoding=URL", LAST );
 
 	web_custom_request("get_markcode",
-					   "Url=https://{requestUrl}/service/album/album_theme_operation.jsp?act=get_markcode&client_type=ios&goods_id={goods_id_random}&platform=app&shop_id={shop_id_2}&token={userToken}&version=2302",
+					   "Url={requestUrl}/service/album/album_theme_operation.jsp?act=get_markcode&client_type=ios&goods_id={goods_id_random}&platform=app&shop_id={shop_id_2}&token={userToken}&version=2302",
 					   "Method=GET",
 					   "Mode=HTTP",
 						LAST);
@@ -105,7 +105,7 @@ Action()
 	lr_start_sub_transaction("保存上家商品","上家相册分享商品");
 
 	web_custom_request("save_theme",
-					   "Url=https://{requestUrl}/service/album/album_theme_operation.jsp?act=save_theme&album_id={shop_id_2}&client_type=ios&item_id={goods_id_random}&main_imgs={imges_random}&mark_code={mark_code_1}&personal=0&platform=app&share_type=-1&source_type=100&source_url=&sub_imgs=&title=Testing_{randomNum}&token={userToken}&version=2302",
+					   "Url={requestUrl}/service/album/album_theme_operation.jsp?act=save_theme&album_id={shop_id_2}&client_type=ios&item_id={goods_id_random}&main_imgs={imges_random}&mark_code={mark_code_1}&personal=0&platform=app&share_type=-1&source_type=100&source_url=&sub_imgs=&title=Testing_{randomNum}&token={userToken}&version=2302",
 					   "Method=POST",
 					   "Mode=HTTP",
 					    LAST);
@@ -115,7 +115,7 @@ Action()
 	lr_start_sub_transaction("返回相册","上家相册分享商品");
 
 	web_custom_request("single_album",
-					   "Url=https://{requestUrl}/service/album/get_album_themes_list.jsp?act=single_album&shop_id={shop_id_2}&search_value=&search_img=&start_date=&end_date=&tag=[]&page_index=1&from_id=&slip_type=0&client_type=ios&token={userToken}&version=2302",
+					   "Url={requestUrl}/service/album/get_album_themes_list.jsp?act=single_album&shop_id={shop_id_2}&search_value=&search_img=&start_date=&end_date=&tag=[]&page_index=1&from_id=&slip_type=0&client_type=ios&token={userToken}&version=2302",
 					   "Method=GET",
 					   "Mode=HTTP",
 						LAST);
@@ -124,7 +124,7 @@ Action()
 	
 
 	web_custom_request("qiuniu",
-					   "Url=https://{requestUrl}/service/get_qiuniu_token.jsp",
+					   "Url={requestUrl}/service/get_qiuniu_token.jsp",
 					   "Method=GET",
 					   "Mode=HTTP",
 						LAST);

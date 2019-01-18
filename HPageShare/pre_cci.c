@@ -1,4 +1,4 @@
-# 1 "d:\\performancedata\\hpageshare\\\\combined_HPageShare.c"
+# 1 "d:\\loadrunnerscript\\hpageshare\\\\combined_HPageShare.c"
 # 1 "D:\\LoadRunner11\\include/lrun.h" 1
  
  
@@ -822,7 +822,7 @@ int lr_convert_string_encoding(char *sourceString, char *fromEncoding, char *toE
 
 
 
-# 1 "d:\\performancedata\\hpageshare\\\\combined_HPageShare.c" 2
+# 1 "d:\\loadrunnerscript\\hpageshare\\\\combined_HPageShare.c" 2
 
 # 1 "globals.h" 1
 
@@ -1735,20 +1735,23 @@ int lr_convert_string_encoding(char *sourceString, char *fromEncoding, char *toE
  
 
 
-# 2 "d:\\performancedata\\hpageshare\\\\combined_HPageShare.c" 2
+# 2 "d:\\loadrunnerscript\\hpageshare\\\\combined_HPageShare.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
 	return 0;
 }
-# 3 "d:\\performancedata\\hpageshare\\\\combined_HPageShare.c" 2
+# 3 "d:\\loadrunnerscript\\hpageshare\\\\combined_HPageShare.c" 2
 
 # 1 "Action.c" 1
 Action()
 {
-	char tmp[50];
+
  
+
+
+
 	web_reg_save_param_ex(
 	"ParamName=goods_id_list",
 	"LB=goods_id\":\"",
@@ -1772,116 +1775,99 @@ Action()
 	"LB=title\":\"",
 	"RB=\",\"videoURL",
 	"NotFound=warning",
+	"Ordinal=All",
 	"SEARCH_FILTERS",
 	"LAST");
 
 	web_reg_save_param_ex(
 	"ParamName=imges",
-	"LB=\"imgs\":",
-	"RB=,\"watermark",
+	"LB=imgsSrc\":",
+	"RB=,\"old_time",
 	"NotFound=warning",
+	"Ordinal=All",
 	"SEARCH_FILTERS",
 	"LAST");
 
-
-	lr_start_transaction("加载app首页");
+	web_add_header("Transfer-Encoding","chunked");
 
     web_custom_request("owner",
-                       "Url=https://{requestUrl}/service/album/get_album_themes_list.jsp?act=owner&search_value=&search_img=&start_date=&end_date=&page_index=1&token={userToken}",
+                       "Url={requestUrl}/service/album/get_album_themes_list.jsp?act=owner&shop_id=&search_value=&search_img=&start_date=&end_date=&page_index=1&client_type=ios&token={userToken}&version=2302&",
                        "Method=GET",
+                       "TargetFrame=",
+					   "Resource=0",
+					   "Referer=",
                        "Mode=HTTP",
-                       "LAST");
-
-	lr_end_transaction("加载app首页",0);
- 
+                        "LAST");
 
 
+     
+	web_convert_param("title_5", "SourceEncoding=PLAIN", "TargetEncoding=URL", "LAST" ); 
 
+	 
 
-
-
-
-
- 
- 
- 
- 
-
-    web_convert_param("imges", "SourceEncoding=PLAIN", "TargetEncoding=URL", "LAST" ); 
+    web_convert_param("imges_3", "SourceEncoding=PLAIN", "TargetEncoding=URL", "LAST" ); 
 
 	lr_start_transaction("分享商品");
 
 	lr_start_sub_transaction("一键分享","分享商品");
 
 	web_custom_request("hold_theme",
-					   "Url=https://{requestUrl}/service/album/album_theme_operation.jsp?act=hold_theme&client_type=ios&token={userToken}&version=2302&shop_id={shop_id_list_1}&goods_id={goods_id_list_1}",
+					   "URL={requestUrl}/service/album/album_theme_operation.jsp?act=hold_theme&client_type=ios&token={userToken}&version=2302&shop_id={shop_id_list_2}&goods_id={goods_id_list_2}",
 					   "Method=GET",
 					   "Mode=HTTP",
 					   "LAST");
+
 	lr_end_sub_transaction("一键分享",2);
 
 
 	lr_start_sub_transaction("获取商品属性","分享商品");
 
 	web_custom_request("get_markcode",
-					   "Url=https://{requestUrl}/service/album/album_theme_operation.jsp?act=get_markcode&client_type=ios&goods_id={goods_id_list_1}&platform=app&shop_id={shop_id_list_1}&token={userToken}&version=2302",
-					   "Method=GET",
-					   "Mode=HTTP",
-					   "LAST");
-
-	web_custom_request("get_markcode",
-					   "Url=https://{requestUrl}/service/album/album_theme_operation.jsp?act=get_markcode&client_type=ios&goods_id={goods_id_list_1}&platform=app&shop_id={shop_id_list_1}&token={userToken}&version=2302",
+					   "URL={requestUrl}/service/album/album_theme_operation.jsp?act=get_markcode&client_type=ios&goods_id={goods_id_list_2}&platform=app&shop_id={shop_id_list_2}&token={userToken}&version=2302",
 					   "Method=GET",
 					   "Mode=HTTP",
 					   "LAST");
 
 	web_custom_request("get_all_tag",
-					   "Url=https://{requestUrl}/service/album/album_group.jsp?act=get_all_tag&client_type=ios&platform=app&token={userToken}&version=2302",
+					   "URL={requestUrl}/service/album/album_group.jsp?act=get_all_tag&client_type=ios&platform=app&token={userToken}&version=2302",
 					   "Method=GET",
 					   "Mode=HTTP",
 					   "LAST");
 
 	lr_end_sub_transaction("获取商品属性",2);
 
-	lr_start_sub_transaction("get_vip_object","分享商品");
+	lr_start_sub_transaction("获取用户是否vip","分享商品");
 
 	web_custom_request("get_vip_object",
-					   "Url=https://{requestUrl}/service/account/user_info_operation.jsp?act=get_vip_object&client_type=ios&platform=app&token={userToken}&version=2302",
+					   "URL={requestUrl}/service/account/user_info_operation.jsp?act=get_vip_object&client_type=ios&platform=app&token={userToken}&version=2302",
 					   "Method=GET",
 					   "Mode=HTTP",
 					   "LAST");
 
-	lr_end_sub_transaction("get_vip_object",2);
+	lr_end_sub_transaction("获取用户是否vip",2);
 
 
 	lr_start_sub_transaction("保存商品","分享商品");
 
 	web_custom_request("save_theme",
-					   "Url=https://{requestUrl}/service/album/album_theme_operation.jsp",
+					   "URL={requestUrl}/service/album/album_theme_operation.jsp",
 					   "Method=POST",
 					   "Mode=HTTP",
-					   "Body=act=save_theme&album_id={shop_id_list_1}&client_type=ios&item_id={goods_id_list_1}&main_imgs={imges}&mark_code=&personal=0&platform=app&share_type=2&source_type=100&source_url=&sub_imgs=&token={userToken}&version=2302&title={title}",
+					   "Body=act=save_theme&album_id={shop_id_list_2}&client_type=ios&item_id={goods_id_list_2}&main_imgs={imges_3}&mark_code=&personal=0&platform=app&share_type=2&source_type=100&source_URL=&sub_imgs=&token={userToken}&version=2302&title={title_5}",
 					   "LAST");
 
 	lr_end_sub_transaction("保存商品",2);
 
-
 	lr_end_transaction("分享商品",2);
- 
-
-
-
-
-
 
 	return 0;
 }
-# 4 "d:\\performancedata\\hpageshare\\\\combined_HPageShare.c" 2
+# 4 "d:\\loadrunnerscript\\hpageshare\\\\combined_HPageShare.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 5 "d:\\performancedata\\hpageshare\\\\combined_HPageShare.c" 2
+# 5 "d:\\loadrunnerscript\\hpageshare\\\\combined_HPageShare.c" 2
 

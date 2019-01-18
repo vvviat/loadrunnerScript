@@ -1,21 +1,137 @@
-Action.c (76): undeclared identifier `status'
-Action.c (78): illegal character `\0243'
-Action.c (78): illegal character `\0250'
-Action.c (78): syntax error; found `status' expecting `('
-Action.c (78): illegal character `\0243'
-Action.c (78): illegal character `\0251'
-Action.c (79): syntax error; found `lr_end_sub_transaction' expecting `)'
-Action.c (79): illegal character `\0243'
-Action.c (79): illegal character `\0250'
-Action.c (79): illegal character `\0241'
-Action.c (79): illegal character `\0260'
-Action.c (79): syntax error; found `electrical_purchases' expecting `;'
-Action.c (79): illegal character `\0241'
-Action.c (79): illegal character `\0261'
-Action.c (79): illegal character `\0243'
-Action.c (79): illegal character `\0254'
-Action.c (79): undeclared identifier `electrical_purchases'
-Action.c (79): syntax error; found `2' expecting `;'
-Action.c (79): illegal character `\0243'
-Action.c (79): illegal character `\0251'
-Action.c (80): too many errors
+Virtual User Script started at : 2019-01-18 16:41:08
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 11.0.0 for Windows 7; build 8859 (Aug 18 2010 20:14:31)  	[MsgId: MMSG-27143]
+Run Mode: HTML  	[MsgId: MMSG-26000]
+Run-Time Settings file: "D:\loadrunnerScript\HPageShare\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(8): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(17): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(26): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(35): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(44): Warning -26593: The header being added may cause unpredictable results when applied to all ensuing URLs. It is added anyway  	[MsgId: MWAR-26593]
+Action.c(44): web_add_header("Transfer-Encoding") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(46): Notify: Parameter Substitution: parameter "requestUrl" =  "http://118.126.89.154:58080"
+Action.c(46): Notify: Parameter Substitution: parameter "userToken" =  "MzJFN0I0MTMxNkVFNjRDRTRFMkREREM5ODVBNjhEMjAzODZFMDRGM0IxMDM2QTkyQTlDMjRBRUFERTcyOUZCMkRERDU4QkM2MjI4RDZDQzlGNjNGNTc0OUEzQ0UxNzY0"
+Action.c(46): Notify: Saving Parameter "goods_id_list_1 = I201901181606105750000486".
+Action.c(46): Notify: Saving Parameter "shop_id_list_1 = A201812080953300270014587".
+Action.c(46): Notify: Saving Parameter "imges_1 = ["https://xcimg.szwego.com/1544702948_834124225_0","https://xcimg.szwego.com/1544702948_3426080168_1","https://xcimg.szwego.com/1544702949_2491026851_2","https://xcimg.szwego.com/1544702949_639199666_3"]".
+Action.c(46): Notify: Saving Parameter "goods_id_list_2 = I201812180909508130164707".
+Action.c(46): Notify: Saving Parameter "shop_id_list_2 = A2018030212170424363".
+Action.c(46): Notify: Saving Parameter "goods_id_list_3 = I201812180907537680030582".
+Action.c(46): Notify: Saving Parameter "shop_id_list_3 = A2018030212170424363".
+Action.c(46): Notify: Saving Parameter "goods_id_list_4 = I201812180859252210160952".
+Action.c(46): Notify: Saving Parameter "shop_id_list_4 = A2018030212170424363".
+Action.c(46): Notify: Saving Parameter "goods_id_list_5 = I201812180845418870013567".
+Action.c(46): Notify: Saving Parameter "shop_id_list_5 = A2018030212170424363".
+Action.c(46): Notify: Saving Parameter "goods_id_list_6 = I201812180841174020143264".
+Action.c(46): Notify: Saving Parameter "shop_id_list_6 = A2018030212170424363".
+Action.c(46): Notify: Saving Parameter "title_1 = 0416    双十二特�\xb770元的选择均码".
+Action.c(46): Notify: Saving Parameter "goods_id_list_7 = I201812180836201460031718".
+Action.c(46): Notify: Saving Parameter "shop_id_list_7 = A2018030212170424363".
+Action.c(46): Notify: Saving Parameter "goods_id_list_8 = I201811211828564570164322".
+Action.c(46): Notify: Saving Parameter "shop_id_list_8 = A2018030212170424363".
+Action.c(46): Notify: Saving Parameter "goods_id_list_9 = I201812162046252050028648".
+Action.c(46): Notify: Saving Parameter "shop_id_list_9 = A2018030212170424363".
+Action.c(46): Notify: Saving Parameter "goods_id_list_10 = I201812161858100490113182".
+Action.c(46): Notify: Saving Parameter "shop_id_list_10 = A2018030212170424363".
+Action.c(46): Notify: Saving Parameter "goods_id_list_11 = I201812161847533540168361".
+Action.c(46): Notify: Saving Parameter "shop_id_list_11 = A2018030212170424363".
+Action.c(46): Notify: Saving Parameter "goods_id_list_12 = I201812161847279780145050".
+Action.c(46): Notify: Saving Parameter "shop_id_list_12 = A2018030212170424363".
+Action.c(46): Notify: Saving Parameter "goods_id_list_13 = I201812161843354960025887".
+Action.c(46): Notify: Saving Parameter "shop_id_list_13 = A2018030212170424363".
+Action.c(46): Notify: Saving Parameter "goods_id_list_14 = I201812151939069500190014".
+Action.c(46): Notify: Saving Parameter "shop_id_list_14 = A2018030212170424363".
+Action.c(46): Notify: Saving Parameter "goods_id_list_15 = I201812151929009190119545".
+Action.c(46): Notify: Saving Parameter "shop_id_list_15 = A2018030212170424363".
+Action.c(46): Notify: Saving Parameter "goods_id_list_16 = I201812151923359090175220".
+Action.c(46): Notify: Saving Parameter "shop_id_list_16 = A2018030212170424363".
+Action.c(46): Notify: Saving Parameter "goods_id_list_17 = I201812151922493070032933".
+Action.c(46): Notify: Saving Parameter "shop_id_list_17 = A2018030212170424363".
+Action.c(46): Notify: Saving Parameter "goods_id_list_18 = I201812150835543220116776".
+Action.c(46): Notify: Saving Parameter "shop_id_list_18 = A2018030212170424363".
+Action.c(46): Notify: Saving Parameter "title_2 = 细节图！！！�\x81".
+Action.c(46): Notify: Saving Parameter "goods_id_list_19 = I201812150825388920158212".
+Action.c(46): Notify: Saving Parameter "shop_id_list_19 = A2018030212170424363".
+Action.c(46): Notify: Saving Parameter "goods_id_list_20 = I201812140858154300132894".
+Action.c(46): Notify: Saving Parameter "shop_id_list_20 = A2018030212170424363".
+Action.c(46): Notify: Saving Parameter "title_3 = 大货实拍视频".
+Action.c(46): Notify: Saving Parameter "goods_id_list_21 = I201812140825192660171909".
+Action.c(46): Notify: Saving Parameter "shop_id_list_21 = A2018030212170424363".
+Action.c(46): Notify: Saving Parameter "imges_2 = ["https://xcimg.szwego.com/1544707637_210942325_1"]".
+Action.c(46): Notify: Saving Parameter "goods_id_list_22 = I201812140824550350101558".
+Action.c(46): Notify: Saving Parameter "shop_id_list_22 = A2018030212170424363".
+Action.c(46): Notify: Saving Parameter "title_4 = 0528    p135 上新网红同款2018秋冬新款V领后背狼头加厚针织大�\x80衫外套！面料：兔绒包芯纱，柔软舒服！颜色：白�\xb2 玫红色\n均码：胸�\xb4126 衣长70 肩连�\x9668".
+Action.c(46): Notify: Saving Parameter "goods_id_list_23 = I201812132253007770142343".
+Action.c(46): Notify: Saving Parameter "shop_id_list_23 = A2018030212170424363".
+Action.c(46): Notify: Saving Parameter "goods_id_list_24 = I201812132248371980156713".
+Action.c(46): Notify: Saving Parameter "shop_id_list_24 = A2018030212170424363".
+Action.c(46): Notify: Saving Parameter "goods_id_list_25 = I201812132244278870013591".
+Action.c(46): Notify: Saving Parameter "shop_id_list_25 = A2018030212170424363".
+Action.c(46): Notify: Saving Parameter "goods_id_list_26 = I201812132241327740015255".
+Action.c(46): Notify: Saving Parameter "shop_id_list_26 = A2018030212170424363".
+Action.c(46): Notify: Saving Parameter "imges_3 = ["https://xcimg.szwego.com/1544702948_834124225_0","https://xcimg.szwego.com/1544702948_3426080168_1","https://xcimg.szwego.com/1544702949_2491026851_2","https://xcimg.szwego.com/1544702949_639199666_3"]".
+Action.c(46): Notify: Saving Parameter "title_5 = 0174     105！\n\n刚刚上架鞋子就被问爆了！可爱的毛衣我知道你们�\x80定想要哈�\x88 很厚很保�\x96 安哥拉材�\xa8 \n这种就是随便穿都是清新小可爱�\x84".
+Action.c(46): Notify: Saving Parameter "goods_id_list_27 = I201812132232139050115613".
+Action.c(46): Notify: Saving Parameter "shop_id_list_27 = A2018030212170424363".
+Action.c(46): Notify: Saving Parameter "goods_id_list_28 = I201812132228370120187539".
+Action.c(46): Notify: Saving Parameter "shop_id_list_28 = A2018030212170424363".
+Action.c(46): Notify: Saving Parameter "title_6 = 韩国代购SOUP款高领针织连衣裙！面料采用韩国特供针织棉，面料质感特超赞触感温润！穿起来超舒服！单穿或�\x80�内搭都好看�\x81".
+Action.c(46): Notify: Saving Parameter "goods_id_list_29 = I201812132226244150156703".
+Action.c(46): Notify: Saving Parameter "shop_id_list_29 = A2018030212170424363".
+Action.c(46): Notify: Saving Parameter "goods_id_list_30 = I201812132218234170027700".
+Action.c(46): Notify: Saving Parameter "shop_id_list_30 = A2018030212170424363".
+Action.c(46): Notify: Saving Parameter "title_7 = 再来�\x80组美�\xbe".
+Action.c(46): Notify: Saving Parameter "goods_id_list_31 = I201812132217410480188855".
+Action.c(46): Notify: Saving Parameter "shop_id_list_31 = A2018030212170424363".
+Action.c(46): Notify: Saving Parameter "goods_id_list_32 = I201812130939257760195560".
+Action.c(46): Notify: Saving Parameter "shop_id_list_32 = A201812080953300270014587".
+Action.c(46): Notify: Saving Parameter "goods_id_list_count = 32".
+Action.c(46): Notify: Saving Parameter "shop_id_list_count = 32".
+Action.c(46): Notify: Saving Parameter "title_count = 7".
+Action.c(46): Notify: Saving Parameter "imges_count = 3".
+Action.c(46): web_custom_request("owner") was successful, 92228 body bytes, 1024 header bytes, 100 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(61): Notify: Saving Parameter "imges_3 = %5B%22https%3A%2F%2Fxcimg.szwego.com%2F1544702948_834124225_0%22%2C%22https%3A%2F%2Fxcimg.szwego.com%2F1544702948_3426080168_1%22%2C%22https%3A%2F%2Fxcimg.szwego.com%2F1544702949_2491026851_2%22%2C%22https%3A%2F%2Fxcimg.szwego.com%2F1544702949_639199666_3%22%5D".
+Action.c(61): web_convert_param was successful  	[MsgId: MMSG-26392]
+Action.c(63): Notify: Transaction "������Ʒ" started.
+Action.c(65): Notify: Transaction "һ������" started.
+Action.c(67): Notify: Parameter Substitution: parameter "requestUrl" =  "http://118.126.89.154:58080"
+Action.c(67): Notify: Parameter Substitution: parameter "userToken" =  "MzJFN0I0MTMxNkVFNjRDRTRFMkREREM5ODVBNjhEMjAzODZFMDRGM0IxMDM2QTkyQTlDMjRBRUFERTcyOUZCMkRERDU4QkM2MjI4RDZDQzlGNjNGNTc0OUEzQ0UxNzY0"
+Action.c(67): Notify: Parameter Substitution: parameter "shop_id_list_2" =  "A2018030212170424363"
+Action.c(67): Notify: Parameter Substitution: parameter "goods_id_list_2" =  "I201812180909508130164707"
+Action.c(67): web_custom_request("hold_theme") was successful, 199 body bytes, 494 header bytes  	[MsgId: MMSG-26386]
+Action.c(73): Notify: Transaction "һ������" ended with "Pass" status (Duration: 0.1513 Wasted Time: 0.0028).
+Action.c(76): Notify: Transaction "��ȡ��Ʒ����" started.
+Action.c(78): Notify: Parameter Substitution: parameter "requestUrl" =  "http://118.126.89.154:58080"
+Action.c(78): Notify: Parameter Substitution: parameter "goods_id_list_2" =  "I201812180909508130164707"
+Action.c(78): Notify: Parameter Substitution: parameter "shop_id_list_2" =  "A2018030212170424363"
+Action.c(78): Notify: Parameter Substitution: parameter "userToken" =  "MzJFN0I0MTMxNkVFNjRDRTRFMkREREM5ODVBNjhEMjAzODZFMDRGM0IxMDM2QTkyQTlDMjRBRUFERTcyOUZCMkRERDU4QkM2MjI4RDZDQzlGNjNGNTc0OUEzQ0UxNzY0"
+Action.c(78): web_custom_request("get_markcode") was successful, 219 body bytes, 494 header bytes  	[MsgId: MMSG-26386]
+Action.c(84): Notify: Parameter Substitution: parameter "requestUrl" =  "http://118.126.89.154:58080"
+Action.c(84): Notify: Parameter Substitution: parameter "userToken" =  "MzJFN0I0MTMxNkVFNjRDRTRFMkREREM5ODVBNjhEMjAzODZFMDRGM0IxMDM2QTkyQTlDMjRBRUFERTcyOUZCMkRERDU4QkM2MjI4RDZDQzlGNjNGNTc0OUEzQ0UxNzY0"
+Action.c(84): web_custom_request("get_all_tag") was successful, 39 body bytes, 493 header bytes  	[MsgId: MMSG-26386]
+Action.c(90): Notify: Transaction "��ȡ��Ʒ����" ended with "Pass" status (Duration: 0.1815 Wasted Time: 0.0016).
+Action.c(92): Notify: Transaction "��ȡ�û��Ƿ�vip" started.
+Action.c(94): Notify: Parameter Substitution: parameter "requestUrl" =  "http://118.126.89.154:58080"
+Action.c(94): Notify: Parameter Substitution: parameter "userToken" =  "MzJFN0I0MTMxNkVFNjRDRTRFMkREREM5ODVBNjhEMjAzODZFMDRGM0IxMDM2QTkyQTlDMjRBRUFERTcyOUZCMkRERDU4QkM2MjI4RDZDQzlGNjNGNTc0OUEzQ0UxNzY0"
+Action.c(94): web_custom_request("get_vip_object") was successful, 181 body bytes, 494 header bytes  	[MsgId: MMSG-26386]
+Action.c(100): Notify: Transaction "��ȡ�û��Ƿ�vip" ended with "Pass" status (Duration: 0.0766 Wasted Time: 0.0007).
+Action.c(103): Notify: Transaction "������Ʒ" started.
+Action.c(105): Notify: Parameter Substitution: parameter "requestUrl" =  "http://118.126.89.154:58080"
+Action.c(105): Notify: Parameter Substitution: parameter "shop_id_list_2" =  "A2018030212170424363"
+Action.c(105): Notify: Parameter Substitution: parameter "goods_id_list_2" =  "I201812180909508130164707"
+Action.c(105): Notify: Parameter Substitution: parameter "imges_3" =  "%5B%22https%3A%2F%2Fxcimg.szwego.com%2F1544702948_834124225_0%22%2C%22https%3A%2F%2Fxcimg.szwego.com%2F1544702948_3426080168_1%22%2C%22https%3A%2F%2Fxcimg.szwego.com%2F1544702949_2491026851_2%22%2C%22https%3A%2F%2Fxcimg.szwego.com%2F1544702949_639199666_3%22%5D"
+Action.c(105): Notify: Parameter Substitution: parameter "userToken" =  "MzJFN0I0MTMxNkVFNjRDRTRFMkREREM5ODVBNjhEMjAzODZFMDRGM0IxMDM2QTkyQTlDMjRBRUFERTcyOUZCMkRERDU4QkM2MjI4RDZDQzlGNjNGNTc0OUEzQ0UxNzY0"
+Action.c(105): Notify: Parameter Substitution: parameter "title_5" =  "0174     105！\n\n刚刚上架鞋子就被问爆了！可爱的毛衣我知道你们�\x80定想要哈�\x88 很厚很保�\x96 安哥拉材�\xa8 \n这种就是随便穿都是清新小可爱�\x84"
+Action.c(105): web_custom_request("save_theme") was successful, 681 body bytes, 494 header bytes  	[MsgId: MMSG-26386]
+Action.c(112): Notify: Transaction "������Ʒ" ended with "Pass" status (Duration: 0.2877 Wasted Time: 0.0031).
+Action.c(114): Notify: Transaction "������Ʒ" ended with "Pass" status (Duration: 0.8969 Wasted Time: 0.0082).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

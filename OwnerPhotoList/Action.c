@@ -13,8 +13,10 @@ Action()
 
 	lr_start_sub_transaction("进入相册动态","个人相册新增商品");
 
+	web_add_header("Transfer-Encoding","chunked");
+
 	web_custom_request("owner",
-					   "Url=https://{requestUrl}/service/album/get_album_themes_list.jsp?act=owner&shop_id=&search_value=&search_img=&start_date=&end_date=&page_index=1&client_type=ios&token={userToken}&version=2302",
+					   "Url={requestUrl}/service/album/get_album_themes_list.jsp?act=owner&shop_id=&search_value=&search_img=&start_date=&end_date=&page_index=1&client_type=ios&token={userToken}&version=2302",
 					   "Method=POST",
 					   "Mode=HTTP",
 					   LAST);

@@ -1,0 +1,3 @@
+[Hosts]
+129.204.167.205=C:\Users\Administrator\AppData\Local\Temp\brr_YAR.821\netdir\D\loadrunnerScript\HPageSearch\res\129.204.167.205_179.eve
+localhost=D:\loadrunnerScript\HPageSearch\res\localhost_2.eve

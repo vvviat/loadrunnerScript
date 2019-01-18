@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--ID:\PerformanceData\HPageShare
+-ID:\loadrunnerScript\HPageShare
 -ID:\LoadRunner11\include
--ed:\performancedata\hpageshare\\logfile.log
-d:\performancedata\hpageshare\\combined_HPageShare.c
-d:\performancedata\hpageshare\\pre_cci.c
+-ed:\loadrunnerscript\hpageshare\\logfile.log
+d:\loadrunnerscript\hpageshare\\combined_HPageShare.c
+d:\loadrunnerscript\hpageshare\\pre_cci.c

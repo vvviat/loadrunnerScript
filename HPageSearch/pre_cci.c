@@ -1,4 +1,4 @@
-# 1 "d:\\performancedata\\hpagesearch\\\\combined_HPageSearch.c"
+# 1 "d:\\loadrunnerscript\\hpagesearch\\\\combined_HPageSearch.c"
 # 1 "D:\\LoadRunner11\\include/lrun.h" 1
  
  
@@ -822,7 +822,7 @@ int lr_convert_string_encoding(char *sourceString, char *fromEncoding, char *toE
 
 
 
-# 1 "d:\\performancedata\\hpagesearch\\\\combined_HPageSearch.c" 2
+# 1 "d:\\loadrunnerscript\\hpagesearch\\\\combined_HPageSearch.c" 2
 
 # 1 "globals.h" 1
 
@@ -1735,58 +1735,47 @@ int lr_convert_string_encoding(char *sourceString, char *fromEncoding, char *toE
  
 
 
-# 2 "d:\\performancedata\\hpagesearch\\\\combined_HPageSearch.c" 2
+# 2 "d:\\loadrunnerscript\\hpagesearch\\\\combined_HPageSearch.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
 	return 0;
 }
-# 3 "d:\\performancedata\\hpagesearch\\\\combined_HPageSearch.c" 2
+# 3 "d:\\loadrunnerscript\\hpagesearch\\\\combined_HPageSearch.c" 2
 
 # 1 "Action.c" 1
 Action()
 {
+	 
  
-
-	web_reg_save_param_ex("ParamName=status",
-						  "LB=\"status\":",
-						  "RB=,\"token\"",
-						  "NotFound=warning",
-						  "Ordinal=1",
-						  "SEARCH_FILTERS",
-						  "LAST");
-
+# 13 "Action.c"
 	lr_start_transaction("进入相册动态");
 
     web_custom_request("owner",
-                       "Url=https://{requestUrl}/service/album/get_album_themes_list.jsp?act=owner&shop_id=&search_value=&search_img=&start_date=&end_date=&page_index=1&client_type=ios&token={userToken}&version=2302&",
+                       "Url={requestUrl}/service/album/get_album_themes_list.jsp?act=owner&shop_id=&search_value=&search_img=&start_date=&end_date=&page_index=1&client_type=ios&token={userToken}&version=2302&",
                        "Method=GET",
                        "Mode=HTTP",
+					   "EncType=Transfer-Encoding",
                        "LAST");
-
-		if (atoi(lr_eval_string("{status}")) == 0 ){ 
-            lr_output_message("查询成功"); 
-		} 
-        else{ 
-            lr_error_message("查询失败"); 
-        }
-
-	lr_end_transaction("进入相册动态",0);
-
  
 
 
 
 
+
+
+
+	lr_end_transaction("进入相册动态",0);
+
 	return 0;
 }
-# 4 "d:\\performancedata\\hpagesearch\\\\combined_HPageSearch.c" 2
+# 4 "d:\\loadrunnerscript\\hpagesearch\\\\combined_HPageSearch.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 5 "d:\\performancedata\\hpagesearch\\\\combined_HPageSearch.c" 2
+# 5 "d:\\loadrunnerscript\\hpagesearch\\\\combined_HPageSearch.c" 2
 
