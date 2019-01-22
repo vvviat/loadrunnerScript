@@ -88,13 +88,13 @@
 
 ]
 > <Report ver="2.0" tmZone="中国标准时间">
-<General productName="Vugen" productVer="11" os="" host="Win7-2019MYGCDC"><DocLocation><![CDATA[D:\loadrunnerScript\HPageShare]]></DocLocation></General>
+<General productName="Vugen" productVer="11" os="" host="Win7-2019YWHJTR"><DocLocation><![CDATA[D:\loadrunnerScript\HPageShare]]></DocLocation></General>
 <Doc rID="T1"   productName= "Vugen"  >
 <DName><![CDATA[HPageShare]]></DName>
 <Res><![CDATA[result1]]></Res>
 <Action rID="T2">
 <AName><![CDATA[vuser_init]]></AName>
-<Summary sTime="2019/1/18 - 16:42:32" eTime="2019/1/18 - 16:42:32" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="2019/1/21 - 17:12:40" eTime="2019/1/21 - 17:12:40" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="5" >
 <Disp><![CDATA[vuser_init Summary]]></Disp>
 </NodeArgs>
@@ -105,7 +105,7 @@
 <Step rID="T5">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>goods_id_list</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=goods_id":"</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=","miniapp_name</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=All</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2019/1/18 - 16:42:32]]></Time>
+<Time><![CDATA[2019/1/21 - 17:12:40]]></Time>
 <NodeArgs eType="General" icon="4" nRep="9" >
 <Disp><![CDATA[Service: Reg Save Param]]></Disp>
 </NodeArgs>
@@ -113,7 +113,7 @@
 <Step rID="T6">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>shop_id_list</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=shop_id":"</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=","subimgsSrc</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=All</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2019/1/18 - 16:42:32]]></Time>
+<Time><![CDATA[2019/1/21 - 17:12:40]]></Time>
 <NodeArgs eType="General" icon="4" nRep="10" >
 <Disp><![CDATA[Service: Reg Save Param]]></Disp>
 </NodeArgs>
@@ -121,7 +121,7 @@
 <Step rID="T7">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>title</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=title":"</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=","videoURL</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=All</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2019/1/18 - 16:42:32]]></Time>
+<Time><![CDATA[2019/1/21 - 17:12:40]]></Time>
 <NodeArgs eType="General" icon="4" nRep="11" >
 <Disp><![CDATA[Service: Reg Save Param]]></Disp>
 </NodeArgs>
@@ -129,7 +129,7 @@
 <Step rID="T8">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>imges</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=imgsSrc":</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=,"old_time</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=All</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2019/1/18 - 16:42:32]]></Time>
+<Time><![CDATA[2019/1/21 - 17:12:40]]></Time>
 <NodeArgs eType="General" icon="4" nRep="12" >
 <Disp><![CDATA[Service: Reg Save Param]]></Disp>
 </NodeArgs>
@@ -137,7 +137,7 @@
 <Step rID="T9">
 <Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>Transfer-Encoding: chunked</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2019/1/18 - 16:42:32]]></Time>
+<Time><![CDATA[2019/1/21 - 17:12:40]]></Time>
 <NodeArgs eType="General" icon="5" nRep="13" >
 <Disp><![CDATA[Service: Add Header]]></Disp>
 </NodeArgs>
@@ -145,7 +145,7 @@
 <Step rID="T10">
 <Obj plainTxt="False" ><![CDATA[Custom Request: owner]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2019/1/18 - 16:42:33]]></Time>
+<Time><![CDATA[2019/1/21 - 17:12:40]]></Time>
 <NodeArgs eType="General" icon="6" nRep="14" status="Passed" >
 <Disp><![CDATA[Custom Request: owner]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -155,16 +155,16 @@
 </Step>
 <Step rID="T11">
 <Obj plainTxt="False" ><![CDATA[Service: Convert Param]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>title_5</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2019/1/18 - 16:42:33]]></Time>
+<Details plainTxt="False" ><![CDATA[<CENTER><FONT COLOR=#FF0031>Step creation failed</CENTER>]]></Details>
+<Time><![CDATA[2019/1/21 - 17:12:40]]></Time>
 <NodeArgs eType="General" icon="7" nRep="15" >
 <Disp><![CDATA[Service: Convert Param]]></Disp>
 </NodeArgs>
 </Step>
 <Step rID="T12">
 <Obj plainTxt="False" ><![CDATA[Service: Convert Param]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>imges_3</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2019/1/18 - 16:42:33]]></Time>
+<Details plainTxt="False" ><![CDATA[<CENTER><FONT COLOR=#FF0031>Step creation failed</CENTER>]]></Details>
+<Time><![CDATA[2019/1/21 - 17:12:40]]></Time>
 <NodeArgs eType="General" icon="7" nRep="16" >
 <Disp><![CDATA[Service: Convert Param]]></Disp>
 </NodeArgs>
@@ -172,7 +172,7 @@
 <Step rID="T13">
 <Obj plainTxt="False" ><![CDATA[Custom Request: hold_theme]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2019/1/18 - 16:42:33]]></Time>
+<Time><![CDATA[2019/1/21 - 17:12:41]]></Time>
 <NodeArgs eType="General" icon="6" nRep="17" status="Passed" >
 <Disp><![CDATA[Custom Request: hold_theme]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -183,7 +183,7 @@
 <Step rID="T14">
 <Obj plainTxt="False" ><![CDATA[Custom Request: get_markcode]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2019/1/18 - 16:42:33]]></Time>
+<Time><![CDATA[2019/1/21 - 17:12:41]]></Time>
 <NodeArgs eType="General" icon="6" nRep="18" status="Passed" >
 <Disp><![CDATA[Custom Request: get_markcode]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -194,7 +194,7 @@
 <Step rID="T15">
 <Obj plainTxt="False" ><![CDATA[Custom Request: get_all_tag]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2019/1/18 - 16:42:33]]></Time>
+<Time><![CDATA[2019/1/21 - 17:12:41]]></Time>
 <NodeArgs eType="General" icon="6" nRep="19" status="Passed" >
 <Disp><![CDATA[Custom Request: get_all_tag]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -205,7 +205,7 @@
 <Step rID="T16">
 <Obj plainTxt="False" ><![CDATA[Custom Request: get_vip_object]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2019/1/18 - 16:42:34]]></Time>
+<Time><![CDATA[2019/1/21 - 17:12:41]]></Time>
 <NodeArgs eType="General" icon="6" nRep="20" status="Passed" >
 <Disp><![CDATA[Custom Request: get_vip_object]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -216,7 +216,7 @@
 <Step rID="T17">
 <Obj plainTxt="False" ><![CDATA[Custom Request: save_theme]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2019/1/18 - 16:42:34]]></Time>
+<Time><![CDATA[2019/1/21 - 17:12:41]]></Time>
 <NodeArgs eType="General" icon="6" nRep="21" status="Passed" >
 <Disp><![CDATA[Custom Request: save_theme]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -224,7 +224,7 @@
 </BtmPane>
 </NodeArgs>
 </Step>
-<Summary sTime="2019/1/18 - 16:42:32" eTime="2019/1/18 - 16:42:34" passed="6" failed="0" warnings="0" ></Summary>
+<Summary sTime="2019/1/21 - 17:12:40" eTime="2019/1/21 - 17:12:41" passed="6" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="8" status="Passed" >
 <Disp><![CDATA[Action Summary]]></Disp>
 </NodeArgs>
@@ -235,12 +235,12 @@
 </DIter>
 <Action rID="T18">
 <AName><![CDATA[vuser_end]]></AName>
-<Summary sTime="2019/1/18 - 16:42:34" eTime="2019/1/18 - 16:42:34" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="2019/1/21 - 17:12:41" eTime="2019/1/21 - 17:12:41" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="24" >
 <Disp><![CDATA[vuser_end Summary]]></Disp>
 </NodeArgs>
 </Action>
-<Summary sTime="2019/1/18 - 16:42:32" eTime="2019/1/18 - 16:42:34" passed="6" failed="0" warnings="0" ></Summary>
+<Summary sTime="2019/1/21 - 17:12:40" eTime="2019/1/21 - 17:12:41" passed="6" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartTest" icon="1" nRep="4" status="Passed" >
 <Disp><![CDATA[Test HPageShare Summary]]></Disp>
 </NodeArgs>

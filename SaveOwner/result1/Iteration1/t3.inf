@@ -7,6 +7,6 @@ FileName1=t3.UNK
 RequestHeaderFile=t3_RequestHeader.txt
 ResponseHeaderFile=t3_ResponseHeader.txt
 RequestBodyFile=t3_RequestBody.txt
-URL1=https://www.szwego.com/service/album/album_group.jsp?act=get_all_tag&type=0&token=N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4&version=2302
+URL1=http://118.126.89.154:58080/service/album/album_group.jsp?act=get_all_tag&type=0&token=MzJFN0I0MTMxNkVFNjRDRTRFMkREREM5ODVBNjhEMjAzODZFMDRGM0IxMDM2QTkyQTlDMjRBRUFERTcyOUZCMkRERDU4QkM2MjI4RDZDQzlGNjNGNTc0OUEzQ0UxNzY0&version=2302
 [AdditionalInfo]
 IsIgnorable=1

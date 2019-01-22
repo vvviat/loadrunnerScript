@@ -1,0 +1,1 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><SLA Version="1.0"><TxList><Tx>进入相册动态</Tx><Tx>vuser_end_Transaction</Tx><Tx>Action_Transaction</Tx><Tx>vuser_init_Transaction</Tx><Tx>发布新增商品</Tx><Tx>返回个人相册</Tx></TxList><SLARules><TrackingPeriodType>Default</TrackingPeriodType><TrackingPeriodValue></TrackingPeriodValue><TrackingPeriodTimeScale></TrackingPeriodTimeScale></SLARules></SLA>

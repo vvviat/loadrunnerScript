@@ -3,7 +3,7 @@
 -D_IDA_XL
 -DWINNT
 -ID:\loadrunnerScript\SaveOwner
--ID:\LoadRunner11\include
+-ID:\ProgramFilesX86\loadrunner11\include
 -ed:\loadrunnerscript\saveowner\\logfile.log
 d:\loadrunnerscript\saveowner\\combined_SaveOwner.c
 d:\loadrunnerscript\saveowner\\pre_cci.c

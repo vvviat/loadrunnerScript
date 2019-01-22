@@ -1,24 +1,65 @@
 加大用户量把系统压死，再逐渐减用户量，找到最大崩溃点和最优运行点；
-1、系统性能测试   ： 最优方案，性能指标&资源消耗
+1、系统性能测试      ： 最优方案，性能指标&资源消耗
 2、负载测试          ： 最大负荷
 3、压力测试          ： 崩溃点
-4、7*24长时间负载测试
+4、7*24长时间负载测试。
 
 指标：响应时间、并发数、吞吐量、服务器指标(cpu 内存 硬盘)
 
 
 
 2.3性能测试
-	SaveOwner保存商品场景涉及接口(发布商品之后回到首页动态)：    /  保存商品(速度与之前对比)
-	OwnerPhotoList个人相册自己新增保存商品     / 保存商品(速度与之前对比)   / 单个相册(查询速度与之前对比)
-	SavePhotoList上家保存--相册列表（进入关注列表-->进入上家相册-->长按分享-->获取标签属性-->保存商品-->返回相册列表）
-	HPageSearch相册动态查询涉及接口（单接口)
-	HPageShare首页-->相册动态，长按分享图片，保存商品
+	SaveOwner：保存商品场景涉及接口(发布商品之后回到首页动态)：    /  保存商品(速度与之前对比)
+	OwnerPhotoList：个人相册自己新增保存商品     / 保存商品(速度与之前对比)   / 单个相册(查询速度与之前对比)
+	SavePhotoList：上家保存--相册列表（进入关注列表-->进入上家相册-->长按分享-->获取标签属性-->保存商品-->返回相册列表）
+***	HPageSearch：相册动态查询涉及接口（单接口)
+	HPageShare：首页-->相册动态，长按分享图片，保存商品
 
 
-2.4性能测试
+2.4性能测试（未开发）
 	订单首页/客户初始化/订单分类查询全部/创建销售单
 	留言动态入口
-	相册动态(查询速度与之前对比)
-	单个相册(查询速度与之前对比)
-	保存商品(速度与之前对比)
+
+	相册动态(响应时间与之前对比)
+	单个相册(响应时间与之前对比)
+	保存商品(响应时间与之前对比)
+
+
+1、脚本事务监听：按接口单个事务监听，按业务一个动作场景监听？
+	单接口：save_theme  标签 价格 备注 规格
+		owner       查询
+
+2、脚本数据关联：业务场景的数据的联动性，是否需要设置集合点？还是在场景设计中体现？
+	场景：  token关联多个好友token，
+			
+		商品数量（造数据）关联--标签
+ 		
+		相册--标签独立页查询
+ 		编辑页标签查询
+ 		标签/目录管理，标签查询
+
+3、运行场景设计：如果不设置集合点，场景设置启动运行的时间和用户数！
+		单接口设置集合点
+		场景多接口通过场景设计多少用户启动
+
+4、HPageSearch动态单接口的必要性（关键字search_value=，后台配置）
+
+
+Message Code 26697 
+Missing CR/LF after body/trailer ("Transfer-Encoding: chunked") for 'URL' 
+The script probably specifies web_add_header( "Accept?Encoding", "chunked") and/or web_add_auto_header( "Accept?Encoding", "chunked"). The server responded by sending a message with a response header "Transfer?Encoding: chunked" and response body structured accordingly. The structure of the body returned from the server seems to be invalid. 
+
+Troubleshooting 
+Look in the script for web_add_header( "Accept?Encoding", "chunked") and/or web_add_auto_header( "Accept?Encoding", "chunked"), and comment out or remove these lines.
+
+
+
+
+
+
+
+
+
+
+
+

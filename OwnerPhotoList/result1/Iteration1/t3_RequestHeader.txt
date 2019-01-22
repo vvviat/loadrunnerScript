@@ -1,10 +1,9 @@
-GET /service/album/album_theme_tag_operation.jsp?act=get_tags_except&has_video=0&shop_id=A201812080953300270014587 HTTP/1.1
-Cookie: producte_run_to_dev_tomcat=; JSESSIONID=360636733F1ACDFFABF93BB46E678284; client_type=ios; token=N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4
-Referer: https://www.szwego.com/service/album/get_album_themes_list.jsp?act=single_album&shop_id=A201812080953300270014587&search_value=&search_img=&start_date=&end_date=&tag=[]&page_index=1&from_id=&client_type=ios&token=N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4&version=2302
+GET /service/album/album_theme_tag_operation.jsp?act=get_tags_except&has_video=0&shop_id=A201812080953300270014587&token=MzJFN0I0MTMxNkVFNjRDRTRFMkREREM5ODVBNjhEMjAzODZFMDRGM0IxMDM2QTkyQTlDMjRBRUFERTcyOUZCMkRERDU4QkM2MjI4RDZDQzlGNjNGNTc0OUEzQ0UxNzY0 HTTP/1.1
+Referer: http://118.126.89.154:58080/service/album/album_theme_operation.jsp?act=save_theme&mark_code=&client_type=ios&goodsNum=ABC_178243907&main_imgs=%5B%0A%20%20%22https%3A%5C/%5C/xcimg.szwego.com%5C/1547209778_910270265_0%22%2C%0A%20%20%22https%3A%5C/%5C/xcimg.szwego.com%5C/1547209778_257527751_1%22%2C%0A%20%20%22https%3A%5C/%5C/xcimg.szwego.com%5C/1547209778_1237727370_2%22%2C%0A%20%20%22https%3A%5C/%5C/xcimg.szwego.com%5C/1547209778_1374390121_3%22%2C%0A%20%20%22https%3A%5C/%5C/xcimg.szwego.com%5C/1547209778_3772973971_4%22%2C%0A%20%20%22https%3A%5C/%5C/xcimg.szwego.com%5C/1547209778_3229263933_5%22%2C%0A%20%20%22https%3A%5C/%5C/xcimg.szwego.com%5C/1547209778_3646982984_6%22%2C%0A%20%20%22https%3A%5C/%5C/xcimg.szwego.com%5C/1547209778_76362054_7%22%0A%5D&title=Testing_967102970&token=MzJFN0I0MTMxNkVFNjRDRTRFMkREREM5ODVBNjhEMjAzODZFMDRGM0IxMDM2QTkyQTlDMjRBRUFERTcyOUZCMkRERDU4QkM2MjI4RDZDQzlGNjNGNTc0OUEzQ0UxNzY0&version=2302&personal=0&platform=app&share_type=-1&source_type=0&source_url=&sources=&sub_imgs=
 User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)
 Accept-Encoding: gzip, deflate
 Accept: */*
-Host: www.szwego.com
 Connection: Keep-Alive
-Cache-Control: no-cache
+Host: 118.126.89.154:58080
+Cookie: localhost_run_to_dev_tomcat=; JSESSIONID=1855C1C954CF05112428A7373C88AAE5; client_type=ios; localhost_token=MzJFN0I0MTMxNkVFNjRDRTRFMkREREM5ODVBNjhEMjAzODZFMDRGM0IxMDM2QTkyQTlDMjRBRUFERTcyOUZCMkRERDU4QkM2MjI4RDZDQzlGNjNGNTc0OUEzQ0UxNzY0
 

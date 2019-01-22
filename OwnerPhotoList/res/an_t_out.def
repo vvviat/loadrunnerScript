@@ -1,0 +1,14 @@
+[Graph definition]
+GraphTitle=Timeout Count
+XAxisTitle=Elapsed Scenario Time (seconds)
+YAxisTitle=Count
+XAxisIsElapsedTime=TRUE
+LineType=NOTRIANGLE
+BuildUnderLoadGraph=FALSE
+AggregateFunction=SUM
+MissingData=ZERO
+GranularityMode=SUM
+GraphGroupMenuTitle=Network Delay
+CommonDirectory=anpt_timeout
+NoDataBehavior=RemoveGraph
+NumberInMenu=1

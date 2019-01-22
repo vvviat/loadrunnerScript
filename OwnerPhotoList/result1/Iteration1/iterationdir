@@ -2,5 +2,3 @@
 SnapshotIndex=I1_vuser_init
 [Action]
 SnapshotIndex=I1_Action
-[vuser_end]
-SnapshotIndex=I1_vuser_end

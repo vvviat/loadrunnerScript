@@ -1,0 +1,12 @@
+[t1]
+SnapshotXmlFile=snapshot_1.xml
+ContentType=text/plain
+StepName=Custom Request: owner
+Total=1
+FileName1=t1.UNK
+RequestHeaderFile=t1_RequestHeader.txt
+ResponseHeaderFile=t1_ResponseHeader.txt
+RequestBodyFile=t1_RequestBody.txt
+URL1=http://118.126.89.154:58080/service/album/get_album_themes_list.jsp?act=owner&shop_id=&search_value=&search_img=&start_date=&end_date=&page_index=1&client_type=ios&token=4F3D00B52FC8E01A1F6412605FF6FDE707B60438B35E6E6F0A690EC4CEE93B5F45F35F318C51A353&version=2302&
+[AdditionalInfo]
+IsIgnorable=1

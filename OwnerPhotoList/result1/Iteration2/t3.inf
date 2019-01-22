@@ -1,0 +1,12 @@
+[t3]
+SnapshotXmlFile=snapshot_3.xml
+ContentType=text/plain
+StepName=Custom Request: get_tags_except_2
+Total=1
+FileName1=t3.UNK
+RequestHeaderFile=t3_RequestHeader.txt
+ResponseHeaderFile=t3_ResponseHeader.txt
+RequestBodyFile=t3_RequestBody.txt
+URL1=http://118.126.89.154:58080/service/album/album_theme_tag_operation.jsp?act=get_tags_except&has_video=0&shop_id=A2017030621031438040&token=EE6240DB5D53EEFBD18DCB43801D7E447AA51D2BF51158EF7630C103FD4803E66D2E84DD669910B1
+[AdditionalInfo]
+IsIgnorable=1

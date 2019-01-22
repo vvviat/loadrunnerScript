@@ -1,60 +1,98 @@
-Virtual User Script started at : 2019-01-14 11:18:12
+Virtual User Script started at : 2019-01-22 09:35:41
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 11.0.0 for Windows 7; build 8859 (Aug 18 2010 20:14:31)  	[MsgId: MMSG-27143]
 Run Mode: HTML  	[MsgId: MMSG-26000]
-Run-Time Settings file: "D:\PerformanceData\OwnerPhotoList\\default.cfg"  	[MsgId: MMSG-27141]
+Run-Time Settings file: "D:\loadrunnerScript\OwnerPhotoList\\default.cfg"  	[MsgId: MMSG-27141]
 Ending action vuser_init.
 Running Vuser...
 Starting iteration 1.
 Starting action Action.
-Action.c(5): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
-Action.c(12): Notify: Transaction "个人相册新增商品" started.
-Action.c(14): Notify: Transaction "进入相册动态" started.
-Action.c(16): Notify: Parameter Substitution: parameter "requestUrl" =  "www.szwego.com"
-Action.c(16): Notify: Parameter Substitution: parameter "userToken" =  "N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4"
-Action.c(16): Notify: Saving Parameter "shop_id = A201812080953300270014587".
-Action.c(16): web_custom_request("owner") was successful, 8280 body bytes, 1098 header bytes  	[MsgId: MMSG-26386]
-Action.c(22): Notify: Transaction "进入相册动态" ended with "Pass" status (Duration: 0.7385 Wasted Time: 0.2441).
-Action.c(25): Notify: Transaction "进入个人相册" started.
-Action.c(27): Notify: Parameter Substitution: parameter "requestUrl" =  "www.szwego.com"
-Action.c(27): Notify: Parameter Substitution: parameter "shop_id" =  "A201812080953300270014587"
-Action.c(27): Notify: Parameter Substitution: parameter "userToken" =  "N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4"
-Action.c(27): web_custom_request("single_album") was successful, 6209 body bytes, 670 header bytes  	[MsgId: MMSG-26386]
-Action.c(33): Notify: Parameter Substitution: parameter "requestUrl" =  "www.szwego.com"
-Action.c(33): Notify: Parameter Substitution: parameter "shop_id" =  "A201812080953300270014587"
-Action.c(33): web_custom_request("get_tags_except") was successful, 971 body bytes, 431 header bytes  	[MsgId: MMSG-26386]
-Action.c(39): Notify: Transaction "进入个人相册" ended with "Pass" status (Duration: 0.6879 Wasted Time: 0.0154).
-Action.c(41): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
-Action.c(48): Notify: Transaction "发布商品" started.
-Action.c(50): Notify: Parameter Substitution: parameter "requestUrl" =  "www.szwego.com"
-Action.c(50): Notify: Parameter Substitution: parameter "userToken" =  "N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4"
-Action.c(50): Warning -26377: No match found for the requested parameter "mark_code". Check whether the requested boundaries exist in the response data. Also, if the data you want to save exceeds 256 bytes, use web_set_max_html_param_len to increase the parameter size  	[MsgId: MWAR-26377]
-Action.c(50): Notify: Saving Parameter "mark_code = ".
-Action.c(50): web_custom_request("get_tags") highest severity level was "warning", 965 body bytes, 431 header bytes  	[MsgId: MMSG-26388]
-Action.c(56): Notify: Parameter Substitution: parameter "requestUrl" =  "www.szwego.com"
-Action.c(56): Notify: Parameter Substitution: parameter "shop_id" =  "A201812080953300270014587"
-Action.c(56): Notify: Parameter Substitution: parameter "userToken" =  "N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4"
-Action.c(56): web_custom_request("get_tags_except_1") was successful, 971 body bytes, 431 header bytes  	[MsgId: MMSG-26386]
-Action.c(63): Notify: Parameter Substitution: parameter "requestUrl" =  "www.szwego.com"
-Action.c(63): Notify: Parameter Substitution: parameter "mark_code" =  ""
-Action.c(63): Notify: Parameter Substitution: parameter "randomNum" =  "767396313"
-Action.c(63): Notify: Parameter Substitution: parameter "randomNum" =  "537026354"
-Action.c(63): Notify: Parameter Substitution: parameter "userToken" =  "N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4"
-Action.c(63): web_custom_request("save_theme") was successful, 543 body bytes, 616 header bytes  	[MsgId: MMSG-26386]
-Action.c(69): Notify: Transaction "发布商品" ended with "Pass" status (Duration: 0.9179 Wasted Time: 0.0074).
-Action.c(71): Notify: Transaction "返回个人相册" started.
-Action.c(73): Notify: Parameter Substitution: parameter "requestUrl" =  "www.szwego.com"
-Action.c(73): Notify: Parameter Substitution: parameter "shop_id" =  "A201812080953300270014587"
-Action.c(73): Notify: Parameter Substitution: parameter "userToken" =  "N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4"
-Action.c(73): web_custom_request("get_tags_except_2") was successful, 971 body bytes, 431 header bytes  	[MsgId: MMSG-26386]
-Action.c(79): Notify: Parameter Substitution: parameter "requestUrl" =  "www.szwego.com"
-Action.c(79): Notify: Parameter Substitution: parameter "shop_id" =  "A201812080953300270014587"
-Action.c(79): Notify: Parameter Substitution: parameter "userToken" =  "N0I5MjQwRTM4N0FDRkIzOEY3NUM2MkZCNDdENjRCRUEwMUIwRDQzOEZCNDA5NTVFOUY3RTUwNEZBNDUxM0QyQkQzNjg4OTc5NjZFMUVFMzYyODREQ0JFNTY1Rjg0OTQ4"
-Action.c(79): web_custom_request("single_album_1") was successful, 5852 body bytes, 670 header bytes  	[MsgId: MMSG-26386]
-Action.c(85): Notify: Transaction "返回个人相册" ended with "Pass" status (Duration: 0.7485 Wasted Time: 0.0079).
-Action.c(87): Notify: Transaction "个人相册新增商品" ended with "Pass" status (Duration: 3.3314 Wasted Time: 0.2748).
+Action.c(7): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(15): Notify: Transaction "进入相册动态" started.
+Action.c(20): Notify: Parameter Substitution: parameter "requestUrl" =  "http://118.126.89.154:58080"
+Action.c(20): Notify: Parameter Substitution: parameter "userToken" =  "MzJFN0I0MTMxNkVFNjRDRTRFMkREREM5ODVBNjhEMjAzODZFMDRGM0IxMDM2QTkyQTlDMjRBRUFERTcyOUZCMkRERDU4QkM2MjI4RDZDQzlGNjNGNTc0OUEzQ0UxNzY0"
+Action.c(20): Notify: Saving Parameter "shop_id = A201812080953300270014587".
+Action.c(20): web_custom_request("owner") was successful, 77731 body bytes, 1024 header bytes, 84 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(28): Notify: Transaction "进入相册动态" ended with "Pass" status (Duration: 0.5438 Wasted Time: 0.2777).
+Action.c(73): Notify: Transaction "发布新增商品" started.
+Action.c(75): Notify: Parameter Substitution: parameter "requestUrl" =  "http://118.126.89.154:58080"
+Action.c(75): Notify: Parameter Substitution: parameter "randomNum" =  "178243907"
+Action.c(75): Notify: Parameter Substitution: parameter "randomNum" =  "967102970"
+Action.c(75): Notify: Parameter Substitution: parameter "userToken" =  "MzJFN0I0MTMxNkVFNjRDRTRFMkREREM5ODVBNjhEMjAzODZFMDRGM0IxMDM2QTkyQTlDMjRBRUFERTcyOUZCMkRERDU4QkM2MjI4RDZDQzlGNjNGNTc0OUEzQ0UxNzY0"
+Action.c(75): web_custom_request("save_theme") was successful, 543 body bytes, 494 header bytes  	[MsgId: MMSG-26386]
+Action.c(81): Notify: Transaction "发布新增商品" ended with "Pass" status (Duration: 0.3512 Wasted Time: 0.0112).
+Action.c(83): Notify: Transaction "返回个人相册" started.
+Action.c(85): Notify: Parameter Substitution: parameter "requestUrl" =  "http://118.126.89.154:58080"
+Action.c(85): Notify: Parameter Substitution: parameter "shop_id" =  "A201812080953300270014587"
+Action.c(85): Notify: Parameter Substitution: parameter "userToken" =  "MzJFN0I0MTMxNkVFNjRDRTRFMkREREM5ODVBNjhEMjAzODZFMDRGM0IxMDM2QTkyQTlDMjRBRUFERTcyOUZCMkRERDU4QkM2MjI4RDZDQzlGNjNGNTc0OUEzQ0UxNzY0"
+Action.c(85): web_custom_request("get_tags_except_2") was successful, 285 body bytes, 304 header bytes  	[MsgId: MMSG-26386]
+Action.c(93): Notify: Parameter Substitution: parameter "requestUrl" =  "http://118.126.89.154:58080"
+Action.c(93): Notify: Parameter Substitution: parameter "shop_id" =  "A201812080953300270014587"
+Action.c(93): Notify: Parameter Substitution: parameter "userToken" =  "MzJFN0I0MTMxNkVFNjRDRTRFMkREREM5ODVBNjhEMjAzODZFMDRGM0IxMDM2QTkyQTlDMjRBRUFERTcyOUZCMkRERDU4QkM2MjI4RDZDQzlGNjNGNTc0OUEzQ0UxNzY0"
+Action.c(93): web_custom_request("single_album_1") was successful, 78193 body bytes, 501 header bytes, 85 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(104): Notify: Transaction "返回个人相册" ended with "Pass" status (Duration: 0.4694 Wasted Time: 0.2216).
 Ending action Action.
 Ending iteration 1.
+Starting iteration 2.
+Notify: Next row for parameter userToken = 2 [table  = userToken].
+Notify: Getting new value for parameter 'userToken': table = 'userToken.dat' column = '0' row = '2'.
+Starting action Action.
+Action.c(7): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(15): Notify: Transaction "进入相册动态" started.
+Action.c(20): Notify: Parameter Substitution: parameter "requestUrl" =  "http://118.126.89.154:58080"
+Action.c(20): Notify: Parameter Substitution: parameter "userToken" =  "EE6240DB5D53EEFBD18DCB43801D7E447AA51D2BF51158EF7630C103FD4803E66D2E84DD669910B1"
+Action.c(20): Notify: Saving Parameter "shop_id = A2017030621031438040".
+Action.c(20): web_custom_request("owner") was successful, 76595 body bytes, 928 header bytes, 84 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(28): Notify: Transaction "进入相册动态" ended with "Pass" status (Duration: 0.2130 Wasted Time: 0.0203).
+Action.c(73): Notify: Transaction "发布新增商品" started.
+Action.c(75): Notify: Parameter Substitution: parameter "requestUrl" =  "http://118.126.89.154:58080"
+Action.c(75): Notify: Parameter Substitution: parameter "randomNum" =  "114885917"
+Action.c(75): Notify: Parameter Substitution: parameter "randomNum" =  "419306257"
+Action.c(75): Notify: Parameter Substitution: parameter "userToken" =  "EE6240DB5D53EEFBD18DCB43801D7E447AA51D2BF51158EF7630C103FD4803E66D2E84DD669910B1"
+Action.c(75): web_custom_request("save_theme") was successful, 480 body bytes, 494 header bytes  	[MsgId: MMSG-26386]
+Action.c(81): Notify: Transaction "发布新增商品" ended with "Pass" status (Duration: 0.0720 Wasted Time: 0.0008).
+Action.c(83): Notify: Transaction "返回个人相册" started.
+Action.c(85): Notify: Parameter Substitution: parameter "requestUrl" =  "http://118.126.89.154:58080"
+Action.c(85): Notify: Parameter Substitution: parameter "shop_id" =  "A2017030621031438040"
+Action.c(85): Notify: Parameter Substitution: parameter "userToken" =  "EE6240DB5D53EEFBD18DCB43801D7E447AA51D2BF51158EF7630C103FD4803E66D2E84DD669910B1"
+Action.c(85): web_custom_request("get_tags_except_2") was successful, 237 body bytes, 304 header bytes  	[MsgId: MMSG-26386]
+Action.c(93): Notify: Parameter Substitution: parameter "requestUrl" =  "http://118.126.89.154:58080"
+Action.c(93): Notify: Parameter Substitution: parameter "shop_id" =  "A2017030621031438040"
+Action.c(93): Notify: Parameter Substitution: parameter "userToken" =  "EE6240DB5D53EEFBD18DCB43801D7E447AA51D2BF51158EF7630C103FD4803E66D2E84DD669910B1"
+Action.c(93): web_custom_request("single_album_1") was successful, 77092 body bytes, 501 header bytes, 84 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(104): Notify: Transaction "返回个人相册" ended with "Pass" status (Duration: 0.3881 Wasted Time: 0.2081).
+Ending action Action.
+Ending iteration 2.
+Starting iteration 3.
+Notify: Next row for parameter userToken = 3 [table  = userToken].
+Notify: Getting new value for parameter 'userToken': table = 'userToken.dat' column = '0' row = '3'.
+Starting action Action.
+Action.c(7): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(15): Notify: Transaction "进入相册动态" started.
+Action.c(20): Notify: Parameter Substitution: parameter "requestUrl" =  "http://118.126.89.154:58080"
+Action.c(20): Notify: Parameter Substitution: parameter "userToken" =  "4F3D00B52FC8E01A1F6412605FF6FDE707B60438B35E6E6F0A690EC4CEE93B5F45F35F318C51A353"
+Action.c(20): Notify: Saving Parameter "shop_id = A2017032318150206828".
+Action.c(20): web_custom_request("owner") was successful, 76551 body bytes, 928 header bytes, 84 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(28): Notify: Transaction "进入相册动态" ended with "Pass" status (Duration: 0.2541 Wasted Time: 0.0189).
+Action.c(73): Notify: Transaction "发布新增商品" started.
+Action.c(75): Notify: Parameter Substitution: parameter "requestUrl" =  "http://118.126.89.154:58080"
+Action.c(75): Notify: Parameter Substitution: parameter "randomNum" =  "528794947"
+Action.c(75): Notify: Parameter Substitution: parameter "randomNum" =  "04028673"
+Action.c(75): Notify: Parameter Substitution: parameter "userToken" =  "4F3D00B52FC8E01A1F6412605FF6FDE707B60438B35E6E6F0A690EC4CEE93B5F45F35F318C51A353"
+Action.c(75): web_custom_request("save_theme") was successful, 480 body bytes, 494 header bytes  	[MsgId: MMSG-26386]
+Action.c(81): Notify: Transaction "发布新增商品" ended with "Pass" status (Duration: 0.0700 Wasted Time: 0.0008).
+Action.c(83): Notify: Transaction "返回个人相册" started.
+Action.c(85): Notify: Parameter Substitution: parameter "requestUrl" =  "http://118.126.89.154:58080"
+Action.c(85): Notify: Parameter Substitution: parameter "shop_id" =  "A2017032318150206828"
+Action.c(85): Notify: Parameter Substitution: parameter "userToken" =  "4F3D00B52FC8E01A1F6412605FF6FDE707B60438B35E6E6F0A690EC4CEE93B5F45F35F318C51A353"
+Action.c(85): web_custom_request("get_tags_except_2") was successful, 237 body bytes, 304 header bytes  	[MsgId: MMSG-26386]
+Action.c(93): Notify: Parameter Substitution: parameter "requestUrl" =  "http://118.126.89.154:58080"
+Action.c(93): Notify: Parameter Substitution: parameter "shop_id" =  "A2017032318150206828"
+Action.c(93): Notify: Parameter Substitution: parameter "userToken" =  "4F3D00B52FC8E01A1F6412605FF6FDE707B60438B35E6E6F0A690EC4CEE93B5F45F35F318C51A353"
+Action.c(93): web_custom_request("single_album_1") was successful, 76842 body bytes, 501 header bytes, 84 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(104): Notify: Transaction "返回个人相册" ended with "Pass" status (Duration: 0.2605 Wasted Time: 0.1988).
+Ending action Action.
+Ending iteration 3.
 Ending Vuser...
 Starting action vuser_end.
 Ending action vuser_end.

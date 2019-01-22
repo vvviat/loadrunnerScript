@@ -7,6 +7,6 @@ FileName1=t5.UNK
 RequestHeaderFile=t5_RequestHeader.txt
 ResponseHeaderFile=t5_ResponseHeader.txt
 RequestBodyFile=t5_RequestBody.txt
-URL1=http://118.126.89.154:58080/service/album/album_theme_operation.jsp?act=get_markcode&client_type=ios&goods_id=I201812180909508130164707&platform=app&shop_id=A2018030212170424363&token=MzJFN0I0MTMxNkVFNjRDRTRFMkREREM5ODVBNjhEMjAzODZFMDRGM0IxMDM2QTkyQTlDMjRBRUFERTcyOUZCMkRERDU4QkM2MjI4RDZDQzlGNjNGNTc0OUEzQ0UxNzY0&version=2302
+URL1=http://118.126.89.154:58080/service/album/album_theme_operation.jsp?act=get_markcode&client_type=ios&goods_id=I201901211703571840000973&platform=app&shop_id=A201812080953300270014587&token=MzJFN0I0MTMxNkVFNjRDRTRFMkREREM5ODVBNjhEMjAzODZFMDRGM0IxMDM2QTkyQTlDMjRBRUFERTcyOUZCMkRERDU4QkM2MjI4RDZDQzlGNjNGNTc0OUEzQ0UxNzY0&version=2302
 [AdditionalInfo]
 IsIgnorable=1

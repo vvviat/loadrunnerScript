@@ -3,7 +3,7 @@
 -D_IDA_XL
 -DWINNT
 -ID:\loadrunnerScript\HPageShare
--ID:\LoadRunner11\include
+-ID:\ProgramFilesX86\loadrunner11\include
 -ed:\loadrunnerscript\hpageshare\\logfile.log
 d:\loadrunnerscript\hpageshare\\combined_HPageShare.c
 d:\loadrunnerscript\hpageshare\\pre_cci.c

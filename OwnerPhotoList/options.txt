@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--ID:\PerformanceData\OwnerPhotoList
--ID:\LoadRunner11\include
--ed:\performancedata\ownerphotolist\\logfile.log
-d:\performancedata\ownerphotolist\\combined_OwnerPhotoList.c
-d:\performancedata\ownerphotolist\\pre_cci.c
+-ID:\loadrunnerScript\OwnerPhotoList
+-ID:\ProgramFilesX86\loadrunner11\include
+-ed:\loadrunnerscript\ownerphotolist\\logfile.log
+d:\loadrunnerscript\ownerphotolist\\combined_OwnerPhotoList.c
+d:\loadrunnerscript\ownerphotolist\\pre_cci.c
