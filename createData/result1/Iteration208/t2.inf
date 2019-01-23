@@ -1,0 +1,10 @@
+[t2]
+SnapshotXmlFile=snapshot_2.xml
+ContentType=text/plain
+StepName=Custom Request: get_code_id
+Total=1
+FileName1=t2.UNK
+RequestHeaderFile=t2_RequestHeader.txt
+ResponseHeaderFile=t2_ResponseHeader.txt
+RequestBodyFile=t2_RequestBody.txt
+URL1=http://118.126.89.154:58080/service/account/get_my_attention_code.jsp?shop_id=I201812181419376230166695&client_type=ios&token=21532A23FFDE87B4F72B03ACBB57CD813CC5B036C1FBE09F15AD6287251924254410762C99906CE4

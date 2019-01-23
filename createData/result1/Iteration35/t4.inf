@@ -1,0 +1,12 @@
+[t4]
+SnapshotXmlFile=snapshot_4.xml
+ContentType=text/plain
+StepName=Custom Request: get_new_fans
+Total=1
+FileName1=t4.UNK
+RequestHeaderFile=t4_RequestHeader.txt
+ResponseHeaderFile=t4_ResponseHeader.txt
+RequestBodyFile=t4_RequestBody.txt
+URL1=http://118.126.89.154:58080/service/album/get_album_list.jsp?act=get_new_fans&client_type=ios&token=198BCA97F1EFB76BB40FD5FD40E4EBA4F9694B0F3EEEDE1C7657C39CD79C5831BE564F0858A74F66
+[AdditionalInfo]
+IsIgnorable=1

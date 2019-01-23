@@ -1,0 +1,8 @@
+GET /service/album/get_album_themes_list.jsp?act=owner&token=3BF631B4489505B51BB71C41E95C7400681FD09FF94C6542DE258C41335DE4BF1F0A50987EE0E74E HTTP/1.1
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)
+Accept-Encoding: gzip, deflate
+Accept: */*
+Host: 118.126.89.154:58080
+Connection: Keep-Alive
+Cache-Control: no-cache
+

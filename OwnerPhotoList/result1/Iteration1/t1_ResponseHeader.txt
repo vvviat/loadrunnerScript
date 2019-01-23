@@ -1,14 +1,18 @@
 HTTP/1.1 200 
-Set-Cookie: localhost_run_to_dev_tomcat=; Max-Age=1; Expires=Tue, 22-Jan-2019 01:35:52 GMT; Path=/
-Expires: Thu, 01 Jan 1970 00:00:00 GMT
-Set-Cookie: JSESSIONID=1855C1C954CF05112428A7373C88AAE5; Path=/; HttpOnly
-Set-Cookie: client_type=ios; Max-Age=315360000; Expires=Fri, 19-Jan-2029 01:35:51 GMT; Path=/
-Set-Cookie: localhost_token=MzJFN0I0MTMxNkVFNjRDRTRFMkREREM5ODVBNjhEMjAzODZFMDRGM0IxMDM2QTkyQTlDMjRBRUFERTcyOUZCMkRERDU4QkM2MjI4RDZDQzlGNjNGNTc0OUEzQ0UxNzY0; Max-Age=315360000; Expires=Fri, 19-Jan-2029 01:35:51 GMT; Path=/
-Set-Cookie: client_type=ios; Max-Age=315360000; Expires=Fri, 19-Jan-2029 01:35:51 GMT; Path=/
-Set-Cookie: localhost_token=MzJFN0I0MTMxNkVFNjRDRTRFMkREREM5ODVBNjhEMjAzODZFMDRGM0IxMDM2QTkyQTlDMjRBRUFERTcyOUZCMkRERDU4QkM2MjI4RDZDQzlGNjNGNTc0OUEzQ0UxNzY0; Max-Age=315360000; Expires=Fri, 19-Jan-2029 01:35:51 GMT; Path=/
-Cache-Control: no-cache
-Pragma: No-cache
+Server: nginx/1.9.5
+Date: Tue, 22 Jan 2019 06:44:05 GMT
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
-Date: Tue, 22 Jan 2019 01:35:51 GMT
+Connection: keep-alive
+Vary: Accept-Encoding
+Set-Cookie: producte_run_to_dev_tomcat=; Max-Age=1; Expires=Tue, 22-Jan-2019 06:43:40 GMT; Path=/
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: JSESSIONID=81376EA2A93CBAFDF013107779B9CF70; Path=/; Secure; HttpOnly
+Set-Cookie: client_type=ios; Max-Age=315360000; Expires=Fri, 19-Jan-2029 06:43:39 GMT; Path=/
+Set-Cookie: token=M0FERThDOTYwRTJGQjdFNEYzQUYxN0JERDNCMDBCNjQ1ODM1QUJGMzJENTczREZCRDY1QTU2ODQ4M0JEMDMwM0JCNDAwOERDREUzMTdGRDRBMzc1QzJEQjU5MDE0OERF; Max-Age=315360000; Expires=Fri, 19-Jan-2029 06:43:39 GMT; Path=/
+Set-Cookie: client_type=ios; Max-Age=315360000; Expires=Fri, 19-Jan-2029 06:43:40 GMT; Path=/
+Set-Cookie: token=M0FERThDOTYwRTJGQjdFNEYzQUYxN0JERDNCMDBCNjQ1ODM1QUJGMzJENTczREZCRDY1QTU2ODQ4M0JEMDMwM0JCNDAwOERDREUzMTdGRDRBMzc1QzJEQjU5MDE0OERF; Max-Age=315360000; Expires=Fri, 19-Jan-2029 06:43:40 GMT; Path=/
+Cache-Control: no-cache
+Pragma: No-cache
+Vary: Accept-Encoding
 

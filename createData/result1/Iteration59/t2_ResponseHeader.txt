@@ -1,0 +1,11 @@
+HTTP/1.1 200 
+Set-Cookie: localhost_run_to_dev_tomcat=; Max-Age=1; Expires=Wed, 23-Jan-2019 08:31:59 GMT; Path=/
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: client_type=ios; Max-Age=315360000; Expires=Sat, 20-Jan-2029 08:31:58 GMT; Path=/
+Set-Cookie: client_type=ios; Max-Age=315360000; Expires=Sat, 20-Jan-2029 08:31:58 GMT; Path=/
+Cache-Control: no-cache
+Pragma: No-cache
+Content-Type: application/json;charset=UTF-8
+Content-Length: 161
+Date: Wed, 23 Jan 2019 08:31:58 GMT
+

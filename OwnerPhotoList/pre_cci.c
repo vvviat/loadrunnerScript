@@ -1761,13 +1761,12 @@ Action()
 
 	lr_start_transaction("进入相册动态");
 
- 
+	web_add_header("Accept-Encoding","chunked");
 
 
     web_custom_request("owner",
                        "Url={requestUrl}/service/album/get_album_themes_list.jsp?act=owner&shop_id=&search_value=&search_img=&start_date=&end_date=&page_index=1&client_type=ios&token={userToken}&version=2302&",
                        "Method=GET",
-					   "EncType=Transfer-Encoding",
                        "Mode=HTTP",
                         "LAST");
 
@@ -1775,7 +1774,7 @@ Action()
 	lr_end_transaction("进入相册动态",0);
 
  
-# 73 "Action.c"
+# 72 "Action.c"
 	lr_start_transaction("发布新增商品");
 
 	web_custom_request("save_theme",

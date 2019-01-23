@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--ID:\PerformanceData\randomVisit
--ID:\Program Files (x86)\HP\LoadRunner\include
--ed:\performancedata\randomvisit\\logfile.log
-d:\performancedata\randomvisit\\combined_randomVisit.c
-d:\performancedata\randomvisit\\pre_cci.c

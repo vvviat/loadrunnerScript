@@ -1,0 +1,12 @@
+[t1]
+SnapshotXmlFile=snapshot_1.xml
+ContentType=text/plain
+StepName=Custom Request: get_shop_id
+Total=1
+FileName1=t1.UNK
+RequestHeaderFile=t1_RequestHeader.txt
+ResponseHeaderFile=t1_ResponseHeader.txt
+RequestBodyFile=t1_RequestBody.txt
+URL1=http://118.126.89.154:58080/service/album/get_album_themes_list.jsp?act=owner&token=C5E1ABE19BB7720D36EE018E8A290036822DD35DA2372F0A3C32510E3216E1002811AE9866EFAFA7
+[AdditionalInfo]
+IsIgnorable=1

@@ -7,6 +7,6 @@ FileName1=t3.UNK
 RequestHeaderFile=t3_RequestHeader.txt
 ResponseHeaderFile=t3_ResponseHeader.txt
 RequestBodyFile=t3_RequestBody.txt
-URL1=http://118.126.89.154:58080/service/album/album_theme_tag_operation.jsp?act=get_tags_except&has_video=0&shop_id=A2017030621031438040&token=EE6240DB5D53EEFBD18DCB43801D7E447AA51D2BF51158EF7630C103FD4803E66D2E84DD669910B1
+URL1=https://www.szwego.com/service/album/album_theme_tag_operation.jsp?act=get_tags_except&has_video=0&shop_id=A201812080953300270014587&token=M0FERThDOTYwRTJGQjdFNEYzQUYxN0JERDNCMDBCNjQ1ODM1QUJGMzJENTczREZCRDY1QTU2ODQ4M0JEMDMwM0JCNDAwOERDREUzMTdGRDRBMzc1QzJEQjU5MDE0OERF
 [AdditionalInfo]
 IsIgnorable=1

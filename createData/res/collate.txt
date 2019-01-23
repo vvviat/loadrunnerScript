@@ -1,0 +1,7 @@
+[Diagnostics]
+Status=-1
+[Collate Recovery]
+Scenario=
+Completed=1
+[Hosts]
+129.204.167.205=C:\Users\Administrator\AppData\Local\Temp\brr_YAR.369\netdir\D\loadrunnerScript\createData\res\129.204.167.205_2.eve

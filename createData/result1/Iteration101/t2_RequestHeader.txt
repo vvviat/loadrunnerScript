@@ -1,0 +1,10 @@
+GET /service/account/get_my_attention_code.jsp?shop_id=A2017092506033182559&client_type=ios&token=327515228112EF6FFE2E5F5C15C41EF8B49DC6B25F22A97D1F92FA10E43A158056BA5C079DDCC661 HTTP/1.1
+Cookie: localhost_run_to_dev_tomcat=; JSESSIONID=5C5123F2306D1B80DE11B1A7A55FCEF0; localhost_token=327515228112EF6FFE2E5F5C15C41EF8B49DC6B25F22A97D1F92FA10E43A158056BA5C079DDCC661
+Referer: http://118.126.89.154:58080/service/album/get_album_themes_list.jsp?act=owner&token=327515228112EF6FFE2E5F5C15C41EF8B49DC6B25F22A97D1F92FA10E43A158056BA5C079DDCC661
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)
+Accept-Encoding: gzip, deflate
+Accept: */*
+Host: 118.126.89.154:58080
+Connection: Keep-Alive
+Cache-Control: no-cache
+

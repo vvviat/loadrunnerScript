@@ -1,0 +1,1 @@
+Action.c(22): Error -27492: "HttpSendRequest" failed, Windows error code=12002 and retry limit (0) exceeded for URL="http://118.126.89.154:58080/service/album/get_album_themes_list.jsp?act=owner&token=E98AD601C94E9B94545310D5CED5760E02E82F7A47FAF62A9FFD44CCDBC907727A543ACB6456433E"  	[MsgId: MERR-27492]

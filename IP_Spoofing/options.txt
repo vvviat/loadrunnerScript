@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--ID:\PerformanceData\IP_Spoofing
--ID:\LoadRunner11\include
--ed:\performancedata\ip_spoofing\\logfile.log
-d:\performancedata\ip_spoofing\\combined_IP_Spoofing.c
-d:\performancedata\ip_spoofing\\pre_cci.c

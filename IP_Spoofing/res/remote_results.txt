@@ -1,4 +1,0 @@
-[Hosts]
-localhost=D:\PerformanceData\IP_Spoofing\res\localhost_204.eve
-129.204.167.205=b:\tmp\brr_YAR.237\netdir\D\PerformanceData\IP_Spoofing\res\129.204.167.205_218.eve
-172.16.0.253=C:\Users\Administrator\AppData\Local\Temp\brr_BGf.687\netdir\D\PerformanceData\IP_Spoofing\res\172.16.0.253_341.eve

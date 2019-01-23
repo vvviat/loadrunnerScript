@@ -1,0 +1,10 @@
+GET /service/account/attention.jsp?follow_code=A2017080211045211817&user_id=&token=MzJFN0I0MTMxNkVFNjRDRTRFMkREREM5ODVBNjhEMjAzODZFMDRGM0IxMDM2QTkyQTlDMjRBRUFERTcyOUZCMkRERDU4QkM2MjI4RDZDQzlGNjNGNTc0OUEzQ0UxNzY0 HTTP/1.1
+Cookie: localhost_run_to_dev_tomcat=; JSESSIONID=7F1A72232C1C1CCB78B2BADC2205F263; localhost_token=B5FF78434C92412646FC841775E2EB0F1E851B27DBFB62AE884BC023F45E691BDA0087A1AA33969F; client_type=ios
+Referer: http://118.126.89.154:58080/service/account/get_my_attention_code.jsp?shop_id=A2017080211045211817&client_type=ios&token=B5FF78434C92412646FC841775E2EB0F1E851B27DBFB62AE884BC023F45E691BDA0087A1AA33969F
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)
+Accept-Encoding: gzip, deflate
+Accept: */*
+Host: 118.126.89.154:58080
+Connection: Keep-Alive
+Cache-Control: no-cache
+

@@ -1,0 +1,10 @@
+GET /service/album/get_album_list.jsp?act=get_new_fans&client_type=ios&token=F7FC6AA5408C50C2D380CBDA079E44DA87D9D27F0DC3B7988929950A481DE12AA08952C7446EEF59 HTTP/1.1
+Cookie: localhost_run_to_dev_tomcat=; JSESSIONID=FAE7785E51CC792C93089D10B861F16E; localhost_token=F7FC6AA5408C50C2D380CBDA079E44DA87D9D27F0DC3B7988929950A481DE12AA08952C7446EEF59; client_type=ios
+Referer: http://118.126.89.154:58080/service/account/attention.jsp?follow_code=C2017092110431726077&user_id=&token=MzJFN0I0MTMxNkVFNjRDRTRFMkREREM5ODVBNjhEMjAzODZFMDRGM0IxMDM2QTkyQTlDMjRBRUFERTcyOUZCMkRERDU4QkM2MjI4RDZDQzlGNjNGNTc0OUEzQ0UxNzY0
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)
+Accept-Encoding: gzip, deflate
+Accept: */*
+Host: 118.126.89.154:58080
+Connection: Keep-Alive
+Cache-Control: no-cache
+

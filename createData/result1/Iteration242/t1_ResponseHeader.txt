@@ -1,0 +1,12 @@
+HTTP/1.1 200 
+Set-Cookie: localhost_run_to_dev_tomcat=; Max-Age=1; Expires=Wed, 23-Jan-2019 08:34:13 GMT; Path=/
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: JSESSIONID=EB1EBE8CA97E776D71C9BD69B7744694; Path=/; HttpOnly
+Set-Cookie: localhost_token=F2E1D9BC78BDB4C8CE78C089916DD16EB26131B84B6AB92680AD72B7C519BB266074DD9E90CFF98D; Max-Age=315360000; Expires=Sat, 20-Jan-2029 08:34:12 GMT; Path=/
+Set-Cookie: localhost_token=F2E1D9BC78BDB4C8CE78C089916DD16EB26131B84B6AB92680AD72B7C519BB266074DD9E90CFF98D; Max-Age=315360000; Expires=Sat, 20-Jan-2029 08:34:12 GMT; Path=/
+Cache-Control: no-cache
+Pragma: No-cache
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 23 Jan 2019 08:34:12 GMT
+

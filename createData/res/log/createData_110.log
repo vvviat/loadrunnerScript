@@ -1,0 +1,4 @@
+Action.c(22): Error -27492: "HttpSendRequest" failed, Windows error code=12002 and retry limit (0) exceeded for URL="http://118.126.89.154:58080/service/album/get_album_themes_list.jsp?act=owner&token=A2368A0D2FC54659546794821700A5B71FE3DA3B60BC1070BCFDE9A431E69FBBED501A577266D010"  	[MsgId: MERR-27492]
+Action.c(22): Error -27489: InternetReadFile failed. Windows error code=12004. URL="http://118.126.89.154:58080/service/album/get_album_themes_list.jsp?act=owner&token=3B44A399A629CC09298027B156A6F31A8A76F14FF1AF36EE035C4EAFA8681921A3E2D0568D30C1B1"  	[MsgId: MERR-27489]
+Action.c(30): A2017101915193608621	[MsgId: MMSG-17999]
+Action.c(22): Error -27492: "HttpSendRequest" failed, Windows error code=12004 and retry limit (0) exceeded for URL="http://118.126.89.154:58080/service/album/get_album_themes_list.jsp?act=owner&token=11291E7F77B7475A35DED6B1D497283AD468E4BB81F706F1A04566BA67BE50041626924CF14BA652"  	[MsgId: MERR-27492]
