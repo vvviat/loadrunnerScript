@@ -94,7 +94,7 @@
 <Res><![CDATA[result1]]></Res>
 <Action rID="T2">
 <AName><![CDATA[vuser_init]]></AName>
-<Summary sTime="2019/1/24 - 13:53:44" eTime="2019/1/24 - 13:53:44" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="2019/1/24 - 20:40:02" eTime="2019/1/24 - 20:40:02" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="5" >
 <Disp><![CDATA[vuser_init Summary]]></Disp>
 </NodeArgs>
@@ -105,7 +105,7 @@
 <Step rID="T5">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>status</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB="status":</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=,"token"</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=1</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2019/1/24 - 13:53:44]]></Time>
+<Time><![CDATA[2019/1/24 - 20:40:02]]></Time>
 <NodeArgs eType="General" icon="4" nRep="9" >
 <Disp><![CDATA[Service: Reg Save Param]]></Disp>
 </NodeArgs>
@@ -113,7 +113,7 @@
 <Step rID="T6">
 <Obj plainTxt="False" ><![CDATA[Custom Request: owner]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2019/1/24 - 13:53:45]]></Time>
+<Time><![CDATA[2019/1/24 - 20:40:03]]></Time>
 <NodeArgs eType="General" icon="5" nRep="10" status="Passed" >
 <Disp><![CDATA[Custom Request: owner]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -121,7 +121,7 @@
 </BtmPane>
 </NodeArgs>
 </Step>
-<Summary sTime="2019/1/24 - 13:53:44" eTime="2019/1/24 - 13:53:45" passed="1" failed="0" warnings="0" ></Summary>
+<Summary sTime="2019/1/24 - 20:40:02" eTime="2019/1/24 - 20:40:03" passed="1" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="8" status="Passed" >
 <Disp><![CDATA[Action Summary]]></Disp>
 </NodeArgs>
@@ -132,12 +132,12 @@
 </DIter>
 <Action rID="T7">
 <AName><![CDATA[vuser_end]]></AName>
-<Summary sTime="2019/1/24 - 13:53:45" eTime="2019/1/24 - 13:53:45" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="2019/1/24 - 20:40:03" eTime="2019/1/24 - 20:40:03" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="13" >
 <Disp><![CDATA[vuser_end Summary]]></Disp>
 </NodeArgs>
 </Action>
-<Summary sTime="2019/1/24 - 13:53:44" eTime="2019/1/24 - 13:53:45" passed="1" failed="0" warnings="0" ></Summary>
+<Summary sTime="2019/1/24 - 20:40:02" eTime="2019/1/24 - 20:40:03" passed="1" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartTest" icon="1" nRep="4" status="Passed" >
 <Disp><![CDATA[Test OwnerSearch Summary]]></Disp>
 </NodeArgs>

@@ -17,7 +17,7 @@ Action()
 					   LAST);
 
 	//lr_log_message(lr_eval_string("{watermark}"));
-
+	//获取http请求响应状态码
     HttpRetCode = web_get_int_property(HTTP_INFO_RETURN_CODE);
 
 	if(HttpRetCode==200){

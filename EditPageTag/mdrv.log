@@ -1,0 +1,68 @@
+Virtual User Script started at : 2019-01-24 19:53:54
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 11.0.0 for Windows 7; build 8859 (Aug 18 2010 20:14:31)  	[MsgId: MMSG-27143]
+Run Mode: HTML  	[MsgId: MMSG-26000]
+Run-Time Settings file: "D:\loadrunnerScript\EditPageTag\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(12): web_set_max_html_param_len was successful  	[MsgId: MMSG-26392]
+Action.c(14): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(19): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(25): Notify: Parameter Substitution: parameter "requestUrl" =  "https://www.szwego.com"
+Action.c(25): Notify: Parameter Substitution: parameter "userToken" =  "M0FERThDOTYwRTJGQjdFNEYzQUYxN0JERDNCMDBCNjQ1ODM1QUJGMzJENTczREZCRDY1QTU2ODQ4M0JEMDMwM0JCNDAwOERDREUzMTdGRDRBMzc1QzJEQjU5MDE0OERF"
+Action.c(25): Notify: Saving Parameter "goods_id_1 = I201810271341128020152834".
+Action.c(25): Notify: Saving Parameter "goods_id_2 = I201812271506330550159647".
+Action.c(25): Notify: Saving Parameter "goods_id_3 = I201810302200434840187650".
+Action.c(25): Notify: Saving Parameter "goods_id_4 = I201810091828028400118036".
+Action.c(25): Notify: Saving Parameter "goods_id_5 = I201811261719389310098043".
+Action.c(25): Notify: Saving Parameter "goods_id_6 = I201812161844159220177728".
+Action.c(25): Notify: Saving Parameter "goods_id_7 = I201812111816268300114370".
+Action.c(25): Notify: Saving Parameter "goods_id_8 = I201901151711113520027737".
+Action.c(25): Notify: Saving Parameter "goods_id_9 = I201812211819456130194661".
+Action.c(25): Notify: Saving Parameter "goods_id_10 = I201811281953166660098865".
+Action.c(25): Notify: Saving Parameter "goods_id_11 = I201901241900247630175547".
+Action.c(25): Notify: Saving Parameter "goods_id_12 = I201901241900247390175546".
+Action.c(25): Notify: Saving Parameter "goods_id_13 = I201901241900247130175545".
+Action.c(25): Notify: Saving Parameter "goods_id_14 = I201901241900246930175544".
+Action.c(25): Notify: Saving Parameter "goods_id_15 = I201901241900246630175543".
+Action.c(25): Notify: Saving Parameter "goods_id_16 = I201901241900246240175542".
+Action.c(25): Notify: Saving Parameter "goods_id_17 = I201901241900246000175541".
+Action.c(25): Notify: Saving Parameter "goods_id_18 = I201901241900245760175540".
+Action.c(25): Notify: Saving Parameter "goods_id_19 = I201901241900245290175539".
+Action.c(25): Notify: Saving Parameter "goods_id_20 = I201901241900245040175538".
+Action.c(25): Notify: Saving Parameter "goods_id_21 = I201901241900244810175537".
+Action.c(25): Notify: Saving Parameter "goods_id_22 = I201901241900244520175536".
+Action.c(25): Notify: Saving Parameter "goods_id_23 = I201901241900244230175535".
+Action.c(25): Notify: Saving Parameter "goods_id_24 = I201901241900243860175534".
+Action.c(25): Notify: Saving Parameter "goods_id_25 = I201901241900243600175533".
+Action.c(25): Notify: Saving Parameter "goods_id_26 = I201901241900243290175532".
+Action.c(25): Notify: Saving Parameter "goods_id_27 = I201901241900243080175531".
+Action.c(25): Notify: Saving Parameter "goods_id_28 = I201901241900242800175530".
+Action.c(25): Notify: Saving Parameter "goods_id_29 = I201901241900242490175529".
+Action.c(25): Notify: Saving Parameter "goods_id_30 = I201809182237417550025703".
+Action.c(25): Notify: Saving Parameter "goods_id_31 = I201809182237284070035436".
+Action.c(25): Notify: Saving Parameter "goods_id_32 = I201809182230283500026127".
+Action.c(25): Notify: Saving Parameter "shop_id = A201812080953300270014587".
+Action.c(25): Notify: Saving Parameter "goods_id_count = 32".
+Action.c(25): web_custom_request("owner") was successful, 13332 body bytes, 913 header bytes  	[MsgId: MMSG-26386]
+Action.c(33): Notify: Parameter Substitution: parameter "requestUrl" =  "https://www.szwego.com"
+Action.c(33): Notify: Parameter Substitution: parameter "userToken" =  "M0FERThDOTYwRTJGQjdFNEYzQUYxN0JERDNCMDBCNjQ1ODM1QUJGMzJENTczREZCRDY1QTU2ODQ4M0JEMDMwM0JCNDAwOERDREUzMTdGRDRBMzc1QzJEQjU5MDE0OERF"
+Action.c(33): web_custom_request("get_all_tag") was successful, 314 body bytes, 431 header bytes  	[MsgId: MMSG-26386]
+Action.c(40): Notify: Parameter Substitution: parameter "requestUrl" =  "https://www.szwego.com"
+Action.c(40): Notify: Parameter Substitution: parameter "userToken" =  "M0FERThDOTYwRTJGQjdFNEYzQUYxN0JERDNCMDBCNjQ1ODM1QUJGMzJENTczREZCRDY1QTU2ODQ4M0JEMDMwM0JCNDAwOERDREUzMTdGRDRBMzc1QzJEQjU5MDE0OERF"
+Action.c(40): web_custom_request("get_formats") was successful, 886 body bytes, 431 header bytes  	[MsgId: MMSG-26386]
+Action.c(46): Notify: Parameter Substitution: parameter "requestUrl" =  "https://www.szwego.com"
+Action.c(46): Notify: Parameter Substitution: parameter "userToken" =  "M0FERThDOTYwRTJGQjdFNEYzQUYxN0JERDNCMDBCNjQ1ODM1QUJGMzJENTczREZCRDY1QTU2ODQ4M0JEMDMwM0JCNDAwOERDREUzMTdGRDRBMzc1QzJEQjU5MDE0OERF"
+Action.c(46): web_custom_request("get_tags") was successful, 588 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+Action.c(52): Notify: Parameter Substitution: parameter "requestUrl" =  "https://www.szwego.com"
+Action.c(52): Notify: Parameter Substitution: parameter "userToken" =  "M0FERThDOTYwRTJGQjdFNEYzQUYxN0JERDNCMDBCNjQ1ODM1QUJGMzJENTczREZCRDY1QTU2ODQ4M0JEMDMwM0JCNDAwOERDREUzMTdGRDRBMzc1QzJEQjU5MDE0OERF"
+Action.c(52): web_custom_request("get_tags_1") was successful, 296 body bytes, 431 header bytes  	[MsgId: MMSG-26386]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Vuser 0 (thread 7628), ended OK."

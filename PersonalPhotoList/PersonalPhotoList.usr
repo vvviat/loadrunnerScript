@@ -22,25 +22,11 @@ GlobalParameterFile=
 RunType=cci
 LastModifyVer=11.0.0.0
 [TransactionsOrder]
-Order="进入相册动态__*delimiter*__进入个人相册__*delimiter*__发布新增商品__*delimiter*__返回个人相册"
-[ExtraFiles]
-globals.h=
+Order="进入相册动态__*delimiter*__进入个人相册__*delimiter*__进入编辑页__*delimiter*__新增save商品__*delimiter*__返回个人相册"
 [Actions]
 vuser_init=vuser_init.c
 Action=Action.c
 vuser_end=vuser_end.c
-[Recorded Actions]
-vuser_init=0
-Action=0
-vuser_end=0
-[Replayed Actions]
-vuser_init=1
-Action=1
-vuser_end=1
-[Modified Actions]
-vuser_init=0
-Action=1
-vuser_end=0
 [ProtocolsVersion]
 QTWeb=11.0.0.0
 [RunLogicFiles]
@@ -64,5 +50,23 @@ LastReplayStatus=1
 [Transactions]
 进入相册动态=
 进入个人相册=
-发布新增商品=
+进入编辑页=
+新增save商品=
 返回个人相册=
+[SubTransactions]
+个人相册页面=
+获取相册标签=
+[ExtraFiles]
+globals.h=
+[Recorded Actions]
+vuser_init=0
+Action=0
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+vuser_end=1
+[Modified Actions]
+vuser_init=0
+Action=1
+vuser_end=0

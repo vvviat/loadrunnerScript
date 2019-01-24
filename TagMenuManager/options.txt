@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\loadrunnerScript\TagMenuManager
+-ID:\ProgramFilesX86\loadrunner11\include
+-ed:\loadrunnerscript\tagmenumanager\\logfile.log
+d:\loadrunnerscript\tagmenumanager\\combined_TagMenuManager.c
+d:\loadrunnerscript\tagmenumanager\\pre_cci.c

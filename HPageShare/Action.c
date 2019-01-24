@@ -3,8 +3,6 @@ Action()
 
 //首页-->相册动态，长按分享图片，保存商品
 
-
-
 	web_reg_save_param_ex(
 	"ParamName=goods_id_list",
 	"LB=goods_id\":\"",
@@ -41,14 +39,10 @@ Action()
 	SEARCH_FILTERS,
 	LAST);
 
-	web_add_header("Transfer-Encoding","chunked");
 
     web_custom_request("owner",
                        "Url={requestUrl}/service/album/get_album_themes_list.jsp?act=owner&shop_id=&search_value=&search_img=&start_date=&end_date=&page_index=1&client_type=ios&token={userToken}&version=2302&",
                        "Method=GET",
-                       "TargetFrame=",
-					   "Resource=0",
-					   "Referer=",
                        "Mode=HTTP",
                         LAST);
 

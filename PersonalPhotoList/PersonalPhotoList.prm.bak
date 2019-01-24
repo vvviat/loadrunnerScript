@@ -1,3 +1,17 @@
+[parameter:imageUrl]
+Delimiter=","
+ParamName="imageUrl"
+TableLocation="Local"
+ColumnName="Col 1"
+GenerateNewVal="EachIteration"
+Table="imageUrl.dat"
+Type="Table"
+value_for_each_vuser=""
+OriginalValue=""
+auto_allocate_block_size="1"
+SelectNextRow="Sequential"
+StartRow="1"
+OutOfRangePolicy="ContinueWithLast"
 [parameter:requestUrl]
 Delimiter=","
 ParamName="requestUrl"

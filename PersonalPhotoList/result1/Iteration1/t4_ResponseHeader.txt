@@ -1,16 +1,12 @@
 HTTP/1.1 200 
 Server: nginx/1.9.5
-Date: Tue, 22 Jan 2019 06:44:06 GMT
+Date: Thu, 24 Jan 2019 12:40:16 GMT
 Content-Type: application/json;charset=UTF-8
-Transfer-Encoding: chunked
+Content-Length: 314
 Connection: keep-alive
-Set-Cookie: producte_run_to_dev_tomcat=; Max-Age=1; Expires=Tue, 22-Jan-2019 06:43:41 GMT; Path=/
+Set-Cookie: producte_run_to_dev_tomcat=; Max-Age=1; Expires=Thu, 24-Jan-2019 12:39:51 GMT; Path=/
 Expires: Thu, 01 Jan 1970 00:00:00 GMT
-Set-Cookie: JSESSIONID=2959E6F363B07538B2CA9B6FAD5110B3; Path=/; Secure; HttpOnly
-Set-Cookie: client_type=ios; Max-Age=315360000; Expires=Fri, 19-Jan-2029 06:43:40 GMT; Path=/
-Set-Cookie: client_type=ios; Max-Age=315360000; Expires=Fri, 19-Jan-2029 06:43:41 GMT; Path=/
+Set-Cookie: JSESSIONID=A893927F642BD774C4BD52009B9A331C; Path=/; Secure; HttpOnly
 Cache-Control: no-cache
 Pragma: No-cache
-Content-Encoding: gzip
-Vary: Accept-Encoding
 

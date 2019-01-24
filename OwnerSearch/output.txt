@@ -1,4 +1,4 @@
-Virtual User Script started at : 2019-01-24 13:53:44
+Virtual User Script started at : 2019-01-24 20:40:02
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 11.0.0 for Windows 7; build 8859 (Aug 18 2010 20:14:31)  	[MsgId: MMSG-27143]
 Run Mode: HTML  	[MsgId: MMSG-26000]
@@ -12,9 +12,9 @@ Action.c(12): Notify: Transaction "首页动态" started.
 Action.c(14): Notify: Parameter Substitution: parameter "requestUrl" =  "https://www.szwego.com"
 Action.c(14): Notify: Parameter Substitution: parameter "userToken" =  "M0FERThDOTYwRTJGQjdFNEYzQUYxN0JERDNCMDBCNjQ1ODM1QUJGMzJENTczREZCRDY1QTU2ODQ4M0JEMDMwM0JCNDAwOERDREUzMTdGRDRBMzc1QzJEQjU5MDE0OERF"
 Action.c(14): Notify: Saving Parameter "status = 0".
-Action.c(14): web_custom_request("owner") was successful, 9892 body bytes, 1103 header bytes  	[MsgId: MMSG-26386]
+Action.c(14): web_custom_request("owner") was successful, 12367 body bytes, 1103 header bytes  	[MsgId: MMSG-26386]
 Action.c(23): Notify: Parameter Substitution: parameter "status" =  "0"
-Action.c(27): Notify: Transaction "首页动态" ended with "Fail" status (Duration: 0.7404 Wasted Time: 0.2489).
+Action.c(24): Notify: Transaction "首页动态" ended with "Pass" status (Duration: 0.6112 Wasted Time: 0.2354).
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...

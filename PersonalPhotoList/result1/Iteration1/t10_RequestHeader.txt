@@ -1,0 +1,10 @@
+GET /service/album/get_album_themes_list.jsp?act=single_album&shop_id=A201812080953300270014587&search_value=&search_img=&start_date=&end_date=&tag=&page_index=1&from_id=&client_type=ios&token=M0FERThDOTYwRTJGQjdFNEYzQUYxN0JERDNCMDBCNjQ1ODM1QUJGMzJENTczREZCRDY1QTU2ODQ4M0JEMDMwM0JCNDAwOERDREUzMTdGRDRBMzc1QzJEQjU5MDE0OERF&version=2302 HTTP/1.1
+Cookie: producte_run_to_dev_tomcat=; JSESSIONID=F9026FC7E3DA26FA0A0BEF3F99847CC3; token=M0FERThDOTYwRTJGQjdFNEYzQUYxN0JERDNCMDBCNjQ1ODM1QUJGMzJENTczREZCRDY1QTU2ODQ4M0JEMDMwM0JCNDAwOERDREUzMTdGRDRBMzc1QzJEQjU5MDE0OERF
+Referer: https://www.szwego.com/service/album/album_theme_tag_operation.jsp?act=get_tags_except&has_video=0&shop_id=A201812080953300270014587&token=M0FERThDOTYwRTJGQjdFNEYzQUYxN0JERDNCMDBCNjQ1ODM1QUJGMzJENTczREZCRDY1QTU2ODQ4M0JEMDMwM0JCNDAwOERDREUzMTdGRDRBMzc1QzJEQjU5MDE0OERF
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)
+Accept-Encoding: gzip, deflate
+Accept: */*
+Host: www.szwego.com
+Connection: Keep-Alive
+Cache-Control: no-cache
+

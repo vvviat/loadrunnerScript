@@ -1,0 +1,10 @@
+GET /service/album/album_theme_tag_operation.jsp?act=get_tags&goods_id=&token=M0FERThDOTYwRTJGQjdFNEYzQUYxN0JERDNCMDBCNjQ1ODM1QUJGMzJENTczREZCRDY1QTU2ODQ4M0JEMDMwM0JCNDAwOERDREUzMTdGRDRBMzc1QzJEQjU5MDE0OERF HTTP/1.1
+Cookie: producte_run_to_dev_tomcat=; JSESSIONID=06F796A9B6342BB778DB46436B3DB8FD; token=M0FERThDOTYwRTJGQjdFNEYzQUYxN0JERDNCMDBCNjQ1ODM1QUJGMzJENTczREZCRDY1QTU2ODQ4M0JEMDMwM0JCNDAwOERDREUzMTdGRDRBMzc1QzJEQjU5MDE0OERF
+Referer: https://www.szwego.com/service/album/album_theme_format_operation.jsp?act=get_formats&token=M0FERThDOTYwRTJGQjdFNEYzQUYxN0JERDNCMDBCNjQ1ODM1QUJGMzJENTczREZCRDY1QTU2ODQ4M0JEMDMwM0JCNDAwOERDREUzMTdGRDRBMzc1QzJEQjU5MDE0OERF
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)
+Accept-Encoding: gzip, deflate
+Accept: */*
+Host: www.szwego.com
+Connection: Keep-Alive
+Cache-Control: no-cache
+

@@ -22,25 +22,11 @@ GlobalParameterFile=
 RunType=cci
 LastModifyVer=11.0.0.0
 [TransactionsOrder]
-Order="相册动态新增商品"
-[ExtraFiles]
-globals.h=
+Order="进入相册动态__*delimiter*__进入编辑页__*delimiter*__新增商品成功"
 [Actions]
 vuser_init=vuser_init.c
 Action=Action.c
 vuser_end=vuser_end.c
-[Recorded Actions]
-vuser_init=0
-Action=0
-vuser_end=0
-[Replayed Actions]
-vuser_init=1
-Action=1
-vuser_end=1
-[Modified Actions]
-vuser_init=0
-Action=1
-vuser_end=0
 [ProtocolsVersion]
 QTWeb=11.0.0.0
 [RunLogicFiles]
@@ -60,10 +46,27 @@ Default Profile=default.usp
 21=0
 CurrentState=1
 VuserStateHistory= 0 65536 65552
-LastReplayStatus=1
+LastReplayStatus=2
+LastReplayErrorID1=-26627
+LastReplayErrorMsg1=Action.c(25): Error -26627: HTTP Status-Code=404 (Not Found) for "http://118.126.89.154:58080/service/album/album_group.jsp?act=get_all_tag&type=0&token=MzJFN0I0MTMxNkVFNjRDRTRFMkREREM5ODVBNjhEMjAzODZFMDRGM0IxMDM2QTkyQTlDMjRBRUFERTcyOUZCMkRERDU4QkM2MjI4RDZDQzlGNjNGNTc0OUEzQ0UxNzY0"  	[MsgId: MERR-26627]
 [Transactions]
-相册动态新增商品=
+进入相册动态=
+进入编辑页=
+新增商品成功=
 [SubTransactions]
-加载标签属性=
 发布商品=
 返回动态=
+[ExtraFiles]
+globals.h=
+[Recorded Actions]
+vuser_init=0
+Action=0
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+vuser_end=1
+[Modified Actions]
+vuser_init=0
+Action=1
+vuser_end=0

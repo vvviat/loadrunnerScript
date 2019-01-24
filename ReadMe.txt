@@ -10,7 +10,8 @@
 
 2.3性能测试
 	OwnerSaveGoods：保存商品场景涉及接口(发布商品之后回到首页动态)：    /  保存商品(速度与之前对比)
-	PersonalPhotoList：个人相册自己新增保存商品     / 保存商品(速度与之前对比)   / 单个相册(查询速度与之前对比)
+	PersonalPhotoList：//相册动态-->个人相册-->新增商品编辑页-->保存商品-->返回个人相册     
+			   / 保存商品(速度与之前对比)   / 单个相册(查询速度与之前对比)
 	OthersPhotoShare：上家保存--相册列表（进入关注列表-->进入上家相册-->长按分享-->获取标签属性-->保存商品-->返回相册列表）
 ***	OwnerSearch：相册动态查询涉及接口（单接口)
 	HPageShare：首页-->相册动态，长按分享图片，保存商品
@@ -35,8 +36,8 @@
 		商品数量（造数据）关联--标签---CreateNewGoods = SaveThemeOne
  		
 		相册--标签独立页查询    --AlbumTagList:owner+get_tags_except+tag_list
- 		编辑页标签查询		--EditPageTag
- 		标签/目录管理，标签查询 --TagMenuManager
+ 		编辑页标签查询		--EditPageTag  每个人进入编辑页
+ 		标签/目录管理，标签查询 --TagMenuManager：
 
 3、运行场景设计：如果不设置集合点，场景设置启动运行的时间和用户数！
 		单接口设置集合点

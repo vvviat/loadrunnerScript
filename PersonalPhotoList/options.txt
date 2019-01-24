@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\loadrunnerScript\PersonalPhotoList
+-ID:\ProgramFilesX86\loadrunner11\include
+-ed:\loadrunnerscript\personalphotolist\\logfile.log
+d:\loadrunnerscript\personalphotolist\\combined_PersonalPhotoList.c
+d:\loadrunnerscript\personalphotolist\\pre_cci.c

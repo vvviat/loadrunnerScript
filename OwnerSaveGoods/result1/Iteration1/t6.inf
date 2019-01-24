@@ -1,0 +1,12 @@
+[t6]
+SnapshotXmlFile=snapshot_6.xml
+ContentType=text/plain
+StepName=Custom Request: save_theme
+Total=1
+FileName1=t6.UNK
+RequestHeaderFile=t6_RequestHeader.txt
+ResponseHeaderFile=t6_ResponseHeader.txt
+RequestBodyFile=t6_RequestBody.txt
+URL1=https://www.szwego.com/service/album/album_theme_operation.jsp?act=save_theme&tagId=&client_type=ios&goodsNum=ABC_12979787&main_imgs=["https://xcimg.szwego.com/o_1d18p3141a7coiapl81co7do011.jpg","https://xcimg.szwego.com/o_1d18p3141e28fjh123te6k1i2p12.jpg","https://xcimg.szwego.com/o_1d18p31411a2t1e1911ivlu91eqm13.jpg","https://xcimg.szwego.com/o_1d18p3142139vdcd99qs1rd9a14.jpg","https://xcimg.szwego.com/o_1d18p3142eejikvrha1ic2cn115.jpg","https://xcimg.szwego.com/o_1d18p3142a0i1ibmg1fj9r6em16.jpg","https://xcimg.szwego.com/o_1d18p31427g816q9jltrp1t1517.jpg","https://xcimg.szwego.com/o_1d18p31425ho4fe1nihh0m1e0q18.jpg","https://xcimg.szwego.com/o_1d18p31421v85ao1as0v16cq119.jpg"]&title=Testing_210387084&token=M0FERThDOTYwRTJGQjdFNEYzQUYxN0JERDNCMDBCNjQ1ODM1QUJGMzJENTczREZCRDY1QTU2ODQ4M0JEMDMwM0JCNDAwOERDREUzMTdGRDRBMzc1QzJEQjU5MDE0OERF&version=2302&personal=0&platform=app&share_type=-1&source_type=0
+[AdditionalInfo]
+IsIgnorable=1

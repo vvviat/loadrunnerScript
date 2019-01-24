@@ -1,21 +1,12 @@
 [t2]
 SnapshotXmlFile=snapshot_2.xml
 ContentType=text/plain
-StepName=Custom Request: save_theme
+StepName=Custom Request: single_album
 Total=1
 FileName1=t2.UNK
 RequestHeaderFile=t2_RequestHeader.txt
 ResponseHeaderFile=t2_ResponseHeader.txt
 RequestBodyFile=t2_RequestBody.txt
-URL1=https://www.szwego.com/service/album/album_theme_operation.jsp?act=save_theme&mark_code=&client_type=ios&goodsNum=ABC_688443788&main_imgs=[
-  "https:\/\/xcimg.szwego.com\/1547209778_910270265_0",
-  "https:\/\/xcimg.szwego.com\/1547209778_257527751_1",
-  "https:\/\/xcimg.szwego.com\/1547209778_1237727370_2",
-  "https:\/\/xcimg.szwego.com\/1547209778_1374390121_3",
-  "https:\/\/xcimg.szwego.com\/1547209778_3772973971_4",
-  "https:\/\/xcimg.szwego.com\/1547209778_3229263933_5",
-  "https:\/\/xcimg.szwego.com\/1547209778_3646982984_6",
-  "https:\/\/xcimg.szwego.com\/1547209778_76362054_7"
-]&title=Testing_430065275&token=M0FERThDOTYwRTJGQjdFNEYzQUYxN0JERDNCMDBCNjQ1ODM1QUJGMzJENTczREZCRDY1QTU2ODQ4M0JEMDMwM0JCNDAwOERDREUzMTdGRDRBMzc1QzJEQjU5MDE0OERF&version=2302&personal=0&platform=app&share_type=-1&source_type=0&source_url=&sources=&sub_imgs=
+URL1=https://www.szwego.com/service/album/get_album_themes_list.jsp?act=single_album&shop_id=A201812080953300270014587&token=M0FERThDOTYwRTJGQjdFNEYzQUYxN0JERDNCMDBCNjQ1ODM1QUJGMzJENTczREZCRDY1QTU2ODQ4M0JEMDMwM0JCNDAwOERDREUzMTdGRDRBMzc1QzJEQjU5MDE0OERF&version=2302
 [AdditionalInfo]
 IsIgnorable=1

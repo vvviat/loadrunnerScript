@@ -1767,7 +1767,7 @@ Action()
                        "Mode=HTTP",
                         "LAST");
 
-	if (atoi(lr_eval_string("{status}")) == 1 ){ 
+	if (atoi(lr_eval_string("{status}")) == 0 ){ 
             lr_end_transaction("Ê×Ò³¶¯Ì¬",0);
 		} 
         else{ 

@@ -1,0 +1,42 @@
+Virtual User Script started at : 2019-01-24 20:18:13
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 11.0.0 for Windows 7; build 8859 (Aug 18 2010 20:14:31)  	[MsgId: MMSG-27143]
+Run Mode: HTML  	[MsgId: MMSG-26000]
+Run-Time Settings file: "D:\loadrunnerScript\TagMenuManager\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(5): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(12): Notify: Parameter Substitution: parameter "requestUrl" =  "https://wwww.szwego.com"
+Action.c(12): Notify: Parameter Substitution: parameter "userToken" =  "M0FERThDOTYwRTJGQjdFNEYzQUYxN0JERDNCMDBCNjQ1ODM1QUJGMzJENTczREZCRDY1QTU2ODQ4M0JEMDMwM0JCNDAwOERDREUzMTdGRDRBMzc1QzJEQjU5MDE0OERF"
+Action.c(12): Notify: Saving Parameter "tag_id_list_1 = 2971695".
+Action.c(12): Notify: Saving Parameter "tag_id_list_2 = 2970430".
+Action.c(12): Notify: Saving Parameter "tag_id_list_3 = 2970423".
+Action.c(12): Notify: Saving Parameter "tag_id_list_4 = 2970418".
+Action.c(12): Notify: Saving Parameter "tag_id_list_5 = 2970070".
+Action.c(12): Notify: Saving Parameter "tag_id_list_6 = 2970069".
+Action.c(12): Notify: Saving Parameter "tag_id_list_7 = 2855376".
+Action.c(12): Notify: Saving Parameter "tag_id_list_8 = 2838481".
+Action.c(12): Notify: Saving Parameter "tag_id_list_9 = 2691312".
+Action.c(12): Notify: Saving Parameter "tag_id_list_10 = 2691301".
+Action.c(12): Notify: Saving Parameter "tag_id_list_11 = 2600045".
+Action.c(12): Notify: Saving Parameter "tag_id_list_count = 11".
+Action.c(12): web_custom_request("get_tags") was successful, 608 body bytes, 913 header bytes  	[MsgId: MMSG-26386]
+Action.c(18): Notify: Parameter Substitution: parameter "tag_id_list_count" =  "11"
+Action.c(18): Notify: Parameter Substitution: parameter "tag_id_list_2" =  "2970430"
+Action.c(18): Notify: Saving Parameter "tag_id_random = 2970430".
+Action.c(20): Notify: Transaction "目录标签页查询" started.
+Action.c(22): Notify: Parameter Substitution: parameter "tag_id_random" =  "2970430"
+Action.c(24): Notify: Parameter Substitution: parameter "requestUrl" =  "https://wwww.szwego.com"
+Action.c(24): Notify: Parameter Substitution: parameter "tag_id_random" =  "2970430"
+Action.c(24): Notify: Parameter Substitution: parameter "userToken" =  "M0FERThDOTYwRTJGQjdFNEYzQUYxN0JERDNCMDBCNjQ1ODM1QUJGMzJENTczREZCRDY1QTU2ODQ4M0JEMDMwM0JCNDAwOERDREUzMTdGRDRBMzc1QzJEQjU5MDE0OERF"
+Action.c(24): web_custom_request("get_tags_detail") was successful, 278 body bytes, 431 header bytes  	[MsgId: MMSG-26386]
+Action.c(30): Notify: Transaction "目录标签页查询" ended with "Pass" status (Duration: 0.1378 Wasted Time: 0.0107).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Vuser 0 (thread 5048), ended OK."

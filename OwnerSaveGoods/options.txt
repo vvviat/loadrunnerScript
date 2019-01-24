@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\loadrunnerScript\OwnerSaveGoods
+-ID:\ProgramFilesX86\loadrunner11\include
+-ed:\loadrunnerscript\ownersavegoods\\logfile.log
+d:\loadrunnerscript\ownersavegoods\\combined_OwnerSaveGoods.c
+d:\loadrunnerscript\ownersavegoods\\pre_cci.c

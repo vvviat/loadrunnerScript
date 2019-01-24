@@ -94,7 +94,7 @@
 <Res><![CDATA[result1]]></Res>
 <Action rID="T2">
 <AName><![CDATA[vuser_init]]></AName>
-<Summary sTime="2019/1/24 - 14:54:06" eTime="2019/1/24 - 14:54:06" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="2019/1/24 - 20:16:40" eTime="2019/1/24 - 20:16:40" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="5" >
 <Disp><![CDATA[vuser_init Summary]]></Disp>
 </NodeArgs>
@@ -105,7 +105,7 @@
 <Step rID="T5">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>tagId</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=tagId":</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=,"count</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=all</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2019/1/24 - 14:54:06]]></Time>
+<Time><![CDATA[2019/1/24 - 20:16:41]]></Time>
 <NodeArgs eType="General" icon="4" nRep="9" >
 <Disp><![CDATA[Service: Reg Save Param]]></Disp>
 </NodeArgs>
@@ -113,7 +113,7 @@
 <Step rID="T6">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>tagName</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=tagName":"</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=","order</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=all</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2019/1/24 - 14:54:06]]></Time>
+<Time><![CDATA[2019/1/24 - 20:16:41]]></Time>
 <NodeArgs eType="General" icon="4" nRep="10" >
 <Disp><![CDATA[Service: Reg Save Param]]></Disp>
 </NodeArgs>
@@ -121,7 +121,7 @@
 <Step rID="T7">
 <Obj plainTxt="False" ><![CDATA[Custom Request: get_tags]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2019/1/24 - 14:54:07]]></Time>
+<Time><![CDATA[2019/1/24 - 20:16:41]]></Time>
 <NodeArgs eType="General" icon="5" nRep="11" status="Passed" >
 <Disp><![CDATA[Custom Request: get_tags]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -132,7 +132,7 @@
 <Step rID="T8">
 <Obj plainTxt="False" ><![CDATA[Custom Request: CreateNewGoods]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2019/1/24 - 14:54:07]]></Time>
+<Time><![CDATA[2019/1/24 - 20:16:42]]></Time>
 <NodeArgs eType="General" icon="5" nRep="12" status="Passed" >
 <Disp><![CDATA[Custom Request: CreateNewGoods]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -140,7 +140,7 @@
 </BtmPane>
 </NodeArgs>
 </Step>
-<Summary sTime="2019/1/24 - 14:54:06" eTime="2019/1/24 - 14:54:07" passed="2" failed="0" warnings="0" ></Summary>
+<Summary sTime="2019/1/24 - 20:16:40" eTime="2019/1/24 - 20:16:42" passed="2" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="8" status="Passed" >
 <Disp><![CDATA[Action Summary]]></Disp>
 </NodeArgs>
@@ -151,12 +151,12 @@
 </DIter>
 <Action rID="T9">
 <AName><![CDATA[vuser_end]]></AName>
-<Summary sTime="2019/1/24 - 14:54:07" eTime="2019/1/24 - 14:54:07" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="2019/1/24 - 20:16:42" eTime="2019/1/24 - 20:16:42" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="15" >
 <Disp><![CDATA[vuser_end Summary]]></Disp>
 </NodeArgs>
 </Action>
-<Summary sTime="2019/1/24 - 14:54:06" eTime="2019/1/24 - 14:54:07" passed="2" failed="0" warnings="0" ></Summary>
+<Summary sTime="2019/1/24 - 20:16:40" eTime="2019/1/24 - 20:16:42" passed="2" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartTest" icon="1" nRep="4" status="Passed" >
 <Disp><![CDATA[Test SaveThemeOne Summary]]></Disp>
 </NodeArgs>

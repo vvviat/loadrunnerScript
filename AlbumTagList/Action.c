@@ -11,7 +11,6 @@ Action()
 						SEARCH_FILTERS,
 						LAST);
 
-
 	web_custom_request("owner",
 					   "URL={requestUrl}/service/album/get_album_themes_list.jsp?act=owner&token={userToken}",
 					   "Method=GET",
@@ -33,8 +32,6 @@ Action()
 					   "Method=GET",
 					   "Mode=HTTP",
 					   LAST);
-
-
 
 	lr_save_string(lr_paramarr_random("tag_Id"), "tag_Id_random"); 
 
@@ -59,10 +56,10 @@ web_reg_find("Fail=NotFound",
 					   "Mode=HTTP",
 					   LAST);
 
-	lr_end_transaction("标签独立页",LR_AUTO);
+	lr_end_transaction("标签独立页",LR_PASS);
 
 	}else{
-
+		lr_end_transaction("标签独立页",LR_FAIL);
 		lr_output_message("该用户商店个人相册：%s，无标签",lr_eval_string("{shop_id}"));
 	}
 

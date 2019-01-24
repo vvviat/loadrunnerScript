@@ -1,0 +1,12 @@
+[t8]
+SnapshotXmlFile=snapshot_8.xml
+ContentType=text/plain
+StepName=Custom Request: CreateNewGoods
+Total=1
+FileName1=t8.UNK
+RequestHeaderFile=t8_RequestHeader.txt
+ResponseHeaderFile=t8_ResponseHeader.txt
+RequestBodyFile=t8_RequestBody.txt
+URL1=https://www.szwego.com/service/album/album_theme_operation.jsp?act=save_theme&token=M0FERThDOTYwRTJGQjdFNEYzQUYxN0JERDNCMDBCNjQ1ODM1QUJGMzJENTczREZCRDY1QTU2ODQ4M0JEMDMwM0JCNDAwOERDREUzMTdGRDRBMzc1QzJEQjU5MDE0OERF
+[AdditionalInfo]
+IsIgnorable=1

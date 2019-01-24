@@ -1,4 +1,4 @@
-Virtual User Script started at : 2019-01-24 14:54:06
+Virtual User Script started at : 2019-01-24 20:16:40
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 11.0.0 for Windows 7; build 8859 (Aug 18 2010 20:14:31)  	[MsgId: MMSG-27143]
 Run Mode: HTML  	[MsgId: MMSG-26000]
@@ -7,12 +7,12 @@ Ending action vuser_init.
 Running Vuser...
 Starting iteration 1.
 Starting action Action.
-Action.c(17): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
-Action.c(25): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
-Action.c(34): web_custom_request("get_tags") was successful, 574 body bytes, 913 header bytes  	[MsgId: MMSG-26386]
-Action.c(51): Notify: Transaction "新增save商品" started.
-Action.c(53): web_custom_request("CreateNewGoods") was successful, 589 body bytes, 426 header bytes  	[MsgId: MMSG-26386]
-Action.c(61): Notify: Transaction "新增save商品" ended with "Pass" status (Duration: 0.3060 Wasted Time: 0.0068).
+Action.c(4): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(12): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(21): web_custom_request("get_tags") was successful, 588 body bytes, 913 header bytes  	[MsgId: MMSG-26386]
+Action.c(38): Notify: Transaction "新增save商品" started.
+Action.c(42): web_custom_request("CreateNewGoods") was successful, 589 body bytes, 426 header bytes  	[MsgId: MMSG-26386]
+Action.c(49): Notify: Transaction "新增save商品" ended with "Pass" status (Duration: 0.5391 Wasted Time: 0.0118).
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...

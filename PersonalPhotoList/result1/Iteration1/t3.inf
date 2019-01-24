@@ -1,7 +1,7 @@
 [t3]
 SnapshotXmlFile=snapshot_3.xml
 ContentType=text/plain
-StepName=Custom Request: get_tags_except_2
+StepName=Custom Request: get_tags_except
 Total=1
 FileName1=t3.UNK
 RequestHeaderFile=t3_RequestHeader.txt

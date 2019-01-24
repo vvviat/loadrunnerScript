@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\loadrunnerScript\EditPageTag
+-ID:\ProgramFilesX86\loadrunner11\include
+-ed:\loadrunnerscript\editpagetag\\logfile.log
+d:\loadrunnerscript\editpagetag\\combined_EditPageTag.c
+d:\loadrunnerscript\editpagetag\\pre_cci.c

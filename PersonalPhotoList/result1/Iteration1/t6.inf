@@ -1,0 +1,12 @@
+[t6]
+SnapshotXmlFile=snapshot_6.xml
+ContentType=text/plain
+StepName=Custom Request: get_tags
+Total=1
+FileName1=t6.UNK
+RequestHeaderFile=t6_RequestHeader.txt
+ResponseHeaderFile=t6_ResponseHeader.txt
+RequestBodyFile=t6_RequestBody.txt
+URL1=https://www.szwego.com/service/album/album_theme_tag_operation.jsp?act=get_tags&goods_id=&token=M0FERThDOTYwRTJGQjdFNEYzQUYxN0JERDNCMDBCNjQ1ODM1QUJGMzJENTczREZCRDY1QTU2ODQ4M0JEMDMwM0JCNDAwOERDREUzMTdGRDRBMzc1QzJEQjU5MDE0OERF
+[AdditionalInfo]
+IsIgnorable=1

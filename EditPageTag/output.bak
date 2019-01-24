@@ -1,0 +1,35 @@
+Virtual User Script started at : 2019-01-24 19:53:38
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 11.0.0 for Windows 7; build 8859 (Aug 18 2010 20:14:31)  	[MsgId: MMSG-27143]
+Run Mode: HTML  	[MsgId: MMSG-26000]
+Run-Time Settings file: "D:\loadrunnerScript\EditPageTag\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(12): web_set_max_html_param_len was successful  	[MsgId: MMSG-26392]
+Action.c(14): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(19): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(24): Notify: Parameter Substitution: parameter "requestUrl" =  "https://www.szwego.com"
+Action.c(24): Notify: Parameter Substitution: parameter "userToken" =  "M0FERThDOTYwRTJGQjdFNEYzQUYxN0JERDNCMDBCNjQ1ODM1QUJGMzJENTczREZCRDY1QTU2ODQ4M0JEMDMwM0JCNDAwOERDREUzMTdGRDRBMzc1QzJEQjU5MDE0OERF"
+Action.c(24): Notify: Saving Parameter "goods_id = I201810271341128020152834".
+Action.c(24): Notify: Saving Parameter "shop_id = A201812080953300270014587".
+Action.c(24): web_custom_request("owner") was successful, 13339 body bytes, 913 header bytes  	[MsgId: MMSG-26386]
+Action.c(32): Notify: Parameter Substitution: parameter "requestUrl" =  "https://www.szwego.com"
+Action.c(32): Notify: Parameter Substitution: parameter "userToken" =  "M0FERThDOTYwRTJGQjdFNEYzQUYxN0JERDNCMDBCNjQ1ODM1QUJGMzJENTczREZCRDY1QTU2ODQ4M0JEMDMwM0JCNDAwOERDREUzMTdGRDRBMzc1QzJEQjU5MDE0OERF"
+Action.c(32): web_custom_request("get_all_tag") was successful, 314 body bytes, 431 header bytes  	[MsgId: MMSG-26386]
+Action.c(39): Notify: Parameter Substitution: parameter "requestUrl" =  "https://www.szwego.com"
+Action.c(39): Notify: Parameter Substitution: parameter "userToken" =  "M0FERThDOTYwRTJGQjdFNEYzQUYxN0JERDNCMDBCNjQ1ODM1QUJGMzJENTczREZCRDY1QTU2ODQ4M0JEMDMwM0JCNDAwOERDREUzMTdGRDRBMzc1QzJEQjU5MDE0OERF"
+Action.c(39): web_custom_request("get_formats") was successful, 886 body bytes, 431 header bytes  	[MsgId: MMSG-26386]
+Action.c(45): Notify: Parameter Substitution: parameter "requestUrl" =  "https://www.szwego.com"
+Action.c(45): Notify: Parameter Substitution: parameter "userToken" =  "M0FERThDOTYwRTJGQjdFNEYzQUYxN0JERDNCMDBCNjQ1ODM1QUJGMzJENTczREZCRDY1QTU2ODQ4M0JEMDMwM0JCNDAwOERDREUzMTdGRDRBMzc1QzJEQjU5MDE0OERF"
+Action.c(45): web_custom_request("get_tags") was successful, 588 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+Action.c(51): Notify: Parameter Substitution: parameter "requestUrl" =  "https://www.szwego.com"
+Action.c(51): Notify: Parameter Substitution: parameter "userToken" =  "M0FERThDOTYwRTJGQjdFNEYzQUYxN0JERDNCMDBCNjQ1ODM1QUJGMzJENTczREZCRDY1QTU2ODQ4M0JEMDMwM0JCNDAwOERDREUzMTdGRDRBMzc1QzJEQjU5MDE0OERF"
+Action.c(51): web_custom_request("get_tags_1") was successful, 296 body bytes, 431 header bytes  	[MsgId: MMSG-26386]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
