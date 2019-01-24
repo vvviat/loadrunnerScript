@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\loadrunnerScript\OwnerSearch
+-ID:\ProgramFilesX86\loadrunner11\include
+-ed:\loadrunnerscript\ownersearch\\logfile.log
+d:\loadrunnerscript\ownersearch\\combined_OwnerSearch.c
+d:\loadrunnerscript\ownersearch\\pre_cci.c

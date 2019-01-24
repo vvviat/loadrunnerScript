@@ -30,31 +30,19 @@
 		owner       查询
 
 2、脚本数据关联：业务场景的数据的联动性，是否需要设置集合点？还是在场景设计中体现？
-	场景：  token关联多个好友token，
+	场景：  token关联多个好友token， ---CreateAttention
 			
-		商品数量（造数据）关联--标签
+		商品数量（造数据）关联--标签---CreateNewGoods
  		
-		相册--标签独立页查询
- 		编辑页标签查询
- 		标签/目录管理，标签查询
+		相册--标签独立页查询    --AlbumTagList:owner+get_tags_except+tag_list
+ 		编辑页标签查询		--EditPageTag
+ 		标签/目录管理，标签查询 --TagMenuManager
 
 3、运行场景设计：如果不设置集合点，场景设置启动运行的时间和用户数！
 		单接口设置集合点
 		场景多接口通过场景设计多少用户启动
 
 4、HPageSearch动态单接口的必要性（关键字search_value=，后台配置）
-
-
-Message Code 26697 
-Missing CR/LF after body/trailer ("Transfer-Encoding: chunked") for 'URL' 
-The script probably specifies web_add_header( "Accept?Encoding", "chunked") and/or web_add_auto_header( "Accept?Encoding", "chunked"). The server responded by sending a message with a response header "Transfer?Encoding: chunked" and response body structured accordingly. The structure of the body returned from the server seems to be invalid. 
-
-Troubleshooting 
-Look in the script for web_add_header( "Accept?Encoding", "chunked") and/or web_add_auto_header( "Accept?Encoding", "chunked"), and comment out or remove these lines.
-
-
-
-
 
 
 

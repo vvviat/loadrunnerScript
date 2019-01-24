@@ -1,5 +1,0 @@
-Action.c(30): A2017093021441835462	[MsgId: MMSG-17999]
-Action.c(22): Error -27492: "HttpSendRequest" failed, Windows error code=12004 and retry limit (0) exceeded for URL="http://118.126.89.154:58080/service/album/get_album_themes_list.jsp?act=owner&token=F66FBA30FAA989AE3E317F3BD89642583A658234350F062ACB42383446B9DB07CC243D5EEF708032"  	[MsgId: MERR-27492]
-Action.c(22): Error -27492: "HttpSendRequest" failed, Windows error code=12002 and retry limit (0) exceeded for URL="http://118.126.89.154:58080/service/album/get_album_themes_list.jsp?act=owner&token=DD4B526DEFEBAC5692DB7CE9F224CCB703F49A5C72E97D226D02EBD72A5DD5BBF6E5CF9979C59AE9"  	[MsgId: MERR-27492]
-Action.c(30): A2017092709081951917	[MsgId: MMSG-17999]
-Action.c(22): Error -27492: "HttpSendRequest" failed, Windows error code=12002 and retry limit (0) exceeded for URL="http://118.126.89.154:58080/service/album/get_album_themes_list.jsp?act=owner&token=0BDC36260C9676C6EABAB01B2D628183C57C8A66E460E3A64CAA646506498A9979D67F49AFFC66FE"  	[MsgId: MERR-27492]

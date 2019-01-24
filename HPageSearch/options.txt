@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--ID:\loadrunnerScript\HPageSearch
--ID:\LoadRunner11\include
--ed:\loadrunnerscript\hpagesearch\\logfile.log
-d:\loadrunnerscript\hpagesearch\\combined_HPageSearch.c
-d:\loadrunnerscript\hpagesearch\\pre_cci.c

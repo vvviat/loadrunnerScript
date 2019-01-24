@@ -1,4 +1,0 @@
-[No WAN Emulation]
-HostsCount=2
-Host0=129.204.167.205
-Host1=localhost

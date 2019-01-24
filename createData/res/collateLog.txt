@@ -1,6 +1,0 @@
-Events Files:
--------------
-	129.204.167.205(714.00KB) - Succeeded
-Logs Files:
--------------
-	129.204.167.205(157.51KB) - Succeeded

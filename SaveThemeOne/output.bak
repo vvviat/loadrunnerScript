@@ -1,0 +1,56 @@
+Virtual User Script started at : 2019-01-24 14:52:05
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 11.0.0 for Windows 7; build 8859 (Aug 18 2010 20:14:31)  	[MsgId: MMSG-27143]
+Run Mode: HTML  	[MsgId: MMSG-26000]
+Run-Time Settings file: "D:\loadrunnerScript\SaveThemeOne\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(17): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(25): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(34): Notify: Parameter Substitution: parameter "requestUrl" =  "https://www.szwego.com"
+Action.c(34): Notify: Parameter Substitution: parameter "userToken" =  "M0FERThDOTYwRTJGQjdFNEYzQUYxN0JERDNCMDBCNjQ1ODM1QUJGMzJENTczREZCRDY1QTU2ODQ4M0JEMDMwM0JCNDAwOERDREUzMTdGRDRBMzc1QzJEQjU5MDE0OERF"
+Action.c(34): Notify: Saving Parameter "tagId_1 = 2970418".
+Action.c(34): Notify: Saving Parameter "tagName_1 = 971940\"".
+Action.c(34): Notify: Saving Parameter "tagId_2 = 2970070".
+Action.c(34): Notify: Saving Parameter "tagName_2 = 鏃犳晫".
+Action.c(34): Notify: Saving Parameter "tagId_3 = 2970069".
+Action.c(34): Notify: Saving Parameter "tagName_3 = 鎴愬姛".
+Action.c(34): Notify: Saving Parameter "tagId_4 = 2855376".
+Action.c(34): Notify: Saving Parameter "tagName_4 = 浠锋牸".
+Action.c(34): Notify: Saving Parameter "tagId_5 = 2838481".
+Action.c(34): Notify: Saving Parameter "tagName_5 = 缇庝附鐑嚎".
+Action.c(34): Notify: Saving Parameter "tagId_6 = 2691312".
+Action.c(34): Notify: Saving Parameter "tagName_6 = 闉嬪瓙".
+Action.c(34): Notify: Saving Parameter "tagId_7 = 2691301".
+Action.c(34): Notify: Saving Parameter "tagName_7 = 琛ｆ湇".
+Action.c(34): Notify: Saving Parameter "tagId_8 = 2600045".
+Action.c(34): Notify: Saving Parameter "tagName_8 = 娴嬭瘯".
+Action.c(34): Notify: Saving Parameter "tagId_count = 8".
+Action.c(34): Notify: Saving Parameter "tagName_count = 8".
+Action.c(34): web_custom_request("get_tags") was successful, 562 body bytes, 913 header bytes  	[MsgId: MMSG-26386]
+Action.c(40): Notify: Parameter Substitution: parameter "tagId_count" =  "8"
+Action.c(41): Notify: Saving Parameter "tagId_random = 0".
+Action.c(42): Notify: Parameter Substitution: parameter "randomNum" =  "589823"
+Action.c(42): Notify: Saving Parameter "tagName_random = 589823".
+Action.c(51): Notify: Transaction "新增save商品" started.
+Action.c(53): Notify: Parameter Substitution: parameter "requestUrl" =  "https://www.szwego.com"
+Action.c(53): Notify: Parameter Substitution: parameter "userToken" =  "M0FERThDOTYwRTJGQjdFNEYzQUYxN0JERDNCMDBCNjQ1ODM1QUJGMzJENTczREZCRDY1QTU2ODQ4M0JEMDMwM0JCNDAwOERDREUzMTdGRDRBMzc1QzJEQjU5MDE0OERF"
+Action.c(53): Notify: Parameter Substitution: parameter "randomNum" =  "589823"
+Action.c(53): Notify: Parameter Substitution: parameter "imageUrl" =  "%5B%22https%3A%2F%2Fxcimg.szwego.com%2Fo_1d18p3141a7coiapl81co7do011.jpg%22%2C%22https%3A%2F%2Fxcimg.szwego.com%2Fo_1d18p3141e28fjh123te6k1i2p12.jpg%22%2C%22https%3A%2F%2Fxcimg.szwego.com%2Fo_1d18p31411a2t1e1911ivlu91eqm13.jpg%22%2C%22https%3A%2F%2Fxcimg.szwego.com%2Fo_1d18p3142139vdcd99qs1rd9a14.jpg%22%2C%22https%3A%2F%2Fxcimg.szwego.com%2Fo_1d18p3142eejikvrha1ic2cn115.jpg%22%2C%22https%3A%2F%2Fxcimg.szwego.com%2Fo_1d18p3142a0i1ibmg1fj9r6em16.jpg%22%2C%22https%3A%2F%2Fxcimg.szwego.com%2Fo_1d18p31427g816q9jltrp1t1517.jpg%22%2C%22https%3A%2F%2Fxcimg.szwego.com%2Fo_1d18p31425ho4fe1nihh0m1e0q18.jpg%22%2C%22https%3A%2F%2Fxcimg.szwego.com%2Fo_1d18p31421v85ao1as0v16cq119.jpg%22%5D"
+Action.c(53): Notify: Parameter Substitution: parameter "tagId_random" =  "0"
+Action.c(53): Notify: Parameter Substitution: parameter "tagName_random" =  "589823"
+Action.c(53): Notify: Parameter Substitution: parameter "randomNum" =  "589823"
+Action.c(53): Notify: Parameter Substitution: parameter "randomNum" =  "589823"
+Action.c(53): Notify: Parameter Substitution: parameter "randomNum" =  "589823"
+Action.c(53): Notify: Parameter Substitution: parameter "randomNum" =  "589823"
+Action.c(53): web_custom_request("CreateNewGoods") was successful, 589 body bytes, 426 header bytes  	[MsgId: MMSG-26386]
+Action.c(60): Notify: Parameter Substitution: parameter "tagId_count" =  "8"
+Action.c(61): Notify: Transaction "新增save商品" ended with "Pass" status (Duration: 0.3847 Wasted Time: 0.0120).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\loadrunnerScript\CreateNewGoods
+-ID:\ProgramFilesX86\loadrunner11\include
+-ed:\loadrunnerscript\createnewgoods\\logfile.log
+d:\loadrunnerscript\createnewgoods\\combined_CreateNewGoods.c
+d:\loadrunnerscript\createnewgoods\\pre_cci.c

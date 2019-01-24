@@ -1,0 +1,2 @@
+[Hosts]
+localhost=D:\loadrunnerScript\OwnerSearch\res\localhost_1.eve

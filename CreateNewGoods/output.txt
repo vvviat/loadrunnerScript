@@ -1,0 +1,25 @@
+Virtual User Script started at : 2019-01-24 11:46:39
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 11.0.0 for Windows 7; build 8859 (Aug 18 2010 20:14:31)  	[MsgId: MMSG-27143]
+Run Mode: HTML  	[MsgId: MMSG-26000]
+Run-Time Settings file: "D:\loadrunnerScript\CreateNewGoods\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(19): Notify: Parameter Substitution: parameter "requestUrl" =  "https://www.szwego.com"
+Action.c(19): Notify: Parameter Substitution: parameter "userToken" =  "M0FERThDOTYwRTJGQjdFNEYzQUYxN0JERDNCMDBCNjQ1ODM1QUJGMzJENTczREZCRDY1QTU2ODQ4M0JEMDMwM0JCNDAwOERDREUzMTdGRDRBMzc1QzJEQjU5MDE0OERF"
+Action.c(19): Notify: Parameter Substitution: parameter "randomNum" =  "00000001"
+Action.c(19): Notify: Parameter Substitution: parameter "imageUrl" =  "%5B%22https%3A%2F%2Fxcimg.szwego.com%2Fo_1d18p3141a7coiapl81co7do011.jpg%22%2C%22https%3A%2F%2Fxcimg.szwego.com%2Fo_1d18p3141e28fjh123te6k1i2p12.jpg%22%2C%22https%3A%2F%2Fxcimg.szwego.com%2Fo_1d18p31411a2t1e1911ivlu91eqm13.jpg%22%2C%22https%3A%2F%2Fxcimg.szwego.com%2Fo_1d18p3142139vdcd99qs1rd9a14.jpg%22%2C%22https%3A%2F%2Fxcimg.szwego.com%2Fo_1d18p3142eejikvrha1ic2cn115.jpg%22%2C%22https%3A%2F%2Fxcimg.szwego.com%2Fo_1d18p3142a0i1ibmg1fj9r6em16.jpg%22%2C%22https%3A%2F%2Fxcimg.szwego.com%2Fo_1d18p31427g816q9jltrp1t1517.jpg%22%2C%22https%3A%2F%2Fxcimg.szwego.com%2Fo_1d18p31425ho4fe1nihh0m1e0q18.jpg%22%2C%22https%3A%2F%2Fxcimg.szwego.com%2Fo_1d18p31421v85ao1as0v16cq119.jpg%22%5D"
+Action.c(19): Notify: Parameter Substitution: parameter "randomNum" =  "00000001"
+Action.c(19): Notify: Parameter Substitution: parameter "randomNum" =  "00000001"
+Action.c(19): Notify: Parameter Substitution: parameter "randomNum" =  "00000001"
+Action.c(19): Notify: Parameter Substitution: parameter "randomNum" =  "00000001"
+Action.c(19): Notify: Parameter Substitution: parameter "randomNum" =  "00000001"
+Action.c(19): web_custom_request("CreateNewGoods") was successful, 553 body bytes, 854 header bytes  	[MsgId: MMSG-26386]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

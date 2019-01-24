@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--ID:\loadrunnerScript\createData
--ID:\ProgramFilesX86\loadrunner11\include
--ed:\loadrunnerscript\createdata\\logfile.log
-d:\loadrunnerscript\createdata\\combined_createData.c
-d:\loadrunnerscript\createdata\\pre_cci.c
