@@ -1,0 +1,12 @@
+[t1]
+SnapshotXmlFile=snapshot_1.xml
+ContentType=text/plain
+StepName=Custom Request: owner
+Total=1
+FileName1=t1.UNK
+RequestHeaderFile=t1_RequestHeader.txt
+ResponseHeaderFile=t1_ResponseHeader.txt
+RequestBodyFile=t1_RequestBody.txt
+URL1=https://www.szwego.com/service/album/get_album_themes_list.jsp?act=owner&token=MDJGNTI5Qzg3MDE2RjMzQUEyRDI2OTZFMUQ3MkM3QzE4MjU4OTgxQTFEMUZFQjBCQTY1MTkwN0ZFNjhDQjRGNzg1OEQ4MDQ4NkRDNDY3OEJENUU0QUE4QUM4MzY3NzY1
+[AdditionalInfo]
+IsIgnorable=1

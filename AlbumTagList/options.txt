@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\loadrunnerScript\AlbumTagList
+-ID:\ProgramFilesX86\loadrunner11\include
+-ed:\loadrunnerscript\albumtaglist\\logfile.log
+d:\loadrunnerscript\albumtaglist\\combined_AlbumTagList.c
+d:\loadrunnerscript\albumtaglist\\pre_cci.c

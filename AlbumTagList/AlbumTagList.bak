@@ -1,0 +1,71 @@
+[General]
+Type=Multi
+AdditionalTypes=QTWeb
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+RecordedProtocols=
+DefaultCfg=default.cfg
+AppName=
+BuildTarget=
+ParamRightBrace=}
+ParamLeftBrace={
+NewFunctionHeader=1
+LastActiveAction=Action
+CorrInfoReportDir=result1
+LastResultDir=result1
+DevelopTool=Vugen
+ActionLogicExt=action_logic
+MajorVersion=11
+MinorVersion=0
+ParameterFile=AlbumTagList.prm
+GlobalParameterFile=
+RunType=cci
+LastModifyVer=11.0.0.0
+[TransactionsOrder]
+Order="��ǩ����ҳ"
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+vuser_end=vuser_end.c
+[ProtocolsVersion]
+QTWeb=11.0.0.0
+[RunLogicFiles]
+Default Profile=default.usp
+[StateManagement]
+1=1
+7=0
+8=0
+9=0
+10=0
+11=0
+12=0
+13=0
+17=0
+18=0
+20=0
+21=0
+CurrentState=1
+VuserStateHistory= 0 65536 65552
+LastReplayStatus=2
+LastReplayErrorID1=-26374
+LastReplayErrorMsg1=Action.c(31): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 127 and 0, respectively.  	[MsgId: MERR-26374]
+LastReplayErrorID2=-26377
+LastReplayErrorMsg2=Action.c(31): Error -26377: No match found for the requested parameter "tag_Id". Check whether the requested boundaries exist in the response data. Also, if the data you want to save exceeds 50000 bytes, use web_set_max_html_param_len to increase the parameter size  	[MsgId: MERR-26377]
+LastReplayErrorID3=-26631
+LastReplayErrorMsg3=Action.c(31): Error -26631: HTTP Status-Code=400 (Bad Request) for "https://www.szwego.com/service/album/album_theme_tag_operation.jsp?act=get_tags_except&has_video=0&shop_id=A2017110817292103462","subimgsSrc":[],"isTop":0,"subimgs":[],"time":"01/16","imgsSrc":["https://xcimg.szwego.com/qiniu201901081400034020009121.jpg?imageView2/2/format/jpg","https://xcimg.szwego.com/qiniu201901081400034000009115.jpg?imageView2/2/format/jpg","https://xcimg.szwego.com/qiniu201901081400034020009120.jpg?imageView2/2/format/jpg","https://xcimg.szwego.com/qiniu201901081400037720009124.jpg?imageView2/2/format/jpg","https://xcimg.szwego.com/qiniu201901081400037770009125.jpg?imageView2/2/format/jpg","https://xcimg.szwego.com/qiniu201901081400038010009126.jpg?imageView2/2/format/jpg","https://xcimg.szwego.com/qiniu201901081400038050009127.jpg?imageView2/2/format/jpg","https://xcimg.szwego.com/qiniu201901081400038220009128.jpg?imageView2/2/format/jpg","https://xcimg.szwego.com/qiniu201901081400040260009478.jpg?imageView2/2/format/jpg"],"old_time":"7天前"}],"share_title":"快来我的微商相册看新品\n看款搜款、分享9图和小视频","is_vip":false,"show_tips":true,"online":true,"album_qrcode":"https://xcimg.szwego.com/code_C201812101743117720145716_20190104102508.png","banner":"https://xcimg.szwego.com/album_bg.png","default_watermark":[{"wm_id":"WM201812211144467950190239&token=MDJGNTI5Qzg3MDE2RjMzQUEyRDI2OTZFMUQ3MkM3QzE4MjU4OTgxQTFEMUZFQjBCQTY1MTkwN0ZFNjhDQjRGNzg1OEQ4MDQ4NkRDNDY3OEJENUU0QUE4QUM4MzY3NzY1"  	[MsgId: MERR-26631]
+[Transactions]
+��ǩ����ҳ=
+[ExtraFiles]
+globals.h=
+[Recorded Actions]
+vuser_init=0
+Action=0
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+vuser_end=1
+[Modified Actions]
+vuser_init=0
+Action=1
+vuser_end=0

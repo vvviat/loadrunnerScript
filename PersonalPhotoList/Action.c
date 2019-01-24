@@ -6,7 +6,7 @@ Action()
 
 	web_reg_save_param_ex("ParamName=shop_id",
 						"LB=shop_id\":\"",
-						"RB=\",\"watermark",
+						"RB=\",\"watermark\":true",
 						"NotFound=warning",
 						SEARCH_FILTERS,
 						LAST);

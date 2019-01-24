@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\loadrunnerScript\SettingsWatermark
+-ID:\ProgramFilesX86\loadrunner11\include
+-ed:\loadrunnerscript\settingswatermark\\logfile.log
+d:\loadrunnerscript\settingswatermark\\combined_SettingsWatermark.c
+d:\loadrunnerscript\settingswatermark\\pre_cci.c

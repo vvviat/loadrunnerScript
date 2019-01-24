@@ -17,12 +17,12 @@ DevelopTool=Vugen
 ActionLogicExt=action_logic
 MajorVersion=11
 MinorVersion=0
-ParameterFile=AlbumTagList.prm
+ParameterFile=SettingsWatermark.prm
 GlobalParameterFile=
 RunType=cci
 LastModifyVer=11.0.0.0
 [TransactionsOrder]
-Order="标签独立页"
+Order=""
 [Actions]
 vuser_init=vuser_init.c
 Action=Action.c
@@ -47,8 +47,6 @@ Default Profile=default.usp
 CurrentState=1
 VuserStateHistory= 0 65536 65552
 LastReplayStatus=1
-[Transactions]
-标签独立页=
 [ExtraFiles]
 globals.h=
 [Recorded Actions]

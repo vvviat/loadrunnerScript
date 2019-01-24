@@ -1,0 +1,14 @@
+HTTP/1.1 200 
+Server: nginx/1.9.5
+Date: Thu, 24 Jan 2019 09:56:46 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 778
+Connection: keep-alive
+Set-Cookie: producte_run_to_dev_tomcat=; Max-Age=1; Expires=Thu, 24-Jan-2019 09:56:21 GMT; Path=/
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: JSESSIONID=7723D1E9616F93D9BF933DF5F24AD7DE; Path=/; Secure; HttpOnly
+Set-Cookie: token=MDJGNTI5Qzg3MDE2RjMzQUEyRDI2OTZFMUQ3MkM3QzE4MjU4OTgxQTFEMUZFQjBCQTY1MTkwN0ZFNjhDQjRGNzg1OEQ4MDQ4NkRDNDY3OEJENUU0QUE4QUM4MzY3NzY1; Max-Age=315360000; Expires=Sun, 21-Jan-2029 09:56:20 GMT; Path=/
+Set-Cookie: token=MDJGNTI5Qzg3MDE2RjMzQUEyRDI2OTZFMUQ3MkM3QzE4MjU4OTgxQTFEMUZFQjBCQTY1MTkwN0ZFNjhDQjRGNzg1OEQ4MDQ4NkRDNDY3OEJENUU0QUE4QUM4MzY3NzY1; Max-Age=315360000; Expires=Sun, 21-Jan-2029 09:56:20 GMT; Path=/
+Cache-Control: no-cache
+Pragma: No-cache
+

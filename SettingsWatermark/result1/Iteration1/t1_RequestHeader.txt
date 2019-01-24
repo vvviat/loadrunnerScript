@@ -1,0 +1,8 @@
+GET /service/album/album_user_setting_operation.jsp?act=get_settings&token=MDJGNTI5Qzg3MDE2RjMzQUEyRDI2OTZFMUQ3MkM3QzE4MjU4OTgxQTFEMUZFQjBCQTY1MTkwN0ZFNjhDQjRGNzg1OEQ4MDQ4NkRDNDY3OEJENUU0QUE4QUM4MzY3NzY1 HTTP/1.1
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)
+Accept-Encoding: gzip, deflate
+Accept: */*
+Host: www.szwego.com
+Connection: Keep-Alive
+Cache-Control: no-cache
+
