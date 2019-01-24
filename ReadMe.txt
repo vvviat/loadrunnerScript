@@ -9,10 +9,10 @@
 
 
 2.3性能测试
-	SaveOwner：保存商品场景涉及接口(发布商品之后回到首页动态)：    /  保存商品(速度与之前对比)
-	OwnerPhotoList：个人相册自己新增保存商品     / 保存商品(速度与之前对比)   / 单个相册(查询速度与之前对比)
-	SavePhotoList：上家保存--相册列表（进入关注列表-->进入上家相册-->长按分享-->获取标签属性-->保存商品-->返回相册列表）
-***	HPageSearch：相册动态查询涉及接口（单接口)
+	OwnerSaveGoods：保存商品场景涉及接口(发布商品之后回到首页动态)：    /  保存商品(速度与之前对比)
+	PersonalPhotoList：个人相册自己新增保存商品     / 保存商品(速度与之前对比)   / 单个相册(查询速度与之前对比)
+	OthersPhotoShare：上家保存--相册列表（进入关注列表-->进入上家相册-->长按分享-->获取标签属性-->保存商品-->返回相册列表）
+***	OwnerSearch：相册动态查询涉及接口（单接口)
 	HPageShare：首页-->相册动态，长按分享图片，保存商品
 
 
@@ -26,13 +26,13 @@
 
 
 1、脚本事务监听：按接口单个事务监听，按业务一个动作场景监听？
-	单接口：save_theme  标签 价格 备注 规格
-		owner       查询
+	单接口：save_theme  标签 价格 备注 规格 ---SaveThemeOne
+		owner       首页查询  		---OwnerSearch
 
 2、脚本数据关联：业务场景的数据的联动性，是否需要设置集合点？还是在场景设计中体现？
 	场景：  token关联多个好友token， ---CreateAttention
 			
-		商品数量（造数据）关联--标签---CreateNewGoods
+		商品数量（造数据）关联--标签---CreateNewGoods = SaveThemeOne
  		
 		相册--标签独立页查询    --AlbumTagList:owner+get_tags_except+tag_list
  		编辑页标签查询		--EditPageTag

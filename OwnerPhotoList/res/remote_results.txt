@@ -1,2 +1,0 @@
-[Hosts]
-localhost=D:\loadrunnerScript\OwnerPhotoList\res\localhost_1.eve

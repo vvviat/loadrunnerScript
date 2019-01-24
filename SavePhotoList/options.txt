@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--ID:\PerformanceData\SavePhotoList
--ID:\LoadRunner11\include
--ed:\performancedata\savephotolist\\logfile.log
-d:\performancedata\savephotolist\\combined_SavePhotoList.c
-d:\performancedata\savephotolist\\pre_cci.c
