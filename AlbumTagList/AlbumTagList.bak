@@ -22,7 +22,7 @@ GlobalParameterFile=
 RunType=cci
 LastModifyVer=11.0.0.0
 [TransactionsOrder]
-Order="标签独立页"
+Order="个人相册页"
 [ExtraFiles]
 globals.h=
 [Actions]
@@ -62,4 +62,6 @@ CurrentState=1
 VuserStateHistory= 0 65536 65552
 LastReplayStatus=1
 [Transactions]
+个人相册页=
+[SubTransactions]
 标签独立页=

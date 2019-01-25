@@ -94,7 +94,7 @@
 <Res><![CDATA[result1]]></Res>
 <Action rID="T2">
 <AName><![CDATA[vuser_init]]></AName>
-<Summary sTime="2019/1/24 - 16:45:31" eTime="2019/1/24 - 16:45:31" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="2019/1/25 - 12:01:07" eTime="2019/1/25 - 12:01:07" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="5" >
 <Disp><![CDATA[vuser_init Summary]]></Disp>
 </NodeArgs>
@@ -105,7 +105,7 @@
 <Step rID="T5">
 <Obj plainTxt="False" ><![CDATA[Service: Set Max Html Param Len]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Maximum length of a HTML string that can be retrieved and saved set to <STRONG><FONT COLOR=#00AF00>50000</FONT></STRONG> characters</CENTER>]]></Details>
-<Time><![CDATA[2019/1/24 - 16:45:31]]></Time>
+<Time><![CDATA[2019/1/25 - 12:01:07]]></Time>
 <NodeArgs eType="General" icon="4" nRep="9" >
 <Disp><![CDATA[Service: Set Max Html Param Len]]></Disp>
 </NodeArgs>
@@ -113,7 +113,7 @@
 <Step rID="T6">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>shop_id</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB="shop_id":"</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=","watermark":true</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=1</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2019/1/24 - 16:45:31]]></Time>
+<Time><![CDATA[2019/1/25 - 12:01:07]]></Time>
 <NodeArgs eType="General" icon="5" nRep="10" >
 <Disp><![CDATA[Service: Reg Save Param]]></Disp>
 </NodeArgs>
@@ -121,7 +121,7 @@
 <Step rID="T7">
 <Obj plainTxt="False" ><![CDATA[Custom Request: owner]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2019/1/24 - 16:45:32]]></Time>
+<Time><![CDATA[2019/1/25 - 12:01:07]]></Time>
 <NodeArgs eType="General" icon="6" nRep="11" status="Passed" >
 <Disp><![CDATA[Custom Request: owner]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -132,7 +132,7 @@
 <Step rID="T8">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>tag_Id</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=tagId":</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=,"count</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=all</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2019/1/24 - 16:45:32]]></Time>
+<Time><![CDATA[2019/1/25 - 12:01:07]]></Time>
 <NodeArgs eType="General" icon="5" nRep="12" >
 <Disp><![CDATA[Service: Reg Save Param]]></Disp>
 </NodeArgs>
@@ -140,7 +140,7 @@
 <Step rID="T9">
 <Obj plainTxt="False" ><![CDATA[Custom Request: get_tags_except]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2019/1/24 - 16:45:32]]></Time>
+<Time><![CDATA[2019/1/25 - 12:01:08]]></Time>
 <NodeArgs eType="General" icon="6" nRep="13" status="Passed" >
 <Disp><![CDATA[Custom Request: get_tags_except]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -148,7 +148,18 @@
 </BtmPane>
 </NodeArgs>
 </Step>
-<Summary sTime="2019/1/24 - 16:45:31" eTime="2019/1/24 - 16:45:32" passed="2" failed="0" warnings="0" ></Summary>
+<Step rID="T10">
+<Obj plainTxt="False" ><![CDATA[Custom Request: tag_list]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/1/25 - 12:01:10]]></Time>
+<NodeArgs eType="General" icon="6" nRep="14" status="Passed" >
+<Disp><![CDATA[Custom Request: tag_list]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t3.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Summary sTime="2019/1/25 - 12:01:07" eTime="2019/1/25 - 12:01:10" passed="3" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="8" status="Passed" >
 <Disp><![CDATA[Action Summary]]></Disp>
 </NodeArgs>
@@ -157,14 +168,14 @@
 <Disp><![CDATA[AlbumTagList Iteration 1 (Row 1)]]></Disp>
 </NodeArgs>
 </DIter>
-<Action rID="T10">
+<Action rID="T11">
 <AName><![CDATA[vuser_end]]></AName>
-<Summary sTime="2019/1/24 - 16:45:32" eTime="2019/1/24 - 16:45:32" passed="0" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="2" nRep="16" >
+<Summary sTime="2019/1/25 - 12:01:10" eTime="2019/1/25 - 12:01:10" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="17" >
 <Disp><![CDATA[vuser_end Summary]]></Disp>
 </NodeArgs>
 </Action>
-<Summary sTime="2019/1/24 - 16:45:31" eTime="2019/1/24 - 16:45:32" passed="2" failed="0" warnings="0" ></Summary>
+<Summary sTime="2019/1/25 - 12:01:07" eTime="2019/1/25 - 12:01:10" passed="3" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartTest" icon="1" nRep="4" status="Passed" >
 <Disp><![CDATA[Test AlbumTagList Summary]]></Disp>
 </NodeArgs>

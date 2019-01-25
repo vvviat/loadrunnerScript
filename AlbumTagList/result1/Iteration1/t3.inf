@@ -1,0 +1,12 @@
+[t3]
+SnapshotXmlFile=snapshot_3.xml
+ContentType=text/plain
+StepName=Custom Request: tag_list
+Total=1
+FileName1=t3.UNK
+RequestHeaderFile=t3_RequestHeader.txt
+ResponseHeaderFile=t3_ResponseHeader.txt
+RequestBodyFile=t3_RequestBody.txt
+URL1=https://www.szwego.com/service/album/get_album_themes_list.jsp?act=tag_list&shop_id=A201812101743117710145639&tag_id=[-3]&group_id=&search_value=&search_img=&start_date=&end_date=&from_id=
+[AdditionalInfo]
+IsIgnorable=1
