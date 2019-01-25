@@ -1,14 +1,16 @@
-Action(){
-int randomnumber;
-int i=0;
-int j=0;
-int flag=1;
-while(flag==1){
-	randomnumber=rand()%3+1;
-	lr_output_message("产生随机数：%d",randomnumber);
-	lr_output_message("计数器:i=%d,j=%d",i,j);
-	if( (i==10) && (j==10) ){
-		flag=0;
+Action()
+{
+	int randomnumber;
+	int i=0;
+	int j=0;
+	int flag=1;
+
+	while(flag==1){
+		randomnumber=rand()%3+1;
+		lr_output_message("产生随机数：%d",randomnumber);
+		lr_output_message("计数器:i=%d,j=%d",i,j);
+		if( (i==10) && (j==10) ){
+			flag=0;
 		return 0;
 	}
 	switch(randomnumber){

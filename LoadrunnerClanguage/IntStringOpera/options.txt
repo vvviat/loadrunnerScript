@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IB:\LrScript\IntStringOpera
+-IB:\ProgramFilesx86\LoadRunner\include
+-eb:\lrscript\intstringopera\\logfile.log
+b:\lrscript\intstringopera\\combined_IntStringOpera.c
+b:\lrscript\intstringopera\\pre_cci.c
